@@ -1,0 +1,8 @@
+[book]
+authors = ["fastEater"]
+language = "en"
+src = "src"
+title = "USD8 Docs"
+
+[output.html]
+mathjax-support = true

@@ -6,6 +6,7 @@ title = "USD8 Docs"
 
 [output.html]
 mathjax-support = true
+default-theme = "Navy"
 
 [build]
 build-dir = "./docs"

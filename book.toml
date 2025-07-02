@@ -6,3 +6,6 @@ title = "USD8 Docs"
 
 [output.html]
 mathjax-support = true
+
+[build]
+build-dir = "./docs"

@@ -3,7 +3,8 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>FAQs - USD8 Docs</title>
+        <title>USD8 Docs</title>
+        <meta name="robots" content="noindex">
 
 
         <!-- Custom HTML head -->
@@ -168,7 +169,116 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="faqs"><a class="header" href="#faqs">FAQs</a></h1>
+                        <p><img src="https://usd8.finance/assets/logo.png" width="200" /><br/><br/></p>
+<h1 id="what-is-usd8"><a class="header" href="#what-is-usd8">What is USD8</a></h1>
+<p>USD8 is a stablecoin wrapper with extra super powers. Anyone can wrap or unwrap USD8 to and from the underlying stablecoin. By using USD8, users gain additional benefits on top of the underlying asset, while still retaining its core properties such as yield and a stable peg.</p>
+<p>At launch, USD8 will accept USDC as the underlying stablecoin. Other stablecoins may be added in the future.</p>
+<br/>
+<br/>
+<br/>
+<p><img src="https://usd8.finance/assets/tyche-statue.png" width="600" /><br/></p>
+<h1 id="super-powers"><a class="header" href="#super-powers">Super Powers</a></h1>
+<p>USD8’s super powers are modular and often passive features, each providing users with unique benefits. By stacking these features, USD8 becomes a powerful stable asset with unlimited potential.</p>
+<p>Below is a list of USD8’s super powers currently in development. Some will be available at launch, while others will be added over time:</p>
+<ul>
+<li><a href="./covertoken.html">Cover Token – DeFi hack coverage.</a></li>
+<li><span class="inactive">Aggregated Exposure – Reduce collateral exposure risk.</span></li>
+<li><span class="inactive">Free Transfers – Gas reimbursement for transfers.</span></li>
+<li><span class="inactive">Privacy – Hide token balances and activities.</span></li>
+<li><span class="inactive">And many more…</span>
+<br/>
+<br/>
+<br/></li>
+</ul>
+<h1 id="why-should-i-use-usd8"><a class="header" href="#why-should-i-use-usd8">Why should I use USD8?</a></h1>
+<p>USD8 offers far more benefits than traditional stablecoins, while still maintaining the core properties of your current stablecoins. You can hold USD8 as a cash reserve or use it for yield. As USD8 grows, we expect to add even more exciting super powers, making it the first extendable stable asset.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="super-powers-1"><a class="header" href="#super-powers-1">Super Powers</a></h1>
+<p>Super Powers are at the core of USD8, providing users with stacked benefits and unlimited potential. Use the left navigation to explore USD8's Super Powers.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-cover-token"><a class="header" href="#-cover-token">🥷 Cover Token</a></h1>
+<p>The Cover Token is a non-transferable token that allows holders to claim reimbursement—up to a limit—if any of their positions are hacked in a vetted DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.</p>
+<p>The only way to obtain Cover Tokens is by using USD8—whether holding, staking, or yielding. Cover Tokens are automatically accrued to USD8 users every block.</p>
+<ul>
+<li>Accrual rates are set by USD8 and may differ for holding, staking, or yielding.</li>
+<li>Users can claim reimbursement from the Cover Pool by burning Cover Tokens.</li>
+<li>The only way to obtain Cover Tokens is through using USD8.</li>
+<li>Cover Tokens never expire.</li>
+</ul>
+<br/>
+<br/>
+<br/>
+<h1 id="-coverage-limits"><a class="header" href="#-coverage-limits">👌🏽 Coverage Limits</a></h1>
+<p>Cover Tokens provide coverage for up to a maximum of 90% of a user's loss. The actual percentage is calculated per claim and depends on the following factors:</p>
+<ul>
+<li>The user's loss and Cover Token balance</li>
+<li>The aggregated loss and Cover Token balance from all claimants for the hack</li>
+<li>The per-protocol coverage tier</li>
+<li>The current Cover Pool size</li>
+</ul>
+<p>This means a small Cover Token balance might still receive high coverage if there are few claimants, but a large balance might not guarantee high coverage if many others are also claiming with large balances.</p>
+<p>In general, the larger a user's Cover Token balance, the greater the payout. This process is on-chain, with all information publicly available.</p>
+<br/>
+<br/>
+<br/>
+<h1 id="-cover-pool"><a class="header" href="#-cover-pool">👛 Cover Pool</a></h1>
+<p>The Cover Pool is financed exclusively by USD8’s own earnings; user deposits remain untouched in a segregated Reserve Pool. The Cover Pool may start small, but as USD8’s user base and fee revenue grow, so does the size of the Cover Pool. This means the pool might not be able to cover 100% of hack losses, especially in the early days of USD8. However, we believe partial coverage is better than none, and we aim to grow the pool significantly as USD8 expands.</p>
+<p>If a major payout drains the pool, USD8 will divert a portion of future profits to refill it on a monthly schedule until the target balance is restored.</p>
+<br/>
+<br/>
+<br/>
+<h1 id="-covered-defi-protocols"><a class="header" href="#-covered-defi-protocols">🤞 Covered DeFi Protocols</a></h1>
+<p>Cover Token extends permissionless hack coverage to selected DeFi protocols up to a limit. Our in-house security team performs independent audits and continuous reviews to ensure each listed protocol meets rigorous safety standards.</p>
+<p>Each protocol is assigned a tier that caps the share of the Cover Pool available for any single incident:</p>
+<ul>
+<li>Platinum – up to 100% of the Cover Pool</li>
+<li>Gold – up to 80% of the Cover Pool</li>
+<li>Silver – up to 40% of the Cover Pool</li>
+<li>Bronze – up to 10% of the Cover Pool</li>
+</ul>
+<p>Current covered protocols:</p>
+<div class="table-wrapper"><table><thead><tr><th>NO.</th><th>Protocol</th><th>Time</th><th>Type</th><th>Condition</th></tr></thead><tbody>
+<tr><td>1</td><td>USD8</td><td>Launch</td><td>Platinum</td><td><code>1 USD8 redeems &lt; $0.7</code></td></tr>
+<tr><td>2</td><td>Uniswap V2</td><td>Launch</td><td>Gold</td><td><code>amt0 * amt1 &lt; 70% * k where amt0 and amt1 are the amount of tokens redeemable from 1 LP token,  k is the tracked historical value of amt0 * amt1</code></td></tr>
+<tr><td>4</td><td>Aave V3</td><td>Launch</td><td>Gold</td><td><code>ValueOfSingleLP &lt; 0.7 underlying</code></td></tr>
+<tr><td>5</td><td>Lido</td><td>Launch</td><td>Gold</td><td><code>1 stEth redeems &lt; 0.7 Eth</code> or <code>1 wstEth redeems &lt; 0.7 Eth</code></td></tr>
+<tr><td>6</td><td>Rocket Pool</td><td>Launch</td><td>Gold</td><td><code>1 rEth redeems &lt; 0.7 Eth</code></td></tr>
+<tr><td>7</td><td>Uniswap V3</td><td>TBD</td><td>TBD</td><td>TBD</td></tr>
+<tr><td>8</td><td>Uniswap V4</td><td>TBD</td><td>TBD</td><td>TBD</td></tr>
+</tbody></table>
+</div>
+<p>The USD8 team verifies, assigns, and—when necessary—updates these covers on an ongoing basis. Coverage announcements, upgrades, downgrades, or removals are published transparently, and we encourage users to use only protocols that carry an active USD8 cover tier.</p>
+<br/>
+<br/>
+<br/>
+<h1 id="-claims"><a class="header" href="#-claims">💵 Claims</a></h1>
+<p>Claims can be initiated permissionlessly at any time against the Cover Pool if claim conditions are met.</p>
+<p>Once initiated, other users will have a two-week window to join the claim. After that, claims can be finalized.</p>
+<ul>
+<li>The protocol computes each claimant’s payout based on the total claim amount and Cover Token balance based on the following</li>
+<li>Claimants transfer the compromised LP/position tokens and burn the required Cover Tokens.</li>
+<li>Reimbursement is paid in USD8, calculated at the current oracle price.</li>
+<li>The LP token is removed from after a claim</li>
+</ul>
+<p>The system uses the following formula to calculate actual reimburse amount for each user: <br/><br/></p>
+<p>$$actualAmt = max(\frac{coverPoolSize * protocolCoverLimit * userLpAmt}{\displaystyle\sum_{i=1}^n(1 + \frac{userCoverToken_i * f}{userLp_i}) * userLp_i}, 0.9 * lpValueBeforeHack)$$</p>
+<ul>
+<li><code>protocolCoverLimit</code> is the factor associated with the cover type for this protocol</li>
+<li><code>n</code> is the total number of claims</li>
+<li><code>f</code> is a constant set by protocol</li>
+<li><code>lpValueBeforeHack</code> is the LP value before the hack</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="open-system"><a class="header" href="#open-system">Open System</a></h1>
+<p>USD8 is designed to an open system, it offers various hooks for third party developers to build on top of USD8 and offer more Super Powers to USD8 users. Current hooks in design are</p>
+<ul>
+<li>before and after Transfer</li>
+<li>before and after Receive</li>
+<li>before and after Approval</li>
+<li>before and after Mint</li>
+<li>before and after Burn</li>
+<li>after TimeInterval</li>
+</ul>
+<p>User will be able to add third party hooks to their account, these hooks will be called at their designated time during USD8's life cycle.</p>
+<p>If you have a hook idea could benefit USD8 users, we would love to hear from you - info [at] USD8.finance.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="faqs"><a class="header" href="#faqs">FAQs</a></h1>
 <h2 id="what-are-the-risks-and-how-are-they-minimized"><a class="header" href="#what-are-the-risks-and-how-are-they-minimized">What are the risks and how are they minimized?</a></h2>
 <p>The general risks associated with using USD8 are:</p>
 <ol>
@@ -222,9 +332,6 @@ Typically, the claimant’s LP‐token value must have dropped below a set thres
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="opensystem.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
 
 
                         <div style="clear: both"></div>
@@ -233,14 +340,27 @@ Typically, the claimant’s LP‐token value must have dropped below a set thres
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="opensystem.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
 
             </nav>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
@@ -259,6 +379,13 @@ Typically, the claimant’s LP‐token value must have dropped below a set thres
 
         <!-- Custom JS scripts -->
 
+        <script>
+        window.addEventListener('load', function() {
+            MathJax.Hub.Register.StartupHook('End', function() {
+                window.setTimeout(window.print, 100);
+            });
+        });
+        </script>
 
     </div>
     </body>

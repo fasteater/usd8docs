@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Super Powers - USD8 Docs</title>
+        <title>FAQs - USD8 Docs</title>
 
 
         <!-- Custom HTML head -->
@@ -168,20 +168,64 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="super-powers"><a class="header" href="#super-powers">Super Powers</a></h1>
-<p>Super Powers are at the core of USD8, providing users with stacked benefits and unlimited potential. Use the left navigation to explore USD8's Super Powers.</p>
-
+                        <h1 id="faqs"><a class="header" href="#faqs">FAQs</a></h1>
+<h2 id="what-are-the-risks-and-how-are-they-minimized"><a class="header" href="#what-are-the-risks-and-how-are-they-minimized">What are the risks and how are they minimized?</a></h2>
+<p>The general risks associated with using USD8 are:</p>
+<ol>
+<li>USD8 smart contract risks</li>
+<li>Risks from the underlying yield protocols</li>
+</ol>
+<p>How we minimize these risks:</p>
+<ol>
+<li>We take a security-first approach when building USD8, including third-party audits. The Cover Token also provides coverage for the USD8 protocol.</li>
+<li>We only use top blue-chip DeFi protocols for yield, and our team thoroughly verifies each codebase.</li>
+</ol>
+<br/>
+<br/>
+<h2 id="can-i-build-a-third-party-super-power-for-usd8"><a class="header" href="#can-i-build-a-third-party-super-power-for-usd8">Can I build a third-party Super Power for USD8?</a></h2>
+<p>Yes! Reach out to us as early as possible so our team can assist you. Contact: info[at]usd8.finance
+<br/>
+<br/></p>
+<h2 id="how-big-is-the-cover-pool"><a class="header" href="#how-big-is-the-cover-pool">How big is the Cover Pool?</a></h2>
+<p>It depends on how many users are using USD8, the more users, the bigger Cover Pool. We aim to grow it as big and as fast as we can, however this might take a process. Regardless, it is always beneficial to get in early and start accrue Cover Tokens, so when the Cover Pool is big you can enjoy the coverage.</p>
+<br/>
+<br/>
+<h2 id="is-my-position-covered-even-if-its-not-related-to-usd8"><a class="header" href="#is-my-position-covered-even-if-its-not-related-to-usd8">Is my position covered even if it's not related to USD8?</a></h2>
+<p>Yes, as long as you hold Cover Token and you are using a covered protocol, all your positions are covered. Cover Tokens provide coverage independently of whether those positions involve USD8 directly.</p>
+<br/>
+<br/>
+<h2 id="will-i-get-90-full-coverage-if-i-am-hacked"><a class="header" href="#will-i-get-90-full-coverage-if-i-am-hacked">Will I get 90% full coverage if I am hacked?</a></h2>
+<p>It depends. Cover Token payouts aren’t structured like traditional insurance. You’re most likely to receive the full 90 % if:</p>
+<ul>
+<li>you hold more Cover Tokens than other claimants, or</li>
+<li>few other users join the claim, or</li>
+<li>other claimants hold similarly small Cover Token balances</li>
+</ul>
+<p>In general, the more Cover Token you have, the better the payout.
+<br/>
+<br/></p>
+<h2 id="how-do-you-prevent-fraudulent-claims"><a class="header" href="#how-do-you-prevent-fraudulent-claims">How Do You Prevent Fraudulent Claims?</a></h2>
+<p>Cover Token is carefully designed with game theory, the claiming process is open and permissionless, anyone can initiate a claim. However there are a few safeguards</p>
+<ol>
+<li>To initiate a claim, protocol-specific conditions must be met.<br />
+Typically, the claimant’s LP‐token value must have dropped below a set threshold.</li>
+<li>Coverage is capped at 90 % of LP value. If the LP value hasn’t actually fallen, the claimant effectively loses money, disincentivizing false claims.</li>
+</ol>
+<p>Detailed protocol-specific conditions <a href="./covertoken.html#-covered-defi-protocols">here</a>.
+<br/>
+<br/></p>
+<h2 id="who-is-behind-usd8"><a class="header" href="#who-is-behind-usd8">Who is behind USD8?</a></h2>
+<p>We are a team of top-tier security auditors with over 5 years of experience auditing smart contracts, particularly DeFi protocols and Layer 2 solutions in the Ethereum ecosystem, our identity will be revealed at launch.</p>
+<br/>
+<br/>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="what.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="opensystem.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="covertoken.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -189,17 +233,30 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="what.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="opensystem.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="covertoken.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
             </nav>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

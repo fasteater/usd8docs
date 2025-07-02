@@ -7,6 +7,7 @@ title = "USD8 Docs"
 [output.html]
 mathjax-support = true
 default-theme = "Navy"
+additional-js = ["analytics.js"]
 
 [build]
 build-dir = "./docs"

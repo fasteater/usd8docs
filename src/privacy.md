@@ -1,3 +1,5 @@
-## 🫣 Privacy    
-Added privacy protections for USD8 balances and transfers making USD8 suitable for payments. This super power shields USD8 activities and balances from public blockchains. Coming soon.
+## 🫣 Privacy   
 
+This super power will cloak USD8 balances and transfers behind on-chain privacy layers, bringing payment-grade confidentiality to an otherwise transparent blockchain. Once active, your USD8 activity and holdings will be hidden from public view, making USD8 a practical choice for everyday, privacy-sensitive use cases.
+
+Full implementation details coming soon.

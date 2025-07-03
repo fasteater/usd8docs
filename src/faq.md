@@ -24,6 +24,13 @@ It depends on how many users are using USD8, the more users, the bigger Cover Po
 <br/>
 <br/>
 
+## Where does the funds for Cover Pool come from?
+The Cover Pool funds come solely from USD8’s profits, never from user deposits. All user collateral sits in a separate Reserve Pool, which is deployed into blue-chip DeFi protocols to earn yield.
+
+<br/>
+<br/>
+
+
 ## Is my position covered even if it's not related to USD8?
 Yes, as long as you hold Cover Token and you are using a covered protocol, all your positions are covered. Cover Tokens provide coverage independently of whether those positions involve USD8 directly.
 
@@ -49,6 +56,12 @@ Cover Token is carefully designed with game theory, the claiming process is open
 2. Coverage is capped at 90 % of LP value. If the LP value hasn’t actually fallen, the claimant effectively loses money, disincentivizing false claims.
 
 Detailed protocol-specific conditions [here](./covertoken.md#-covered-defi-protocols).
+<br/>
+<br/>
+
+## How does USD8 make money?
+USD8's has a few revenue streams, firstly it makes money from part of user's collateral yield, like USDC but onchain. A portion of this yield is paid to USD8 stakers as yield, another portion is used to seed the Cover Pool. On top of that USD8 also has revenue models associated with security reviews and services.
+
 <br/>
 <br/>
 

@@ -53,15 +53,22 @@ Each protocol is assigned a tier that caps the share of the Cover Pool available
 
 Current covered protocols:
 
-| NO. | Protocol | Time | Type | Condition |
-|---|---|---|---|---|
-| 1 | USD8 | Launch | Platinum | `1 USD8 redeems < $0.7`  |
-| 2 | Uniswap V2 | Launch | Gold | `amt0 * amt1 < 70% * k where amt0 and amt1 are the amount of tokens redeemable from 1 LP token,  k is the tracked historical value of amt0 * amt1` |
-| 4 | Aave V3 | Launch | Gold | `ValueOfSingleLP < 0.7 underlying` |
-| 5 | Lido | Launch | Gold | `1 stEth redeems < 0.7 Eth` or `1 wstEth redeems < 0.7 Eth` |
-| 6 | Rocket Pool | Launch | Gold | `1 rEth redeems < 0.7 Eth` |
-| 7 | Uniswap V3 | TBD | TBD | TBD |
-| 8 | Uniswap V4 | TBD | TBD | TBD |
+| Num | Protocol | Type | Condition |
+|:---|:---|:---|:---|
+| 1 | USD8 | Platinum | `1 USD8 redeems < $0.7`  |
+| 2 | Uniswap V2 | Gold | `amt0 * amt1 < 70% * k where amt0 and amt1 are the amount of tokens redeemable from 1 LP token,  k is the tracked historical value of amt0 * amt1` |
+| 4 | Aave V3 | Gold | `ValueOfSingleLP < 0.7 underlying` |
+| 5 | Lido | Gold | `1 stEth redeems < 0.7 Eth` or `1 wstEth redeems < 0.7 Eth` |
+| 6 | Rocket Pool | Gold | `1 rEth redeems < 0.7 Eth` |
+| 7 | Uniswap V3 |  | Under Review |
+| 8 | Uniswap V4 |  | Under Review |
+| 9 | Sky |  | Under Review |
+| 10 | Curve|  | Under Review |
+| 11 | Compound |  | Under Review |
+| 12 | Morpho |  | Under Review |
+| 13 | Pendle|  | Under Review |
+| 14 | Balancer |  | Under Review |
+| 15 | More.. |  |  |
 
 The USD8 team verifies, assigns, and—when necessary—updates these covers on an ongoing basis. Coverage announcements, upgrades, downgrades, or removals are published transparently, and we encourage users to use only protocols that carry an active USD8 cover tier.
 
@@ -88,7 +95,7 @@ $$actualAmt = max(\frac{coverPoolSize * protocolCoverLimit * userLpAmt}{\display
 
 - `protocolCoverLimit` is the factor associated with the cover type for this protocol
 - `n` is the total number of claims
-- `f` is a constant set by protocol 
+- `f` is a constant set by protocol to determines the weight of Cover Token in proportion to LP token in a claim
 - `lpValueBeforeHack` is the LP value before the hack
 
 

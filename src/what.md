@@ -18,9 +18,10 @@ USD8’s super powers are modular and often passive features, each providing use
 Below is a list of USD8’s super powers currently in development. Some will be available at launch, while others will be added over time:
 
 - [Cover Token – DeFi hack coverage.](./covertoken.md)
-- <span class="inactive">Aggregated Exposure – Reduce collateral exposure risk.</span>
-- <span class="inactive">Free Transfers – Gas reimbursement for transfers.</span>
-- <span class="inactive">Privacy – Hide token balances and activities.</span>
+- [Aggregated Exposure – Reduce collateral exposure risk.](./aggregatedexposure.md)
+- [Free Transfers – Gas reimbursement for transfers.](./freetransfer.md)
+- [Privacy – Hide token balances and activities.](./privacy.md)
+- [Lucky day – Chance to win $1 million every month.](./luckyday.md)
 - <span class="inactive">And many more…</span>
 <br/>
 <br/>

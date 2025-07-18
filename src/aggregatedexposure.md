@@ -1,4 +1,4 @@
-# 📊 Aggregated Exposure
+# 📊 Multi-Collateral
 
 This super power aims to diversify USD8’s backing from 100 % USDC to a basket of tier-one stable coins, lowering the protocol’s exposure to any single asset and making USD8 more resilient to potential de-pegs.    
 

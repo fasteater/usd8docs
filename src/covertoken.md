@@ -2,11 +2,10 @@
 
 The Cover Token is a non-transferable token that allows holders to claim reimbursement—up to a limit—if any of their positions are hacked in a vetted DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.
 
-The only way to obtain Cover Tokens is by using USD8—whether holding, staking, or yielding. Cover Tokens are automatically accrued to USD8 users every block.
+The only way to obtain Cover Tokens is by using USD8 — whether holding, staking, or yielding. Cover Tokens are automatically accrued to USD8 users every block.
 
 - Accrual rates are set by USD8 and may differ for holding, staking, or yielding.
 - Users can claim reimbursement from the Cover Pool by burning Cover Tokens.
-- The only way to obtain Cover Tokens is through using USD8.
 - Cover Tokens never expire.
 
 <br/>

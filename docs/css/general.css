@@ -106,7 +106,7 @@ h6:target::before {
 .content p { line-height: 2em; margin-bottom: 3em; }
 .content ol { line-height: 2em; margin-bottom: 3em;}
 .content ul { line-height: 2em; margin-bottom: 3em;}
-.content li { line-height: 2em; margin-bottom: 2em;}
+.content li { line-height: 1.7em; margin-bottom: 1.7em;}
 .content a { text-decoration: none; }
 .content a:hover { text-decoration: underline; }
 .content img, .content video { max-width: 100%; }

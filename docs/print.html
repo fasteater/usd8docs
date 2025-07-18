@@ -196,10 +196,10 @@
 <div style="break-before: page; page-break-before: always;"></div><h1 id="super-powers-1"><a class="header" href="#super-powers-1">Super Powers</a></h1>
 <p>Super Powers are at the core of USD8, providing users with stacked benefits and unlimited potential. Use the left navigation to explore USD8's Super Powers.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="-cover-token"><a class="header" href="#-cover-token">🥷 Cover Token</a></h1>
-<p>The Cover Token is a non-transferable token that allows holders to claim reimbursement—up to a limit—if any of their positions are hacked in a vetted DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.</p>
+<p>The Cover Token is a non-transferable token that allows holders to claim reimbursement—up to a limit—if any of their positions are hacked in a covered DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.</p>
 <p>The only way to obtain Cover Tokens is by using USD8 — whether holding, staking, or yielding. Cover Tokens are automatically accrued to USD8 users every block.</p>
 <ul>
-<li>Accrual rates are set by USD8 and may differ for holding, staking, or yielding.</li>
+<li>Accrual rates may differ for holding, staking, or yielding.</li>
 <li>Users can claim reimbursement from the Cover Pool by burning Cover Tokens.</li>
 <li>Cover Tokens never expire.</li>
 </ul>
@@ -214,7 +214,7 @@
 <li>The per-protocol coverage tier</li>
 <li>The current Cover Pool size</li>
 </ul>
-<p>This means a small Cover Token balance might still receive high coverage if there are few claimants, but a large balance might not guarantee high coverage if many others are also claiming with large balances.</p>
+<p>This means a small Cover Token balance might still receive high coverage if there are few claimants, while a large balance might not guarantee high coverage if many others are also claiming with large balances.</p>
 <p>In general, the larger a user's Cover Token balance, the greater the payout. This process is on-chain, with all information publicly available.</p>
 <br/>
 <br/>
@@ -226,7 +226,7 @@
 <br/>
 <br/>
 <h1 id="-covered-defi-protocols"><a class="header" href="#-covered-defi-protocols">🤞 Covered DeFi Protocols</a></h1>
-<p>Cover Token extends permissionless hack coverage to selected DeFi protocols up to a limit. Our in-house security team performs independent audits and continuous reviews to ensure each listed protocol meets rigorous safety standards.</p>
+<p>Cover Token extends permissionless hack coverage to selected DeFi protocols up to a limit. Our in-house security team performs independent audits and continuous reviews to ensure each covered protocol meets rigorous safety standards.</p>
 <p>Each protocol is assigned a tier that caps the share of the Cover Pool available for any single incident:</p>
 <ul>
 <li>Platinum – up to 100% of the Cover Pool</li>
@@ -260,12 +260,12 @@
 <p>Claims can be initiated permissionlessly at any time against the Cover Pool if claim conditions are met.</p>
 <p>Once initiated, other users will have a two-week window to join the claim. After that, claims can be finalized.</p>
 <ul>
-<li>The protocol computes each claimant’s payout based on the total claim amount and Cover Token balance based on the following</li>
+<li>The protocol computes each claimant’s payout based on the total claim amount and Cover Token balance</li>
 <li>Claimants transfer the compromised LP/position tokens and burn the required Cover Tokens.</li>
 <li>Reimbursement is paid in USD8, calculated at the current oracle price.</li>
-<li>The LP token is removed from after a claim</li>
+<li>The LP token is removed from Covered Protocols after a claim</li>
 </ul>
-<p>The system uses the following formula to calculate actual reimburse amount for each user: <br/><br/></p>
+<p>For math lovers, the system uses the following formula to calculate actual reimburse amount for each user: <br/><br/></p>
 <p>$$actualAmt = max(\frac{coverPoolSize * protocolCoverLimit * userLpAmt}{\displaystyle\sum_{i=1}^n(1 + \frac{userCoverToken_i * f}{userLp_i}) * userLp_i}, 0.9 * lpValueBeforeHack)$$</p>
 <ul>
 <li><code>protocolCoverLimit</code> is the factor associated with the cover type for this protocol</li>
@@ -376,6 +376,22 @@ Typically, the claimant’s LP‐token value must have dropped below a set thres
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

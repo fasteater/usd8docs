@@ -1,10 +1,10 @@
 # 🥷 Cover Token
 
-The Cover Token is a non-transferable token that allows holders to claim reimbursement—up to a limit—if any of their positions are hacked in a vetted DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.
+The Cover Token is a non-transferable token that allows holders to claim reimbursement—up to a limit—if any of their positions are hacked in a covered DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.
 
 The only way to obtain Cover Tokens is by using USD8 — whether holding, staking, or yielding. Cover Tokens are automatically accrued to USD8 users every block.
 
-- Accrual rates are set by USD8 and may differ for holding, staking, or yielding.
+- Accrual rates may differ for holding, staking, or yielding.
 - Users can claim reimbursement from the Cover Pool by burning Cover Tokens.
 - Cover Tokens never expire.
 
@@ -21,7 +21,7 @@ Cover Tokens provide coverage for up to a maximum of 90% of a user's loss. The a
 - The per-protocol coverage tier
 - The current Cover Pool size
 
-This means a small Cover Token balance might still receive high coverage if there are few claimants, but a large balance might not guarantee high coverage if many others are also claiming with large balances.
+This means a small Cover Token balance might still receive high coverage if there are few claimants, while a large balance might not guarantee high coverage if many others are also claiming with large balances.
 
 In general, the larger a user's Cover Token balance, the greater the payout. This process is on-chain, with all information publicly available.
 
@@ -41,7 +41,7 @@ If a major payout drains the pool, USD8 will divert a portion of future profits 
 
 # 🤞 Covered DeFi Protocols
 
-Cover Token extends permissionless hack coverage to selected DeFi protocols up to a limit. Our in-house security team performs independent audits and continuous reviews to ensure each listed protocol meets rigorous safety standards.
+Cover Token extends permissionless hack coverage to selected DeFi protocols up to a limit. Our in-house security team performs independent audits and continuous reviews to ensure each covered protocol meets rigorous safety standards.
 
 Each protocol is assigned a tier that caps the share of the Cover Pool available for any single incident:
 
@@ -82,13 +82,13 @@ Claims can be initiated permissionlessly at any time against the Cover Pool if c
 Once initiated, other users will have a two-week window to join the claim. After that, claims can be finalized.
 
 
-- The protocol computes each claimant’s payout based on the total claim amount and Cover Token balance based on the following
+- The protocol computes each claimant’s payout based on the total claim amount and Cover Token balance
 - Claimants transfer the compromised LP/position tokens and burn the required Cover Tokens.
 - Reimbursement is paid in USD8, calculated at the current oracle price.
-- The LP token is removed from after a claim
+- The LP token is removed from Covered Protocols after a claim
 
 
-The system uses the following formula to calculate actual reimburse amount for each user: <br/><br/>
+For math lovers, the system uses the following formula to calculate actual reimburse amount for each user: <br/><br/>
 
 $$actualAmt = max(\frac{coverPoolSize * protocolCoverLimit * userLpAmt}{\displaystyle\sum_{i=1}^n(1 + \frac{userCoverToken_i * f}{userLp_i}) * userLp_i}, 0.9 * lpValueBeforeHack)$$
 

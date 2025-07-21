@@ -1,6 +1,6 @@
-# 🥷 Cover Token
+# <span class="emoji">🥷</span> Hack Coverage
 
-The Cover Token is a non-transferable token that allows holders to claim reimbursement—up to a limit—if any of their positions are hacked in a covered DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.
+This super power provides hack coverage through Cover Token, a non-transferable token that allows holders to claim reimbursement—up to a limit—if any of their positions are hacked in a covered DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.
 
 The only way to obtain Cover Tokens is by using USD8 — whether holding, staking, or yielding. Cover Tokens are automatically accrued to USD8 users every block.
 
@@ -12,7 +12,7 @@ The only way to obtain Cover Tokens is by using USD8 — whether holding, stakin
 <br/>
 <br/>
 
-# 👌🏽 Coverage Limits
+# <span class="emoji">👌🏽</span> Coverage Limits
 
 Cover Tokens provide coverage for up to a maximum of 90% of a user's loss. The actual percentage is calculated per claim and depends on the following factors:
 
@@ -29,7 +29,7 @@ In general, the larger a user's Cover Token balance, the greater the payout. Thi
 <br/>
 <br/>
 
-# 👛 Cover Pool
+# <span class="emoji">👛</span> Cover Pool
 
 The Cover Pool is financed exclusively by USD8’s own earnings; user deposits remain untouched in a segregated Reserve Pool. The Cover Pool may start small, but as USD8’s user base and fee revenue grow, so does the size of the Cover Pool. This means the pool might not be able to cover 100% of hack losses, especially in the early days of USD8. However, we believe partial coverage is better than none, and we aim to grow the pool significantly as USD8 expands.
 
@@ -39,7 +39,7 @@ If a major payout drains the pool, USD8 will divert a portion of future profits 
 <br/>
 <br/>
 
-# 🤞 Covered DeFi Protocols
+# <span class="emoji">🤞</span> Covered DeFi Protocols
 
 Cover Token extends permissionless hack coverage to selected DeFi protocols up to a limit. Our in-house security team performs independent audits and continuous reviews to ensure each covered protocol meets rigorous safety standards.
 
@@ -50,24 +50,25 @@ Each protocol is assigned a tier that caps the share of the Cover Pool available
 - Silver – up to 40% of the Cover Pool
 - Bronze – up to 10% of the Cover Pool
 
-Current covered protocols:
+Defi protocols:
 
-| Num | Protocol | Type | Condition |
-|:---|:---|:---|:---|
-| 1 | USD8 | Platinum | `1 USD8 redeems < $0.7`  |
-| 2 | Uniswap V2 | Gold | `amt0 * amt1 < 70% * k where amt0 and amt1 are the amount of tokens redeemable from 1 LP token,  k is the tracked historical value of amt0 * amt1` |
-| 4 | Aave V3 | Gold | `ValueOfSingleLP < 0.7 underlying` |
-| 5 | Lido | Gold | `1 stEth redeems < 0.7 Eth` or `1 wstEth redeems < 0.7 Eth` |
-| 6 | Rocket Pool | Gold | `1 rEth redeems < 0.7 Eth` |
-| 7 | Uniswap V3 |  | Under Review |
-| 8 | Uniswap V4 |  | Under Review |
-| 9 | Sky |  | Under Review |
-| 10 | Curve|  | Under Review |
-| 11 | Compound |  | Under Review |
-| 12 | Morpho |  | Under Review |
-| 13 | Pendle|  | Under Review |
-| 14 | Balancer |  | Under Review |
-| 15 | More.. |  |  |
+| Protocol | Type | Condition |
+|:---|:---|:---|
+| USD8 | Platinum | `1 USD8 redeems < $0.7`  |
+| Aave  |Under Review  | Under Review |
+| Curve |Under Review  | Under Review |
+| Ethena |Under Review  | Under Review |
+| Uniswap |Under Review  | Under Review |
+| Sky |Under Review  | Under Review |
+| Lido |Under Review  | Under Review |
+| Rocket Pool |Under Review  | Under Review |
+| Compound |Under Review  | Under Review |
+| Morpho |Under Review  | Under Review |
+| Pendle|Under Review  | Under Review |
+| Balancer |Under Review  | Under Review |
+| More.. |  |  |
+
+
 
 The USD8 team verifies, assigns, and—when necessary—updates these covers on an ongoing basis. Coverage announcements, upgrades, downgrades, or removals are published transparently, and we encourage users to use only protocols that carry an active USD8 cover tier.
 
@@ -75,7 +76,7 @@ The USD8 team verifies, assigns, and—when necessary—updates these covers on 
 <br/>
 <br/>
 
-# 💵 Claims
+# <span class="emoji">💵</span> Claims
 
 Claims can be initiated permissionlessly at any time against the Cover Pool if claim conditions are met.
 

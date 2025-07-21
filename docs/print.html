@@ -181,11 +181,11 @@
 <p>USD8’s super powers are modular and often passive features, each providing users with unique benefits. By stacking these features, USD8 becomes a powerful stable asset with unlimited potential.</p>
 <p>Below is a list of USD8’s super powers currently in development. Some will be available at launch, while others will be added over time:</p>
 <ul>
-<li><a href="./covertoken.html">Cover Token – DeFi hack coverage.</a></li>
-<li><a href="./aggregatedexposure.html">Multi-Collateral – Reduce collateral exposure risk.</a></li>
-<li><a href="./freetransfer.html">Free Transfers – Gas reimbursement for transfers.</a></li>
-<li><a href="./privacy.html">Privacy – Hide token balances and activities.</a></li>
-<li><a href="./luckyday.html">Lucky day – Chance to win $1 million every month.</a></li>
+<li>Hack Coverage</li>
+<li>Multi-Collateral</li>
+<li>Free Transfers</li>
+<li>Privacy</li>
+<li>Lucky Day</li>
 <li><span class="inactive">And many more…</span>
 <br/>
 <br/>
@@ -194,9 +194,11 @@
 <h1 id="why-should-i-use-usd8"><a class="header" href="#why-should-i-use-usd8">Why should I use USD8?</a></h1>
 <p>USD8 offers far more benefits than traditional stablecoins, while still maintaining the core properties of your current stablecoins. You can hold USD8 as a cash reserve or use it for yield. As USD8 grows, we expect to add even more exciting super powers, making it the first extendable stable asset.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="super-powers-1"><a class="header" href="#super-powers-1">Super Powers</a></h1>
-<p>Super Powers are at the core of USD8, providing users with stacked benefits and unlimited potential. Use the left navigation to explore USD8's Super Powers.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-cover-token"><a class="header" href="#-cover-token">🥷 Cover Token</a></h1>
-<p>The Cover Token is a non-transferable token that allows holders to claim reimbursement—up to a limit—if any of their positions are hacked in a covered DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.</p>
+<p>USD8 solves this with modular, stackable super powers. Each super power is a unique module adding benefit to USD8 users.</p>
+<p>Super powers can be added, removed, adjusted as USD8 evolves. Third party super powers can also be implemented through USD8’s hooks.</p>
+<p>Use the link on the side to explore USD8's super powers.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-hack-coverage"><a class="header" href="#-hack-coverage"><span class="emoji">🥷</span> Hack Coverage</a></h1>
+<p>This super power provides hack coverage through Cover Token, a non-transferable token that allows holders to claim reimbursement—up to a limit—if any of their positions are hacked in a covered DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.</p>
 <p>The only way to obtain Cover Tokens is by using USD8 — whether holding, staking, or yielding. Cover Tokens are automatically accrued to USD8 users every block.</p>
 <ul>
 <li>Accrual rates may differ for holding, staking, or yielding.</li>
@@ -206,7 +208,7 @@
 <br/>
 <br/>
 <br/>
-<h1 id="-coverage-limits"><a class="header" href="#-coverage-limits">👌🏽 Coverage Limits</a></h1>
+<h1 id="-coverage-limits"><a class="header" href="#-coverage-limits"><span class="emoji">👌🏽</span> Coverage Limits</a></h1>
 <p>Cover Tokens provide coverage for up to a maximum of 90% of a user's loss. The actual percentage is calculated per claim and depends on the following factors:</p>
 <ul>
 <li>The user's loss and Cover Token balance</li>
@@ -219,13 +221,13 @@
 <br/>
 <br/>
 <br/>
-<h1 id="-cover-pool"><a class="header" href="#-cover-pool">👛 Cover Pool</a></h1>
+<h1 id="-cover-pool"><a class="header" href="#-cover-pool"><span class="emoji">👛</span> Cover Pool</a></h1>
 <p>The Cover Pool is financed exclusively by USD8’s own earnings; user deposits remain untouched in a segregated Reserve Pool. The Cover Pool may start small, but as USD8’s user base and fee revenue grow, so does the size of the Cover Pool. This means the pool might not be able to cover 100% of hack losses, especially in the early days of USD8. However, we believe partial coverage is better than none, and we aim to grow the pool significantly as USD8 expands.</p>
 <p>If a major payout drains the pool, USD8 will divert a portion of future profits to refill it on a monthly schedule until the target balance is restored.</p>
 <br/>
 <br/>
 <br/>
-<h1 id="-covered-defi-protocols"><a class="header" href="#-covered-defi-protocols">🤞 Covered DeFi Protocols</a></h1>
+<h1 id="-covered-defi-protocols"><a class="header" href="#-covered-defi-protocols"><span class="emoji">🤞</span> Covered DeFi Protocols</a></h1>
 <p>Cover Token extends permissionless hack coverage to selected DeFi protocols up to a limit. Our in-house security team performs independent audits and continuous reviews to ensure each covered protocol meets rigorous safety standards.</p>
 <p>Each protocol is assigned a tier that caps the share of the Cover Pool available for any single incident:</p>
 <ul>
@@ -234,29 +236,28 @@
 <li>Silver – up to 40% of the Cover Pool</li>
 <li>Bronze – up to 10% of the Cover Pool</li>
 </ul>
-<p>Current covered protocols:</p>
-<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Num</th><th style="text-align: left">Protocol</th><th style="text-align: left">Type</th><th style="text-align: left">Condition</th></tr></thead><tbody>
-<tr><td style="text-align: left">1</td><td style="text-align: left">USD8</td><td style="text-align: left">Platinum</td><td style="text-align: left"><code>1 USD8 redeems &lt; $0.7</code></td></tr>
-<tr><td style="text-align: left">2</td><td style="text-align: left">Uniswap V2</td><td style="text-align: left">Gold</td><td style="text-align: left"><code>amt0 * amt1 &lt; 70% * k where amt0 and amt1 are the amount of tokens redeemable from 1 LP token,  k is the tracked historical value of amt0 * amt1</code></td></tr>
-<tr><td style="text-align: left">4</td><td style="text-align: left">Aave V3</td><td style="text-align: left">Gold</td><td style="text-align: left"><code>ValueOfSingleLP &lt; 0.7 underlying</code></td></tr>
-<tr><td style="text-align: left">5</td><td style="text-align: left">Lido</td><td style="text-align: left">Gold</td><td style="text-align: left"><code>1 stEth redeems &lt; 0.7 Eth</code> or <code>1 wstEth redeems &lt; 0.7 Eth</code></td></tr>
-<tr><td style="text-align: left">6</td><td style="text-align: left">Rocket Pool</td><td style="text-align: left">Gold</td><td style="text-align: left"><code>1 rEth redeems &lt; 0.7 Eth</code></td></tr>
-<tr><td style="text-align: left">7</td><td style="text-align: left">Uniswap V3</td><td style="text-align: left"></td><td style="text-align: left">Under Review</td></tr>
-<tr><td style="text-align: left">8</td><td style="text-align: left">Uniswap V4</td><td style="text-align: left"></td><td style="text-align: left">Under Review</td></tr>
-<tr><td style="text-align: left">9</td><td style="text-align: left">Sky</td><td style="text-align: left"></td><td style="text-align: left">Under Review</td></tr>
-<tr><td style="text-align: left">10</td><td style="text-align: left">Curve</td><td style="text-align: left"></td><td style="text-align: left">Under Review</td></tr>
-<tr><td style="text-align: left">11</td><td style="text-align: left">Compound</td><td style="text-align: left"></td><td style="text-align: left">Under Review</td></tr>
-<tr><td style="text-align: left">12</td><td style="text-align: left">Morpho</td><td style="text-align: left"></td><td style="text-align: left">Under Review</td></tr>
-<tr><td style="text-align: left">13</td><td style="text-align: left">Pendle</td><td style="text-align: left"></td><td style="text-align: left">Under Review</td></tr>
-<tr><td style="text-align: left">14</td><td style="text-align: left">Balancer</td><td style="text-align: left"></td><td style="text-align: left">Under Review</td></tr>
-<tr><td style="text-align: left">15</td><td style="text-align: left">More..</td><td style="text-align: left"></td><td style="text-align: left"></td></tr>
+<p>Defi protocols:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Protocol</th><th style="text-align: left">Type</th><th style="text-align: left">Condition</th></tr></thead><tbody>
+<tr><td style="text-align: left">USD8</td><td style="text-align: left">Platinum</td><td style="text-align: left"><code>1 USD8 redeems &lt; $0.7</code></td></tr>
+<tr><td style="text-align: left">Aave</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">Curve</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">Ethena</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">Uniswap</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">Sky</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">Lido</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">Rocket Pool</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">Compound</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">Morpho</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">Pendle</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">Balancer</td><td style="text-align: left">Under Review</td><td style="text-align: left">Under Review</td></tr>
+<tr><td style="text-align: left">More..</td><td style="text-align: left"></td><td style="text-align: left"></td></tr>
 </tbody></table>
 </div>
 <p>The USD8 team verifies, assigns, and—when necessary—updates these covers on an ongoing basis. Coverage announcements, upgrades, downgrades, or removals are published transparently, and we encourage users to use only protocols that carry an active USD8 cover tier.</p>
 <br/>
 <br/>
 <br/>
-<h1 id="-claims"><a class="header" href="#-claims">💵 Claims</a></h1>
+<h1 id="-claims"><a class="header" href="#-claims"><span class="emoji">💵</span> Claims</a></h1>
 <p>Claims can be initiated permissionlessly at any time against the Cover Pool if claim conditions are met.</p>
 <p>Once initiated, other users will have a two-week window to join the claim. After that, claims can be finalized.</p>
 <ul>
@@ -273,20 +274,21 @@
 <li><code>f</code> is a constant set by protocol to determines the weight of Cover Token in proportion to LP token in a claim</li>
 <li><code>lpValueBeforeHack</code> is the LP value before the hack</li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-multi-collateral"><a class="header" href="#-multi-collateral">📊 Multi-Collateral</a></h1>
-<p>This super power aims to diversify USD8’s backing from 100 % USDC to a basket of tier-one stable coins, lowering the protocol’s exposure to any single asset and making USD8 more resilient to potential de-pegs.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-multi-collateral"><a class="header" href="#-multi-collateral"><span class="emoji">📊</span> Multi-Collateral</a></h1>
+<p>This super power aims to diversify USD8’s backing from 100 % USDC to a basket of tier-one stable coins, lowering the protocol’s exposure to any single asset and making USD8 more resilient to potential de-pegs while still provide yield opportunity for the multi-collaterals underlying.</p>
 <ul>
-<li>Mint &amp; redeem mechanics — When live, new USD8 will be minted and redeemed in the same fixed basket proportions, not solely in USDC.</li>
+<li>Mint &amp; redeem mechanics — When live, new USD8 will be minted and redeemed in the same proportions of collaterals in the basket.</li>
 <li>Risk reduction — A blended reserve cushions the impact of volatility or peg pressure on any individual stablecoin.</li>
+<li>Each collateral's weight in the basket might be adjusted to maximize yield.</li>
 </ul>
-<p>Full implementation details coming soon.</p>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="-free-transfers"><a class="header" href="#-free-transfers">💵 Free Transfers</a></h2>
+<p>We are currently in the process of finalizing the collateral basket, details will be announced afterwards.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-free-transfers"><a class="header" href="#-free-transfers"><span class="emoji">💵</span> Free Transfers</a></h1>
 <p>This super power refunds the gas fees you spend when transferring USD8 on supported chains. Users can periodically claim a rebate based their USD8 transfer activity, all within a generous fair-use cap that covers the vast majority of users. By removing day-to-day gas costs, USD8 becomes the ideal token for payments and routine transactions.</p>
 <p>Full implementation details coming soon.</p>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="-privacy"><a class="header" href="#-privacy">🫣 Privacy</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-privacy"><a class="header" href="#-privacy"><span class="emoji">🫣</span> Privacy</a></h1>
 <p>This super power will cloak USD8 balances and transfers behind on-chain privacy layers, bringing payment-grade confidentiality to an otherwise transparent blockchain. Once active, your USD8 activity and holdings will be hidden from public view, making USD8 a practical choice for everyday, privacy-sensitive use cases.</p>
 <p>Full implementation details coming soon.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-lucky-day"><a class="header" href="#-lucky-day">🍀 Lucky Day</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-lucky-day"><a class="header" href="#-lucky-day"><span class="emoji">🍀</span> Lucky Day</a></h1>
 <p>This super power delivers 500 raffle tickets from our partner to 500 random USD8 users for a shot at prizes exceeding $1 million. Winners are selected using a verifiable random function (VRF), providing a provably fair drawing that's auditable on-chain.</p>
 <p>Full implementation details coming soon.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="open-system"><a class="header" href="#open-system">Open System</a></h1>
@@ -302,36 +304,32 @@
 <p>User will be able to add third party hooks to their account, these hooks will be called at their designated time during USD8's life cycle.</p>
 <p>If you have a hook idea could benefit USD8 users, we would love to hear from you - info [at] USD8.finance.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="faqs"><a class="header" href="#faqs">FAQs</a></h1>
-<h2 id="what-are-the-risks-and-how-are-they-minimized"><a class="header" href="#what-are-the-risks-and-how-are-they-minimized">What are the risks and how are they minimized?</a></h2>
-<p>The general risks associated with using USD8 are:</p>
+<h2 id="-what-are-the-risks-and-how-are-they-minimized"><a class="header" href="#-what-are-the-risks-and-how-are-they-minimized"><span class="emoji">💭</span> What are the risks and how are they minimized?</a></h2>
+<p>The general risks associated with using USD8 are</p>
 <ol>
 <li>USD8 smart contract risks</li>
 <li>Risks from the underlying yield protocols</li>
 </ol>
-<p>How we minimize these risks:</p>
+<p>How we minimize these risks</p>
 <ol>
 <li>We take a security-first approach when building USD8, including third-party audits. The Cover Token also provides coverage for the USD8 protocol.</li>
 <li>We only use top blue-chip DeFi protocols for yield, and our team thoroughly verifies each codebase.</li>
 </ol>
 <br/>
 <br/>
-<h2 id="can-i-build-a-third-party-super-power-for-usd8"><a class="header" href="#can-i-build-a-third-party-super-power-for-usd8">Can I build a third-party Super Power for USD8?</a></h2>
-<p>Yes! Reach out to us as early as possible so our team can assist you. Contact: info[at]usd8.finance
-<br/>
-<br/></p>
-<h2 id="how-big-is-the-cover-pool"><a class="header" href="#how-big-is-the-cover-pool">How big is the Cover Pool?</a></h2>
+<h2 id="-how-big-is-the-cover-pool"><a class="header" href="#-how-big-is-the-cover-pool"><span class="emoji">💭</span> How big is the Cover Pool?</a></h2>
 <p>It depends on how many users are using USD8, the more users, the bigger Cover Pool. We aim to grow it as big and as fast as we can, however this might take a process. Regardless, it is always beneficial to get in early and start accrue Cover Tokens, so when the Cover Pool is big you can enjoy the coverage.</p>
 <br/>
 <br/>
-<h2 id="where-does-the-funds-for-cover-pool-come-from"><a class="header" href="#where-does-the-funds-for-cover-pool-come-from">Where does the funds for Cover Pool come from?</a></h2>
+<h2 id="-where-does-the-funds-for-cover-pool-come-from"><a class="header" href="#-where-does-the-funds-for-cover-pool-come-from"><span class="emoji">💭</span> Where does the funds for Cover Pool come from?</a></h2>
 <p>The Cover Pool funds come solely from USD8’s profits, never from user deposits. All user collateral sits in a separate Reserve Pool, which is deployed into blue-chip DeFi protocols to earn yield.</p>
 <br/>
 <br/>
-<h2 id="is-my-position-covered-even-if-its-not-related-to-usd8"><a class="header" href="#is-my-position-covered-even-if-its-not-related-to-usd8">Is my position covered even if it's not related to USD8?</a></h2>
+<h2 id="-is-my-position-covered-even-if-its-not-related-to-usd8"><a class="header" href="#-is-my-position-covered-even-if-its-not-related-to-usd8"><span class="emoji">💭</span> Is my position covered even if it's not related to USD8?</a></h2>
 <p>Yes, as long as you hold Cover Token and you are using a covered protocol, all your positions are covered. Cover Tokens provide coverage independently of whether those positions involve USD8 directly.</p>
 <br/>
 <br/>
-<h2 id="will-i-get-90-full-coverage-if-i-am-hacked"><a class="header" href="#will-i-get-90-full-coverage-if-i-am-hacked">Will I get 90% full coverage if I am hacked?</a></h2>
+<h2 id="-will-i-get-90-full-coverage-if-i-am-hacked"><a class="header" href="#-will-i-get-90-full-coverage-if-i-am-hacked"><span class="emoji">💭</span> Will I get 90% full coverage if I am hacked?</a></h2>
 <p>It depends. Cover Token payouts aren’t structured like traditional insurance. You’re most likely to receive the full 90 % if:</p>
 <ul>
 <li>you hold more Cover Tokens than other claimants, or</li>
@@ -341,21 +339,21 @@
 <p>In general, the more Cover Token you have, the better the payout.
 <br/>
 <br/></p>
-<h2 id="how-do-you-prevent-fraudulent-claims"><a class="header" href="#how-do-you-prevent-fraudulent-claims">How Do You Prevent Fraudulent Claims?</a></h2>
+<h2 id="-how-do-you-prevent-fraudulent-claims"><a class="header" href="#-how-do-you-prevent-fraudulent-claims"><span class="emoji">💭</span> How Do You Prevent Fraudulent Claims?</a></h2>
 <p>Cover Token is carefully designed with game theory, the claiming process is open and permissionless, anyone can initiate a claim. However there are a few safeguards</p>
 <ol>
 <li>To initiate a claim, protocol-specific conditions must be met.<br />
 Typically, the claimant’s LP‐token value must have dropped below a set threshold.</li>
 <li>Coverage is capped at 90 % of LP value. If the LP value hasn’t actually fallen, the claimant effectively loses money, disincentivizing false claims.</li>
 </ol>
-<p>Detailed protocol-specific conditions <a href="./covertoken.html#-covered-defi-protocols">here</a>.
+<p>Detailed protocol-specific conditions <a href="./hackcoverage.html">here</a>.
 <br/>
 <br/></p>
-<h2 id="how-does-usd8-make-money"><a class="header" href="#how-does-usd8-make-money">How does USD8 make money?</a></h2>
+<h2 id="-how-does-usd8-make-money"><a class="header" href="#-how-does-usd8-make-money"><span class="emoji">💭</span> How does USD8 make money?</a></h2>
 <p>USD8's has a few revenue streams, firstly it makes money from part of user's collateral yield, like USDC but onchain. A portion of this yield is paid to USD8 stakers as yield, another portion is used to seed the Cover Pool. On top of that USD8 also has revenue models associated with security reviews and services.</p>
 <br/>
 <br/>
-<h2 id="who-is-behind-usd8"><a class="header" href="#who-is-behind-usd8">Who is behind USD8?</a></h2>
+<h2 id="-who-is-behind-usd8"><a class="header" href="#-who-is-behind-usd8"><span class="emoji">💭</span> Who is behind USD8?</a></h2>
 <p>We are a team of top-tier security auditors with over 5 years of experience auditing smart contracts, particularly DeFi protocols and Layer 2 solutions in the Ethereum ecosystem, our identity will be revealed at launch.</p>
 <br/>
 <br/>

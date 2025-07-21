@@ -82,6 +82,10 @@ h6:target::before {
     padding: 0 var(--page-padding);
     margin-block-start: calc(0px - var(--menu-bar-height)); /* Compensate for the #menu-bar-hover-placeholder */
 }
+
+.emoji {
+    font-size: 2em;
+}
 .page-wrapper {
     box-sizing: border-box;
     background-color: var(--bg);
@@ -103,10 +107,10 @@ h6:target::before {
     margin-inline-end: auto;
     max-width: var(--content-max-width);
 }
-.content p { line-height: 2em; margin-bottom: 3em; }
-.content ol { line-height: 2em; margin-bottom: 3em;}
-.content ul { line-height: 2em; margin-bottom: 3em;}
-.content li { line-height: 1.5em; margin-bottom: 1.7em;}
+.content p { line-height: 2em; margin-bottom: 2em; }
+.content ol { line-height: 2em; margin-bottom: 2em;}
+.content ul { line-height: 2em; margin-bottom: 2em;}
+.content li { line-height: 1.5em; margin-bottom: 1.3em;}
 .content a { text-decoration: none; }
 .content a:hover { text-decoration: underline; }
 .content img, .content video { max-width: 100%; }

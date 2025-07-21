@@ -1,8 +1,8 @@
 # Summary
 - [What is USD8](./what.md)
 - [Super Powers](./superpowers.md)
-    - [🥷 Cover Token](./covertoken.md)
-    - [📊 Multi-Collateral](./aggregatedexposure.md)
+    - [🥷 Hack Coverage](./hackcoverage.md)
+    - [📊 Multi-Collateral](./multicollateral.md)
     - [💵 Free Transfers](./freetransfer.md)
     - [🫣 Privacy](./privacy.md)
     - [🍀 Lucky Day](./luckyday.md)

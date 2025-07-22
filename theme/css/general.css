@@ -86,6 +86,7 @@ h6:target::before {
 .emoji {
     font-size: 2em;
 }
+
 .page-wrapper {
     box-sizing: border-box;
     background-color: var(--bg);

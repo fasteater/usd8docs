@@ -12,6 +12,11 @@ The only way to obtain Cover Tokens is by using USD8 — whether holding, stakin
 <br/>
 <br/>
 
+<img src="./assets/dripDiagram.png" />
+<br/>
+<br/>
+<br/>
+
 # <span class="emoji">👌🏽</span> Coverage Limits
 
 Cover Tokens provide coverage for up to a maximum of 90% of a user's loss. The actual percentage is calculated per claim and depends on the following factors:
@@ -87,7 +92,14 @@ Once initiated, other users will have a two-week window to join the claim. After
 - Claimants transfer the compromised LP/position tokens and burn the required Cover Tokens.
 - Reimbursement is paid in USD8, calculated at the current oracle price.
 - The LP token is removed from Covered Protocols after a claim
+<br/>
+<br/>
+<br/>
 
+<img src="./assets/claim.png" />
+<br/>
+<br/>
+<br/>
 
 For math lovers, the system uses the following formula to calculate actual reimburse amount for each user: <br/><br/>
 

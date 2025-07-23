@@ -57,7 +57,7 @@ Detailed protocol-specific conditions [here](./hackcoverage.md).
 
 
 ## <span class="emoji">💭</span> How does USD8 make money?
-USD8's has a few revenue streams, firstly it makes money from part of user's collateral yield, like USDC but onchain. A portion of this yield is paid to USD8 stakers as yield, another portion is used to seed the Cover Pool. On top of that USD8 also has revenue models associated with security reviews and services.
+USD8's has a few revenue streams, firstly it makes money from part of user's collateral yield, like USDC but onchain. A portion of this yield is paid to USD8 stakers as yield, another portion is used to seed the Cover Pool. On top of that USD8 also has revenue models associated with partnerships.
 
 <br/>
 <br/>

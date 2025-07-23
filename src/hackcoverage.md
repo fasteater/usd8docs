@@ -89,7 +89,7 @@ Once initiated, other users will have a two-week window to join the claim. After
 
 
 - The protocol computes each claimant’s payout based on the total claim amount and Cover Token balance
-- Claimants transfer the compromised LP/position tokens and burn the required Cover Tokens.
+- Claimants transfer the compromised LP/position tokens and burn the required Cover Tokens.m
 - Reimbursement is paid in USD8, calculated at the current oracle price.
 - The LP token is removed from Covered Protocols after a claim
 <br/>

@@ -26,6 +26,11 @@ Below is a list of USD8’s super powers currently in development. Some will be 
 <br/>
 <br/>
 <br/>
+<br/>
+<img src="assets/superPowers2.png" width="400" />
+<br/>
+<br/>
+<br/>
 
 # Why should I use USD8?
 

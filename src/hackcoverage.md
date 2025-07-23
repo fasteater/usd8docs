@@ -43,6 +43,13 @@ If a major payout drains the pool, USD8 will divert a portion of future profits 
 <br/>
 <br/>
 <br/>
+<img src="assets/separatePool.png" />
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 # <span class="emoji">🤞</span> Covered DeFi Protocols
 

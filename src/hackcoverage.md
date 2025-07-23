@@ -46,7 +46,7 @@ If a major payout drains the pool, USD8 will divert a portion of future profits 
 
 # <span class="emoji">🤞</span> Covered DeFi Protocols
 
-Cover Token extends permissionless hack coverage to selected DeFi protocols up to a limit. Our in-house security team performs independent audits and continuous reviews to ensure each covered protocol meets rigorous safety standards.
+Cover Token extends permissionless hack coverage to selected DeFi protocols up to a limit. Our security partner performs independent audits and continuous reviews to ensure each covered protocol meets rigorous safety standards.
 
 Each protocol is assigned a tier that caps the share of the Cover Pool available for any single incident:
 
@@ -89,7 +89,7 @@ Once initiated, other users will have a two-week window to join the claim. After
 
 
 - The protocol computes each claimant’s payout based on the total claim amount and Cover Token balance
-- Claimants transfer the compromised LP/position tokens and burn the required Cover Tokens.m
+- Claimants transfer the compromised LP/position tokens and burn the required Cover Tokens
 - Reimbursement is paid in USD8, calculated at the current oracle price.
 - The LP token is removed from Covered Protocols after a claim
 <br/>

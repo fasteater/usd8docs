@@ -31,7 +31,6 @@ Below is a list of USD8’s super powers currently in development. Some will be 
 <br/>
 <br/>
 <br/>
-3
 # Why should I use USD8?
 
 USD8 offers far more benefits than traditional stablecoins, while still maintaining the core properties of your current stablecoins. You can hold USD8 as a cash reserve or use it for yield. As USD8 grows, we expect to add even more exciting super powers, making it the first extendable stable asset.

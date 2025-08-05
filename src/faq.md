@@ -64,7 +64,7 @@ USD8's has a few revenue streams, firstly it makes money from part of user's col
 
 ## <span class="emoji">💭</span> Who is behind USD8?
 
-We are a team of top-tier security auditors with over 5 years of experience auditing smart contracts, particularly DeFi protocols and Layer 2 solutions in the Ethereum ecosystem, our identity will be revealed at launch.
+Our team consists of security auditors with over 5 years of experience auditing smart contracts at OpenZeppelin, particularly focusing on DeFi protocols and Layer 2 solutions within the Ethereum ecosystem. We are passionate about DeFi security and dedicated to building solutions that make the on-chain environment safer and more user-friendly for everyone.
 
 <br/>
 <br/>

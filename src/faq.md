@@ -1,6 +1,6 @@
 # FAQs
 
-## <span class="emoji">💭</span> What are the risks and hmow are they minimized?
+## <span class="emoji">💭</span> What are the risks and how are they minimized?
 
 The general risks associated with using USD8 are
 1. USD8 smart contract risks

@@ -1,6 +1,6 @@
-# <span class="emoji">🥷</span> Hack Coverage
-
-This super power provides hack coverage through Cover Token, a non-transferable token that allows holders to claim reimbursement if their positions are hacked in a covered DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.
+# Hack Coverage
+<br/><br/><img src="http://usd8.finance/assets/power-hacker.png" width="200px" /><br/><br/>
+This superpower provides hack coverage through Cover Token, a non-transferable token that allows holders to claim reimbursement if their positions are hacked in a covered DeFi protocol (not limited to USD8 positions). The more Cover Tokens a user holds, the greater their potential reimbursement. Reimbursements are paid from a Cover Pool financed by USD8.
 
 The only way to obtain Cover Tokens is by using USD8 — whether holding, staking, or yielding. Cover Tokens are automatically accrued to USD8 users every block.
 

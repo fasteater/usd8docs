@@ -1,6 +1,6 @@
 # Open System
 
-USD8 is designed to an open system, it offers various hooks for third party developers to build on top of USD8 and offer more Super Powers to USD8 users. Current hooks in design are
+USD8 is designed to an open system, it offers various hooks for third party developers to build on top of USD8 and offer more superpowers to USD8 users. Current hooks in design are
 
  - before and after Transfer 
  - before and after Receive

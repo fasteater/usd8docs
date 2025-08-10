@@ -1,6 +1,6 @@
 # Summary
 - [What is USD8](./what.md)
-- [superpowers](./superpowers.md)
+- [Superpowers](./superpowers.md)
     - [Hack Coverage](./hackcoverage.md)
     - [Yield](./yield.md)
     - [Multi-Collateral](./multicollateral.md)

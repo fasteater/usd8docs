@@ -11,7 +11,7 @@ At launch, USD8 will accept USDC as the underlying stablecoin. Other stablecoins
 <br/>
 
 <img src="https://usd8.finance/assets/tyche-statue.png" width="600" /><br/>
-# superpowers
+# Superpowers
 
 USD8’s superpowers are modular and often passive features, each providing users with unique benefits. By stacking these features, USD8 becomes a powerful stable asset with unlimited potential.
 
@@ -33,4 +33,4 @@ Below is a list of USD8’s superpowers currently in development. Some will be a
 <br/>
 # Why should I use USD8?
 
-USD8 offers far more benefits than traditional stablecoins, while still maintaining the core properties of your current stablecoins. You can hold USD8 as a cash reserve or use it for yield. As USD8 grows, we expect to add even more exciting superpowers, making it the first extendable stable asset.
+USD8 offers more benefits than traditional stablecoins while maintaining core properties such as a stable peg and yield. As USD8 grows, we plan to add even more exciting superpowers for its users, making it the first truly extendable stable asset.

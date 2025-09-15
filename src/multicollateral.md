@@ -1,13 +1,12 @@
 # Multi-Collateral
-<br/><br/><img src="http://usd8.finance/assets/power-collateral.png" width="200px" /><br/><br/>
-This superpower aims to diversify USD8’s backing from 100% USDC to a basket of tier-one stable coins, lowering the protocol’s exposure to any single asset and making USD8 more resilient to potential de-pegs while still provide yield opportunity for the multi-collaterals underlying.
+<br/><br/><img src="/assets/multiCollateral.png" width="400"/><br/><br/><br/>
 
-- Mint & redeem mechanics — When live, new USD8 will be minted and redeemed in the same proportions of collaterals in the basket.   
-- Risk reduction — A blended reserve cushions the impact of volatility or peg pressure on any individual stablecoin.    
-- Each collateral's weight in the basket might be adjusted to maximize yield. 
+USD8 is backed by a carefully selected basket of stablecoins, reducing the protocol’s exposure to any single asset and making USD8 more resilient to de-pegging events.
 
-<img src="/assets/multiCollateral.png" width="400"/><br/><br/><br/>
-We are currently in the process of finalizing the collateral basket, details will be announced afterwards.
+- When launched, new USD8 will be minted and redeemed in the same proportions as the collaterals in the basket.
+- Each collateral’s weight in the basket may be adjusted based on its ongoing risk profile.
+
+We are currently finalizing the collateral basket. Details will be announced soon.
 
 
 

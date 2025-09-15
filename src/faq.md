@@ -1,70 +1,75 @@
 # FAQs
+## <span class="emoji">💭</span> Can I just buy Usd8/sUsd8 and get coverage after my position is hacked?
 
-## <span class="emoji">💭</span> What are the risks and how are they minimized?
+No. Usd8/sUsd8 comes with a 30-day cooldown after you receive them. During this period, they cannot be used for claims.
+<br/>
+<br/>
 
-The general risks associated with using USD8 are
-1. USD8 smart contract risks
-2. Risks from the underlying yield protocols
+## <span class="emoji">💭</span> How safe is the Protected Savings vault?
 
-How we minimize these risks
-1. We take a security-first approach when building USD8, including third-party audits. The Cover Token also provides coverage for the USD8 protocol.
-2. We only use top blue-chip DeFi protocols for yield, and our team thoroughly verifies each codebase.
+It is one of the safest savings vaults because it includes 80% coverage. This means you can always claim up to 80% of your position from the Cover Pool if something goes wrong.
+
+On top of that, you still earn competitive the yield.
+<br/>
+<br/>
+
+## <span class="emoji">💭</span> How safe is the Cover Pool?
+Assets deposited in the Cover Pool are used to cover hacking losses from Covered Protocols. This makes it riskier than the Protected Savings vault, which is why it offers a higher APY.
+<br/>
+Our security experts independently vet and audit every protocol before offering coverage. Hacks are not expected to occur often, but there is always a possibility.
+
+
+## <span class="emoji">💭</span> So all my positions in Covered DeFi Protocols are protected? Even non-Usd8 positions?
+
+Yes. As long as you hold Usd8/sUsd8, you can lock them to claim for any non-Usd8 positions.
+
+If it’s a Usd8-based position (like sUsd8), you can claim directly with your LP token — no need to lock additional Usd8 or sUsd8.
+<br/>
+<br/>
+
+## <span class="emoji">💭</span> Do I forfeit my hacked LP token when claiming from the Cover Pool?
+
+Yes. To claim from the Cover Pool, you must provide:
+- The hacked LP token
+- Lock some Usd8 or sUsd8 for 30 days (optional if the LP token is already a Usd8 position)
+
+The hacked LP tokens are transferred to Cover Pool liquidity providers.
+ 
+<br/>
+<br/>
+
+## <span class="emoji">💭</span> Will I always get 80% of my money back if my position is hacked in a protocol with 80% coverage?
+
+Not necessarily. The actual reimbursed amount depends on:
+- How many other users are claiming for the same hack and their position sizes
+- How much Usd8/sUsd8 each claimant locks
+
+In practice, the more Usd8/sUsd8 you lock, the higher your claim weight.
+ 
+<br/>
+<br/>
+
+## <span class="emoji">💭</span> How do you prevent fraudulent claims?
+
+Usd8 only covers up to 80% of any position. Unless the LP token’s value drops below 80%, it is not financially rational to file a false claim to the Cover Pool.
 
 <br/>
 <br/>
 
 
-## <span class="emoji">💭</span> How big is the Cover Pool?
-It depends on how many users are using USD8, the more users, the bigger Cover Pool. We aim to grow it as big and as fast as we can, however this might take a process. Regardless, it is always beneficial to get in early and start accrue Cover Tokens, so when the Cover Pool is big you can enjoy the coverage.
+## <span class="emoji">💭</span> How does Usd8 make money?
 
+Like most stablecoins, Usd8 generates revenue from collateral yield.
+- A portion of this yield is distributed to Usd8 Savings depositors.
+- The remaining yield becomes Usd8’s revenue, which is primarily distributed to Cover Pool depositors.
 <br/>
 <br/>
 
-## <span class="emoji">💭</span> Where does the funds for Cover Pool come from?
-The Cover Pool funds come solely from USD8’s profits, never from user deposits. All user collateral sits in a separate Reserve Pool, which is deployed into blue-chip DeFi protocols to earn yield.
+## <span class="emoji">💭</span> Who is behind Usd8?
 
-<br/>
-<br/>
+Usd8 was founded by an OpenZeppelin auditor and security researcher with over 5 years of experience, specializing in DeFi protocols and Ethereum Layer-2 solutions.
 
-
-## <span class="emoji">💭</span> Is my position covered even if it's not related to USD8?
-Yes, as long as you hold Cover Token and you are using a covered protocol, all your positions are covered. Cover Tokens provide coverage independently of whether those positions involve USD8 directly.
-
-<br/>
-<br/>
-
-## <span class="emoji">💭</span> Will I get 90% full coverage if I am hacked?
-It depends. Cover Token payouts aren’t structured like traditional insurance. You’re most likely to receive the full 90 % if:
-
-- you hold more Cover Tokens than other claimants, or     
-- few other users join the claim, or      
-- other claimants hold similarly small Cover Token balances    
-
-In general, the more Cover Token you have, the better the payout.
-<br/>
-<br/>
-
-## <span class="emoji">💭</span> How Do You Prevent Fraudulent Claims?
-Cover Token is carefully designed with game theory, the claiming process is open and permissionless, anyone can initiate a claim. However there are a few safeguards
-
-1. To initiate a claim, protocol-specific conditions must be met.  
-   Typically, the claimant’s LP‐token value must have dropped below a set threshold.  
-2. Coverage is capped at 90 % of LP value. If the LP value hasn’t actually fallen, the claimant effectively loses money, disincentivizing false claims.
-
-Detailed protocol-specific conditions [here](./hackcoverage.md).
-<br/>
-<br/>
-
-
-## <span class="emoji">💭</span> How does USD8 make money?
-USD8's has a few revenue streams, firstly it makes money from part of user's collateral yield, like USDC but onchain. A portion of this yield is paid to USD8 stakers as yield, another portion is used to seed the Cover Pool. On top of that USD8 also has revenue models associated with partnerships.
-
-<br/>
-<br/>
-
-## <span class="emoji">💭</span> Who is behind USD8?
-
-Our team consists of security auditors with over 5 years of experience auditing smart contracts at OpenZeppelin, particularly focusing on DeFi protocols and Layer 2 solutions within the Ethereum ecosystem. We are passionate about DeFi security and dedicated to building solutions that make the on-chain environment safer and more user-friendly for everyone.
+We are passionate about DeFi security and dedicated to building solutions that make the on-chain environment safer for everyone.
 
 <br/>
 <br/>

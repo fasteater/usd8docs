@@ -9,7 +9,7 @@ Depositors should be aware of the risk associated with the Cover Pool.
 <br/><br/><br/><br/>
 
 # Covered DeFi Protocols
-USD8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool balance.
+Usd8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool balance.
 <br/><br/><img src="https://usd8.finance/assets/coveredProtocols.png" width="700px" /><br/><br/>
 
 Once coverage is offered, the Cover Pool will accept the specified LP token for claims at any time, permissionlessly. Claimants receive a proportional mix of assets matching the Cover Pool’s composition. <br/><br/><br/><br/>

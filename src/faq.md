@@ -1,9 +1,9 @@
 # FAQs
-## <span class="emoji">💭</span> Can I just buy Usd8/sUsd8 and get coverage after my position is hacked?
+## <span class="emoji">💭</span> Can I just buy Usd8 and get coverage after my position is hacked?
 
 No. Usd8 comes with a 30-day cooldown after you receive them. During this period, they cannot be used for claims. 
 
-Except if they are from a known defi yield contract, this allows Usd8 owners to yield with Usd8 and still enjoy the protection.
+Except if they are from a known Defi yield contract you deposited in, this allows Usd8 owners to yield with Usd8 and still enjoy the protection.
 <br/>
 <br/>
 

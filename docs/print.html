@@ -182,9 +182,9 @@
 <p>Usd8 is a stablecoin doubles as hack protection, Usd8 users get hack coverage as well as stable yield.</p>
 <p>There are three main use cases:</p>
 <ol>
-<li>Swap your stablecoins for USD8 and deposit into <a href="protectedSavings.html">Protected Savings</a> to earn yield and receive hack coverage. This is ideal for passive DeFi users who want their savings protected.</li>
-<li>Hold USD8 or sUsd8(from Protected Savings) and freely use any <a href="CoverPool.html#covered-defi-protocols">Covered DeFi Protocols</a>, with all positions protected by the Cover Pool. This suits advanced DeFi users actively managing their own yield strategies.</li>
-<li>Deposit assets into the high-yield <a href="CoverPool.html">Cover Pool</a> and share protocol revenue. However, these assets may be deployed to cover hacking losses from <a href="CoverPool.html#covered-defi-protocols">Covered DeFi Protocols</a>. This is ideal for users seeking high yields and willing to accept higher risk.</li>
+<li>For passive DeFi users who want their savings protected - Swap your stablecoins for USD8 and deposit into <a href="protectedSavings.html">Protected Savings</a> to earn yield and receive hack coverage.</li>
+<li>For advanced DeFi users actively managing their own yield strategies - Hold USD8 (or USD yield tokens) and freely use any <a href="CoverPool.html#covered-defi-protocols">Covered DeFi Protocols</a>, now all your positions are protected by the Cover Pool.</li>
+<li>For users seeking high yields and with high risk appetite - Deposit assets into the high-yield <a href="CoverPool.html">Cover Pool</a> and share protocol revenue. However, remember these assets may be deployed to cover hacking losses from <a href="CoverPool.html#covered-defi-protocols">Covered DeFi Protocols</a>.</li>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="multi-collateral"><a class="header" href="#multi-collateral">Multi-Collateral</a></h1>
 <p><br/><br/><img src="/assets/multiCollateral.png" width="400"/><br/><br/><br/></p>
@@ -198,31 +198,33 @@
 <p><br/><br/><img src="https://usd8.finance/assets/savingsVault.png" width="350px" /><br/><br/></p>
 <p>USD8 Protected Savings is a yield vault designed for passive DeFi users who want simple, deposit-and-forget yield with built-in hack protection.</p>
 <p>Managed by USD8, this vault is covered by the Cover Pool for up to 80% of its value, subject to the pool’s available limit.</p>
-<p>Depositors receive yield-bearing sUSD8, which can be used to claim coverage from the Cover Pool, permissionlessly, at any time, up to 90% of the sUsd8 value.</p>
+<p>Depositors receive yield-bearing sUSD8, which can be used to claim coverage from the Cover Pool, permissionlessly, at any time, up to 80% of the sUsd8 value, capped by the Cover Pool balance.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="cover-pool"><a class="header" href="#cover-pool">Cover Pool</a></h1>
 <p><br/><br/><img src="https://usd8.finance/assets/coverPool.png" width="700px" /><br/><br/></p>
-<p>The Cover Pool consists of multiple assets and is designed to generate competitive yields on each. Anyone can deposit into the pool at any time; however, withdrawals are subject to a 14-day cooldown period.</p>
-<p>Assets in the Cover Pool serve a dual purpose: they earn yield and are also deployed to cover hacks in DeFi protocols protected by USD8.
+<p>The Cover Pool consists of multiple assets and they share the protocol revenue. Anyone can deposit into the pool at any time; however, withdrawals are subject to a 14-day cooldown period.</p>
+<p>Assets in the Cover Pool serve a dual purpose: receive the protocol revenue and also deployed to cover hacks protected Defi protocols.</p>
+<p>Depositors should be aware of the risk associated with the Cover Pool.
 <br/><br/><br/><br/></p>
 <h1 id="covered-defi-protocols"><a class="header" href="#covered-defi-protocols">Covered DeFi Protocols</a></h1>
-<p>USD8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool size.
+<p>USD8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool balance.
 <br/><br/><img src="https://usd8.finance/assets/coveredProtocols.png" width="700px" /><br/><br/></p>
 <p>Once coverage is offered, the Cover Pool will accept the specified LP token for claims at any time, permissionlessly. Claimants receive a proportional mix of assets matching the Cover Pool’s composition. <br/><br/><br/><br/></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="claiming"><a class="header" href="#claiming">Claiming</a></h1>
 <p><br/><br/><br/><br/><img src="/assets/claiming.png" width="700px" /><br/><br/></p>
 <ol>
-<li>To initiate a claim, the user provides the hacked LP token and temporarily locks a certain amount of USD8 or sUSD8. The more tokens locked, the greater the weight of the claim. If the hacked LP is a USD8 position, locking USD8 is optional.</li>
-<li>The claim then enters a 10-day waiting period, during which other users may also join. After this time, further claims using this LP token will not be accepted.</li>
-<li>Users can finalize their reimbursement after the 10 days waiting period, reimbursement will be paid in the exact asset types and composition of the Cover Pool.</li>
+<li>To initiate a claim, the user provides the hacked LP token and temporarily locks a certain amount of USD8. The more USD8 locked, the greater the weight of the claim. If the hacked LP is a USD8 position, locking USD8 is then optional.</li>
+<li>The claim then enters a 10-day waiting period, during which other users may also join. After this time, further claims using this hacked LP token will not be accepted.</li>
+<li>Users can finalize their reimbursement after the 10 days waiting period, reimbursement amount depends on the total claims and total locked Usd8 and will be paid in the exact asset types and composition of the Cover Pool.</li>
 <li>60 days after claiming, the locked USD8 will be released and can be withdrawn from the Cover Pool.</li>
 </ol>
-<p>If the Cover Pool cannot fully cover all claims, assets are distributed proportionally—weighted by the amount of USD8 or sUSD8 each user locked and the value of their LP tokens. <br/><br/></p>
+<p>If the Cover Pool cannot fully cover all claims, assets are distributed proportionally—weighted by the amount of USD8 each user locked and the value of their LP tokens. <br/><br/></p>
 <p><br/><br/><br/><br/></p>
 <h1 id="claim-cooldown"><a class="header" href="#claim-cooldown">Claim Cooldown</a></h1>
-<p>Newly received USD8 and sUSD8 are subject to a 30-day cooldown before they can be locked for claiming. This prevents users from immediately claiming with newly purchased USD8 or sUSD8.</p>
+<p>Newly received USD8 are subject to a 30-day cooldown for claiming lock, except from recognized Defi contract addresses. This prevents users from immediately claiming with newly purchased USD8 while still allow holders to yield with Usd8 while enjoying the protection.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="faqs"><a class="header" href="#faqs">FAQs</a></h1>
 <h2 id="-can-i-just-buy-usd8susd8-and-get-coverage-after-my-position-is-hacked"><a class="header" href="#-can-i-just-buy-usd8susd8-and-get-coverage-after-my-position-is-hacked"><span class="emoji">💭</span> Can I just buy Usd8/sUsd8 and get coverage after my position is hacked?</a></h2>
-<p>No. Usd8/sUsd8 comes with a 30-day cooldown after you receive them. During this period, they cannot be used for claims.
+<p>No. Usd8 comes with a 30-day cooldown after you receive them. During this period, they cannot be used for claims.</p>
+<p>Except if they are from a known defi yield contract, this allows Usd8 owners to yield with Usd8 and still enjoy the protection.
 <br/>
 <br/></p>
 <h2 id="-how-safe-is-the-protected-savings-vault"><a class="header" href="#-how-safe-is-the-protected-savings-vault"><span class="emoji">💭</span> How safe is the Protected Savings vault?</a></h2>
@@ -235,15 +237,19 @@
 <br/>
 Our security experts independently vet and audit every protocol before offering coverage. Hacks are not expected to occur often, but there is always a possibility.</p>
 <h2 id="-so-all-my-positions-in-covered-defi-protocols-are-protected-even-non-usd8-positions"><a class="header" href="#-so-all-my-positions-in-covered-defi-protocols-are-protected-even-non-usd8-positions"><span class="emoji">💭</span> So all my positions in Covered DeFi Protocols are protected? Even non-Usd8 positions?</a></h2>
-<p>Yes. As long as you hold Usd8/sUsd8, you can lock them to claim for any non-Usd8 positions.</p>
+<p>Yes. As long as you hold Usd8, you can lock them to claim for any non-Usd8 positions.</p>
 <p>If it’s a Usd8-based position (like sUsd8), you can claim directly with your LP token — no need to lock additional Usd8 or sUsd8.
+<br/>
+<br/></p>
+<h2 id="-do-i-need-to-hold-usd8-at-all-times-to-enjoy-coverage"><a class="header" href="#-do-i-need-to-hold-usd8-at-all-times-to-enjoy-coverage"><span class="emoji">💭</span> Do I need to hold Usd8 at all times to enjoy coverage?</a></h2>
+<p>No. While holding Usd8 certainly gives you coverage, you can also deposit Usd8 into recognized DeFi protocols for yield. When you need to make a hack claim, simply withdraw your Usd8 from these protocols. Usd8 coming from recognized DeFi protocols are not subject to the 30-day claim cooldown.
 <br/>
 <br/></p>
 <h2 id="-do-i-forfeit-my-hacked-lp-token-when-claiming-from-the-cover-pool"><a class="header" href="#-do-i-forfeit-my-hacked-lp-token-when-claiming-from-the-cover-pool"><span class="emoji">💭</span> Do I forfeit my hacked LP token when claiming from the Cover Pool?</a></h2>
 <p>Yes. To claim from the Cover Pool, you must provide:</p>
 <ul>
-<li>The hacked LP token</li>
-<li>Lock some Usd8 or sUsd8 for 30 days (optional if the LP token is already a Usd8 position)</li>
+<li>A supported LP token</li>
+<li>Lock some Usd8 for 30 days (optional if the LP token is already a Usd8 position)</li>
 </ul>
 <p>The hacked LP tokens are transferred to Cover Pool liquidity providers.</p>
 <br/>
@@ -252,9 +258,9 @@ Our security experts independently vet and audit every protocol before offering 
 <p>Not necessarily. The actual reimbursed amount depends on:</p>
 <ul>
 <li>How many other users are claiming for the same hack and their position sizes</li>
-<li>How much Usd8/sUsd8 each claimant locks</li>
+<li>How much Usd8 each claimant locks</li>
 </ul>
-<p>In practice, the more Usd8/sUsd8 you lock, the higher your claim weight.</p>
+<p>In practice, the more Usd8 you lock, the higher your claim weight.</p>
 <br/>
 <br/>
 <h2 id="-how-do-you-prevent-fraudulent-claims"><a class="header" href="#-how-do-you-prevent-fraudulent-claims"><span class="emoji">💭</span> How do you prevent fraudulent claims?</a></h2>

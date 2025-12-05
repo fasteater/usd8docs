@@ -2,7 +2,7 @@
 /* Globals */
 
 :root {
-    --sidebar-target-width: 300px;
+    --sidebar-target-width: 220px;
     --sidebar-width: min(var(--sidebar-target-width), 80vw);
     --sidebar-resize-indicator-width: 8px;
     --sidebar-resize-indicator-space: 2px;
@@ -178,11 +178,11 @@
     --bg: #252525;
     --fg: white;
 
-    --sidebar-bg: #252525;
+    --sidebar-bg: #1e1e1e;
     --sidebar-fg: #c8c9db;
     --sidebar-non-existant: #505274;
     --sidebar-active: #00B7AB;
-    --sidebar-spacer: #2d334f;
+    --sidebar-spacer: #23283a;
 
     --scrollbar: var(--sidebar-fg);
 

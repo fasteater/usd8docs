@@ -94,6 +94,9 @@ html.sidebar-visible #menu-bar {
 html:not(.js) .left-buttons button {
     display: none;
 }
+.left-buttons #sidebar-toggle {
+    display: none;
+}
 
 .menu-title {
     display: none;
@@ -449,20 +452,36 @@ html:not(.sidebar-resizing) .sidebar {
     overflow-y: auto;
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 60px; /* leave space for footer link */
     left: 0;
     right: 0;
     padding: 10px 10px;
 }
-.sidebar .sidebar-resize-handle {
+.sidebar-telegram {
     position: absolute;
-    cursor: col-resize;
-    width: 0;
-    right: calc(var(--sidebar-resize-indicator-width) * -1);
-    top: 0;
-    bottom: 0;
+    left: 0;
+    right: 0;
+    bottom: 12px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+}
+.sidebar-telegram i {
+    color: #ffffff;
+}
+.sidebar-telegram:hover {
+    color: var(--sidebar-active);
+}
+.sidebar-telegram:hover i {
+    color: var(--sidebar-active);
+}
+.sidebar .sidebar-resize-handle {
+    display: none;
 }
 
 .sidebar-resize-handle .sidebar-resize-indicator {

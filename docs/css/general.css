@@ -118,6 +118,7 @@ h4, h5 { margin-block-start: 2em; }
     margin-inline-start: auto;
     margin-inline-end: auto;
     max-width: var(--content-max-width);
+    padding-top: 40px; /* add breathing room above page content */
 }
 .content p { line-height: 1.8em; margin-bottom: 2em; }
 .content ol { line-height: 1.7em; margin-bottom: 2em;}

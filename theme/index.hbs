@@ -104,19 +104,13 @@
 
         <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
-        <!-- Hide / unhide sidebar before it is displayed -->
+        <!-- Keep sidebar visible; no toggle -->
         <script>
-            let sidebar = null;
+            const sidebar = 'visible';
             const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            } else {
-                sidebar = 'hidden';
-            }
-            sidebar_toggle.checked = sidebar === 'visible';
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            sidebar_toggle.checked = true;
+            html.classList.remove('sidebar-hidden');
+            html.classList.add('sidebar-visible');
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -125,6 +119,9 @@
             <noscript>
                 <iframe class="sidebar-iframe-outer" src="{{ path_to_root }}toc.html"></iframe>
             </noscript>
+            <a class="sidebar-telegram" href="https://t.me/+e84i2oYk1ao1MTk1" target="_blank" rel="noopener noreferrer" aria-label="Join our Telegram">
+                <i class="fa fa-telegram"></i>
+            </a>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>

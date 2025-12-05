@@ -49,7 +49,6 @@
             <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
             <div>
                 <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
-                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
                 <p>Press <kbd>?</kbd> to show this help</p>
                 <p>Press <kbd>Esc</kbd> to hide this help</p>
             </div>
@@ -121,40 +120,12 @@
                         <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
                         </label>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
-                        </button>
-                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                        </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
-                        </button>
                     </div>
 
                     <h1 class="menu-title">USD8 Docs</h1>
 
                     <div class="right-buttons">
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
-                            <i id="print-button" class="fa fa-print"></i>
-                        </a>
 
-                    </div>
-                </div>
-
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
                     </div>
                 </div>
 
@@ -169,24 +140,26 @@
 
                 <div id="content" class="content">
                     <main>
-                        <img src="https://usd8.finance/assets/tyche.png" width="300" />
-<br/>
-<br/>
-<br/>
-<h1 id="our-mission"><a class="header" href="#our-mission">Our Mission</a></h1>
-<p>As we embrace decentralized technology to resist the abuses of traditional centralized power, we also give up the enforcement mechanisms that deal with wrongdoing. Without safeguards, this opens the door to a technocratic reality where hackers—armed with superior technical knowledge—become the new “centralized power,” stealing in broad daylight with little consequence. That undermines the very purpose of decentralization, and it’s a future we, as true believers in this movement, refuse to accept.</p>
-<p>That’s why we created USD8.</p>
-<p>Our mission is to restore the missing layer of enforcement in DeFi security. We will start with offering hack coverage to DeFi users, with ambitious plans for the future to ensure the decentralized dream is not hijacked by technocrats, but preserved as a system that empowers everyone.</p>
-<div style="break-before: page; page-break-before: always;"></div><p><img src="https://usd8.finance/assets/logo.svg" width="100" /><br/><br/></p>
+                        <img src="https://usd8.finance/assets/logo.svg" width="150" />
+<br/><br/>
 <h1 id="usd8"><a class="header" href="#usd8">Usd8</a></h1>
-<p>Usd8 is a stablecoin doubles as Defi protection, Usd8 users get coverage for supported Defi positions as well as stable yield.</p>
-<p>There are three main use cases:</p>
+<p>Usd8 is a stablecoin doubles as Defi protection, Usd8 users get upto 80% coverage for supported Defi protocols if they are hacked. On top, Usd8 users can still earn yield.</p>
+<p>Your coverage is based on your Usd8 usage history, the longer you use Usd8, the more you are covered.</p>
+<p><br/><br/><br/><br/></p>
+<h1 id="use-cases"><a class="header" href="#use-cases">Use cases</a></h1>
 <ol>
-<li>For passive DeFi users who want their savings protected - Swap your stablecoins for Usd8 and deposit into <a href="protectedSavings.html">Protected Savings</a> to earn yield while being covered.</li>
-<li>For advanced DeFi users actively managing their own yield strategies - Hold Usd8 (or Usd8 LSTs) and freely use any <a href="CoverPool.html#covered-defi-protocols">Covered DeFi Protocols</a>, now all your positions are protected by the Cover Pool.</li>
-<li>For users seeking high yields and with high risk appetite - Deposit assets into the high-yield <a href="CoverPool.html">Cover Pool</a> and share protocol revenue. However, remember these assets may be deployed to cover losses from <a href="CoverPool.html#covered-defi-protocols">Covered DeFi Protocols</a>.</li>
+<li>
+<p>For passive DeFi users who want their savings protected - Swap your stablecoins for Usd8 and deposit into our <a href="protectedSavings.html">Protected Savings</a> to earn yield(est. 3-5%) while being covered. If Protected Savings is hacked, you can claim upto 80% of your loss from the <a href="CoverPool.html">Cover Pool</a>.</p>
+</li>
+<li>
+<p>For advanced DeFi users actively managing their own yield strategies - Hold Usd8 (or Usd8 LSTs with yield) and freely use any <a href="CoverPool.html#covered-defi-protocols">Covered DeFi Protocols</a>, now all your positions are protected upto 80% by the Cover Pool.</p>
+</li>
+<li>
+<p>For high-yield seekers with higher risk tolerance: deposit assets into our <a href="CoverPool.html">Cover Pool</a> to share protocol revenue (estimated 15–30% returns). Be aware your assets might be used to offset losses from <a href="CoverPool.html#covered-defi-protocols">Covered DeFi Protocols</a>, but our security team screens every covered protocol to reduce the chance of incidents.
+<br/><br/><br/><br/></p>
+</li>
 </ol>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="multi-collateral"><a class="header" href="#multi-collateral">Multi-Collateral</a></h1>
+<h1 id="multi-collateral"><a class="header" href="#multi-collateral">Multi-Collateral</a></h1>
 <p><br/><br/><img src="/assets/multiCollateral.png" width="400"/><br/><br/><br/></p>
 <p>USD8 is backed by a carefully selected basket of stablecoins, reducing the protocol’s exposure to any single asset and making USD8 more resilient to de-pegging events.</p>
 <ul>
@@ -194,38 +167,55 @@
 <li>Each collateral’s weight in the basket may be adjusted based on its ongoing risk profile.</li>
 </ul>
 <p>We are currently finalizing the collateral basket. Details will be announced soon.</p>
+<div style="break-before: page; page-break-before: always;"></div><img src="https://usd8.finance/assets/tyche.png" width="300" />
+<br/><br/>
+<h1 id="our-mission"><a class="header" href="#our-mission">Our Mission</a></h1>
+<p>As we embrace decentralized technology to resist the abuses of traditional centralized power, we also give up the enforcement mechanisms that deal with wrongdoing. Without safeguards, this opens the door to a technocratic reality where hackers—armed with superior technical knowledge—become the new “centralized power,” stealing in broad daylight with little consequence. That undermines the very purpose of decentralization, and it’s a future we, as true believers in this movement, refuse to accept.</p>
+<p>That’s why we created USD8.</p>
+<p>Our mission is to restore the missing layer of enforcement in DeFi security. We will start with offering hack coverage to DeFi users, with ambitious plans for the future to ensure the decentralized dream is not hijacked by technocrats, but preserved as a system that empowers everyone.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="protected-savings"><a class="header" href="#protected-savings">Protected Savings</a></h1>
 <p><br/><br/><img src="https://usd8.finance/assets/savingsVault.png" width="350px" /><br/><br/></p>
 <p>USD8 Protected Savings is a yield vault designed for passive DeFi users who want simple, deposit-and-forget yield with built-in protection.</p>
 <p>Managed by USD8, this vault is covered by the Cover Pool for up to 80% of its value, subject to the pool’s limit.</p>
 <p>Depositors receive yield-bearing sUSD8, which can be used to claim coverage from the Cover Pool, permissionlessly, at any time, up to 80% of the sUsd8 value, capped by the Cover Pool balance.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="cover-pool"><a class="header" href="#cover-pool">Cover Pool</a></h1>
-<p><br/><br/><img src="https://usd8.finance/assets/coverPool.png" width="700px" /><br/><br/></p>
-<p>The Cover Pool is a high yield high risk vault consists of multiple assets, the yield comes from protocol revenue. Anyone can deposit into the pool at any time; however, withdrawals are subject to a 14-day cooldown period.</p>
-<p>Assets in the Cover Pool might be deployed to cover any losses from protected Defi protocols.</p>
+<p><br/><img src="https://usd8.finance/assets/coverPool.png" width="700px" /><br/><br/></p>
+<p>The Cover Pool is a high yield vault consists of multiple assets, the yield comes from protocol revenue. Anyone can deposit into the pool at any time; however, withdrawals are subject to a 14-day cooldown period.</p>
+<p>Assets in the Cover Pool are not protected by Usd8 and might be deployed to cover losses from protected Defi protocols.</p>
 <p>Depositors should be aware of the risk associated before depositing.
-<br/><br/><br/><br/></p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="covered-defi-protocols"><a class="header" href="#covered-defi-protocols">Covered DeFi Protocols</a></h1>
+<br/><br/><br/></p>
+<h2 id="covered-defi-protocols"><a class="header" href="#covered-defi-protocols">Covered DeFi Protocols<br/></a></h2>
 <p>Usd8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool balance.
 <br/><br/><img src="https://usd8.finance/assets/coveredProtocols.png" width="700px" /><br/><br/></p>
-<p>Once coverage is offered, the Cover Pool will accept the specified LP token for claims at any time, permissionlessly. Claimants receive a proportional mix of assets matching the Cover Pool’s composition. <br/><br/><br/><br/></p>
-<h1 id="claiming"><a class="header" href="#claiming">Claiming</a></h1>
-<p><br/><br/><br/><br/><img src="/assets/claiming.png" width="700px" /><br/><br/></p>
+<p>Once coverage is offered, the Cover Pool will accept the specified LP token for claims at any time, permissionlessly. Claimants receive a proportional mix of assets matching the Cover Pool’s composition.
+<br/><br/><br/></p>
+<h2 id="claiming"><a class="header" href="#claiming">Claiming</a></h2>
+<p><br/><img src="/assets/claiming.png" width="700px" /><br/><br/></p>
 <ol>
-<li>To initiate a claim, the user provides the protected LP token and temporarily locks some Usd8. The more Usd8 locked, the greater the weight of the claim. (locking Usd8 optional if LP token is already a Usd8 LST).</li>
-<li>The claim then enters a 10-day waiting period, during which other users may also join. After this time, this LP token will be removed from covered list, further claims will not be accepted.</li>
-<li>Users can finalize their reimbursement after the 10 days waiting period, reimbursement amount depends on the total claims, total locked Usd8 and Cover Pool balance at the time. The payout will be in the exact asset types and composition of the Cover Pool.</li>
-<li>60 days after claiming, the locked Usd8 will be unlocked and can be withdrawn from the Cover Pool.</li>
+<li>To start a claim, user transfers the protected LP token to the Cover Pool</li>
+<li>The claim enters a 10-day window where others can join. After 10 days, that LP token is removed from the covered list and no new claims are accepted.</li>
+<li>Claimants can withdraw their reimbursement. The amount is calculated from total claims, each claimant’s cover score*, and the current Cover Pool balance. Payouts will match the Cover Pool’s asset mix.</li>
 </ol>
-<p>If the Cover Pool cannot fully cover all claims, assets are distributed based on the amount of Usd8 each user locked and the value of their LP tokens. <br/></p>
+<p>If the Cover Pool cannot fully cover all claims, assets are distributed based on the amount of Usd8 each user locked and the value of their LP tokens.</p>
 <p>After a claim, the protected LP tokens forfeited by claimers becomes the property of the Cover Pool LPs, which can be claimed when LP withdraws from the cover pool.
-<br/><br/><br/><br/></p>
-<h1 id="claim-cooldown"><a class="header" href="#claim-cooldown">Claim Cooldown</a></h1>
-<p>Newly received Usd8 are subject to a 30-day cooldown for claiming lock, except from recognized Defi contract addresses (e.g. Usd8 LSTs and LP positions). This prevents users from purchasing Usd8 on the spot when claiming while still allow holders to yield with Usd8 while enjoying the protection.</p>
+<br/><br/><br/></p>
+<h2 id="cover-score"><a class="header" href="#cover-score">Cover Score</a></h2>
+<p>Cover Score is calculated based on your USD8 usage history — how much you’ve held and for how long. More USD8 held for longer increases the score, this includes Usd8 LSTs like Usd8 savings.</p>
+<p>Cover Socre is computed off-chain with an open sourced algorithm, signed by the USD8 front end, and verified on-chain during a claim. Anyone can recalculate and validate every claimant’s score.</p>
+<p>Cover scores reset after a successful claim.</p>
+<p>Note this process is trustless, however it does rely on Usd8's front end for signing. We aim to move this process to a zk coprocessor in the future to improve accessibility.</p>
+<p><br/><br/><br/><br/></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="faqs"><a class="header" href="#faqs">FAQs</a></h1>
 <h2 id="-can-i-just-buy-usd8-and-use-it-for-claiming-whenever-i-need-it"><a class="header" href="#-can-i-just-buy-usd8-and-use-it-for-claiming-whenever-i-need-it"><span class="emoji">💭</span> Can I just buy Usd8 and use it for claiming whenever I need it?</a></h2>
-<p>No. Usd8 comes with a 30-day cooldown after you receive them. During this period, they cannot be used for claims.</p>
-<p>Except if they are from a known Defi yield contract you deposited in, this allows Usd8 owners to yield with Usd8 and still enjoy the protection.
+<p>No. Cover amount depends on your Usd8 usage history, without it you will not get much coverage. It's best to start using Usd8 so you can build up your history.
+<br/>
+<br/></p>
+<h2 id="-i-have-no-usd8-now-but-i-used-usd8-before-do-i-still-get-coverage"><a class="header" href="#-i-have-no-usd8-now-but-i-used-usd8-before-do-i-still-get-coverage"><span class="emoji">💭</span> I have no Usd8 now, but I used Usd8 before, do I still get coverage?</a></h2>
+<p>Yes. Coverage depends on your Usd8 usage history, as long as you have used Usd8 before, you should get some coverage.
+<br/>
+<br/></p>
+<h2 id="-so-i-have-to-hold-usd8-to-build-a-cover-score"><a class="header" href="#-so-i-have-to-hold-usd8-to-build-a-cover-score"><span class="emoji">💭</span> So I have to hold Usd8 to build a cover score?</a></h2>
+<p>No. While holding Usd8 certainly build your cover score, you can also deposit Usd8 to a recognized yield vault; these will also count towards your cover score.
 <br/>
 <br/></p>
 <h2 id="-how-safe-is-the-protected-savings-vault"><a class="header" href="#-how-safe-is-the-protected-savings-vault"><span class="emoji">💭</span> How safe is the Protected Savings vault?</a></h2>
@@ -238,52 +228,40 @@
 <br/>
 Our security experts independently vet and audit every protocol before offering coverage. Claims are not expected to occur often, but there is always a possibility.</p>
 <h2 id="-so-all-my-positions-in-covered-defi-protocols-are-protected"><a class="header" href="#-so-all-my-positions-in-covered-defi-protocols-are-protected"><span class="emoji">💭</span> So all my positions in Covered DeFi Protocols are protected?</a></h2>
-<p>Yes. As long as you hold Usd8, you can lock them to claim for any covered defi positions. Locking Usd8 is optional if the position already involves Usd8 e.g. an Usd8 LTS, AMM LP token of an Usd8 pool.
-<br/>
-<br/></p>
-<h2 id="-do-i-need-to-hold-usd8-at-all-times-to-enjoy-coverage"><a class="header" href="#-do-i-need-to-hold-usd8-at-all-times-to-enjoy-coverage"><span class="emoji">💭</span> Do I need to hold Usd8 at all times to enjoy coverage?</a></h2>
-<p>No. While holding Usd8 certainly gives you coverage, you can also deposit Usd8 into recognized DeFi protocols for yield. When you need to make a claim, simply withdraw your Usd8 from these protocols. Usd8 coming from recognized DeFi protocols are not subject to the 30-day claim cooldown.
+<p>Yes. As long as you use Usd8, you are covered. The more Usd8 and the longer you hold, the higher your cover score.
 <br/>
 <br/></p>
 <h2 id="-do-i-forfeit-my-covered-lp-token-when-claiming-from-the-cover-pool"><a class="header" href="#-do-i-forfeit-my-covered-lp-token-when-claiming-from-the-cover-pool"><span class="emoji">💭</span> Do I forfeit my covered LP token when claiming from the Cover Pool?</a></h2>
-<p>Yes. To claim from the Cover Pool, you must provide:</p>
-<ul>
-<li>A covered LP token</li>
-<li>Lock some Usd8 for 30 days (optional if the LP token is already a Usd8 position)</li>
-</ul>
-<p>The covered LP tokens are transferred to Cover Pool liquidity providers.</p>
+<p>Yes. To claim from the Cover Pool, you must provide a covered LP token, which becomes the assets of Cover Pool liquidity providers.</p>
 <br/>
 <br/>
 <h2 id="-will-i-always-get-80-of-my-money-back-for-a-defi-protocol-with-80-coverage"><a class="header" href="#-will-i-always-get-80-of-my-money-back-for-a-defi-protocol-with-80-coverage"><span class="emoji">💭</span> Will I always get 80% of my money back for a defi protocol with 80% coverage?</a></h2>
 <p>Not necessarily. The actual reimbursed amount depends on:</p>
 <ul>
-<li>How many other users are claiming using this LP token and their position sizes</li>
-<li>How much Usd8 each claimant locks</li>
+<li>How many other users are claiming and their cover scores</li>
 <li>The balance of the Cover Pool</li>
 </ul>
-<p>In practice, the more Usd8 you lock, the higher your claim weight. The max reimbursement amount is 80% your LP value, but it is also possible you might get less than that.</p>
+<p>In practice, the more cover score you have, the higher your claim weight. The max reimbursement amount is 80% your LP value, but it is also possible you might get less than that.</p>
 <br/>
 <br/>
 <h2 id="-how-do-you-prevent-fraudulent-claims"><a class="header" href="#-how-do-you-prevent-fraudulent-claims"><span class="emoji">💭</span> How do you prevent fraudulent claims?</a></h2>
-<p>Usd8 only covers up to 80% of any position at max. Unless the LP token’s value drops below 80%, it is not financially rational to file a false claim to the Cover Pool.</p>
+<p>Usd8 only covers up to 80% of any position at max. Unless the LP token’s value drops below 80%, it is not financially rational to file a false claim.</p>
 <br/>
 <br/>
 <h2 id="-how-does-usd8-make-money"><a class="header" href="#-how-does-usd8-make-money"><span class="emoji">💭</span> How does Usd8 make money?</a></h2>
-<p>Like most stablecoins, Usd8 generates revenue from collateral yield.</p>
-<ul>
-<li>A portion of this yield is distributed to Usd8 Savings depositors.</li>
-<li>The remaining yield becomes Usd8’s revenue, which is primarily distributed to Cover Pool depositors.
+<p>Like most stablecoins, Usd8 generates revenue from collateral yield.
 <br/>
-<br/></li>
-</ul>
+<br/></p>
 <h2 id="-who-is-behind-usd8"><a class="header" href="#-who-is-behind-usd8"><span class="emoji">💭</span> Who is behind Usd8?</a></h2>
-<p>Usd8 was founded by an OpenZeppelin auditor and security researcher with over 5 years of experience, specializing in DeFi protocols and Ethereum Layer-2 solutions.</p>
+<p>Usd8 was founded by an OpenZeppelin auditor and security researcher with over 5 years of experience, specializing in DeFi protocols.</p>
 <p>We are passionate about DeFi security and dedicated to building solutions that make the on-chain environment safer for everyone.</p>
 <br/>
-<br/><div style="break-before: page; page-break-before: always;"></div><h1 id="contact"><a class="header" href="#contact">Contact</a></h1>
+<br/>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="contact"><a class="header" href="#contact">Contact</a></h1>
 <p>We are at the early stage of this project, collaborations and contributions welcome.</p>
 <ul>
 <li>telegram <a href="https://t.me/+e84i2oYk1ao1MTk1">https://t.me/+e84i2oYk1ao1MTk1</a></li>
+<li>team <a href="https://x.com/codephobic">https://x.com/codephobic</a></li>
 </ul>
 
                     </main>
@@ -310,10 +288,6 @@ Our security experts independently vet and audit every protocol before offering 
             window.playground_copyable = true;
         </script>
 
-
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
 
         <script src="clipboard.min.js"></script>
         <script src="highlight.js"></script>

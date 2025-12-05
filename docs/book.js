@@ -308,6 +308,10 @@ aria-label="Show hidden lines"></button>';
     const html = document.querySelector('html');
     const themeToggleButton = document.getElementById('theme-toggle');
     const themePopup = document.getElementById('theme-list');
+    if (!themeToggleButton || !themePopup) {
+        // Theme controls are not present; skip initializing theme picker.
+        return;
+    }
     const themeColorMetaTag = document.querySelector('meta[name="theme-color"]');
     const themeIds = [];
     themePopup.querySelectorAll('button.theme').forEach(function(el) {

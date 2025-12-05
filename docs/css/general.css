@@ -6,6 +6,14 @@
     color-scheme: var(--color-scheme);
 }
 
+@font-face {
+    font-family: "Delight";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../assets/delight-bold.woff2") format("woff2");
+}
+
 html {
     font-family: "BlexMono", "arial", "Open Sans", sans-serif;
     color: var(--fg);
@@ -41,6 +49,21 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
     font-size: unset;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Delight", "BlexMono", "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2.4em;
+}
+
+h1 {
+    margin-block-start: 1.2em;
+    margin-block-end: 0.6em;
+}
+
 .left { float: left; }
 .right { float: right; }
 .boring { opacity: 0.6; }
@@ -54,18 +77,6 @@ h4, h5 { margin-block-start: 2em; }
 .header + .header h4,
 .header + .header h5 {
     margin-block-start: 1em;
-}
-
-h1:target::before,
-h2:target::before,
-h3:target::before,
-h4:target::before,
-h5:target::before,
-h6:target::before {
-    display: inline-block;
-    content: "»";
-    margin-inline-start: -30px;
-    width: 30px;
 }
 
 /* This is broken on Safari as of version 14, but is fixed
@@ -108,20 +119,22 @@ h6:target::before {
     margin-inline-end: auto;
     max-width: var(--content-max-width);
 }
-.content p { line-height: 2em; margin-bottom: 2em; }
-.content ol { line-height: 2em; margin-bottom: 2em;}
-.content ul { line-height: 2em; margin-bottom: 2em;}
-.content li { line-height: 1.5em; margin-bottom: 1.3em;}
+.content p { line-height: 1.8em; margin-bottom: 2em; }
+.content ol { line-height: 1.7em; margin-bottom: 2em;}
+.content ul { line-height: 1.7em; margin-bottom: 2em;}
+.content li { line-height: 1.4em; margin-bottom: 1.3em;}
 .content a { text-decoration: none; }
 .content a:hover { text-decoration: underline; }
 .content img, .content video { max-width: 100%; }
+.content .header,
 .content .header:link,
-.content .header:visited {
-    color: var(--fg);
-}
-.content .header:link,
+.content .header:visited,
+.content .header:link:hover,
 .content .header:visited:hover {
+    color: var(--fg);
     text-decoration: none;
+    pointer-events: none; /* disable heading anchor jump */
+    cursor: default;
 }
 
 table {

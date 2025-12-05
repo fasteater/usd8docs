@@ -1,11 +1,28 @@
-<img src="https://usd8.finance/assets/logo.svg" width="100" /><br/><br/>
+<img src="https://usd8.finance/assets/logo.svg" width="150" />
+<br/><br/>
 
 # Usd8
 
-Usd8 is a stablecoin doubles as Defi protection, Usd8 users get coverage for supported Defi positions as well as stable yield. 
+Usd8 is a stablecoin doubles as Defi protection, Usd8 users get upto 80% coverage for supported Defi protocols if they are hacked. On top, Usd8 users can still earn yield. 
 
-There are three main use cases:
+Your coverage is based on your Usd8 usage history, the longer you use Usd8, the more you are covered.
 
-1. For passive DeFi users who want their savings protected - Swap your stablecoins for Usd8 and deposit into [Protected Savings](protectedSavings.md) to earn yield while being covered.
-2. For advanced DeFi users actively managing their own yield strategies - Hold Usd8 (or Usd8 LSTs) and freely use any [Covered DeFi Protocols](CoverPool.md#covered-defi-protocols), now all your positions are protected by the Cover Pool.
-3. For users seeking high yields and with high risk appetite - Deposit assets into the high-yield [Cover Pool](CoverPool.md) and share protocol revenue. However, remember these assets may be deployed to cover losses from [Covered DeFi Protocols](CoverPool.md#covered-defi-protocols).
+<br/><br/><br/><br/>
+# Use cases
+
+1. For passive DeFi users who want their savings protected - Swap your stablecoins for Usd8 and deposit into our [Protected Savings](protectedSavings.md) to earn yield(est. 3-5%) while being covered. If Protected Savings is hacked, you can claim upto 80% of your loss from the [Cover Pool](CoverPool.md).
+
+2. For advanced DeFi users actively managing their own yield strategies - Hold Usd8 (or Usd8 LSTs with yield) and freely use any [Covered DeFi Protocols](CoverPool.md#covered-defi-protocols), now all your positions are protected upto 80% by the Cover Pool.
+
+3. For high-yield seekers with higher risk tolerance: deposit assets into our [Cover Pool](CoverPool.md) to share protocol revenue (estimated 15–30% returns). Be aware your assets might be used to offset losses from [Covered DeFi Protocols](CoverPool.md#covered-defi-protocols), but our security team screens every covered protocol to reduce the chance of incidents.
+<br/><br/><br/><br/>
+
+# Multi-Collateral
+<br/><br/><img src="/assets/multiCollateral.png" width="400"/><br/><br/><br/>
+
+USD8 is backed by a carefully selected basket of stablecoins, reducing the protocol’s exposure to any single asset and making USD8 more resilient to de-pegging events.
+
+- When launched, new USD8 will be minted and redeemed in the same proportions as the collaterals in the basket.
+- Each collateral’s weight in the basket may be adjusted based on its ongoing risk profile.
+
+We are currently finalizing the collateral basket. Details will be announced soon.

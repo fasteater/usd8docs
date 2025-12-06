@@ -5,7 +5,7 @@
 
 USD8 is a stablecoin doubles as Defi protection, USD8 users get upto 80% coverage for supported Defi protocols if they are hacked. On top, USD8 users can still earn yield. 
 
-Your coverage is based on your USD8 usage history, the longer you use USD8, the more you are covered..
+Your coverage is based on your USD8 usage history, the longer you use USD8, the more you are covered.
 
 <br/><br/><br/><br/>
 # Use cases

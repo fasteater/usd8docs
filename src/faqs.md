@@ -1,19 +1,19 @@
 # FAQs
-## <span class="emoji">💭</span> Can I just buy Usd8 and use it for claiming whenever I need it?
+## <span class="emoji">💭</span> Can I just buy USD8 and use it for claiming whenever I need it?
 
-No. Cover amount depends on your Usd8 usage history, without it you will not get much coverage. It's best to start using Usd8 so you can build up your history.
+No. Cover amount depends on your USD8 usage history, without it you will not get much coverage. It's best to start using USD8 so you can build up your history.
 <br/>
 <br/>
 
-## <span class="emoji">💭</span> I have no Usd8 now, but I used Usd8 before, do I still get coverage?
+## <span class="emoji">💭</span> I have no USD8 now, but I used USD8 before, do I still get coverage?
 
-Yes. Coverage depends on your Usd8 usage history, as long as you have used Usd8 before, you should get some coverage.
+Yes. Coverage depends on your USD8 usage history, as long as you have used USD8 before, you should get some coverage.
 <br/>
 <br/>
 
-## <span class="emoji">💭</span> So I have to hold Usd8 to build a cover score?
+## <span class="emoji">💭</span> So I have to hold USD8 to build a cover score?
 
-No. While holding Usd8 certainly build your cover score, you can also deposit Usd8 to a recognized yield vault; these will also count towards your cover score.
+No. While holding USD8 certainly build your cover score, you can also deposit USD8 to a recognized yield vault; these will also count towards your cover score.
 <br/>
 <br/>
 
@@ -33,7 +33,7 @@ Our security experts independently vet and audit every protocol before offering 
 
 ## <span class="emoji">💭</span> So all my positions in Covered DeFi Protocols are protected?
 
-Yes. As long as you use Usd8, you are covered. The more Usd8 and the longer you hold, the higher your cover score.
+Yes. As long as you use USD8, you are covered. The more USD8 and the longer you hold, the higher your cover score.
 <br/>
 <br/>
 
@@ -59,21 +59,21 @@ In practice, the more cover score you have, the higher your claim weight. The ma
 
 ## <span class="emoji">💭</span> How do you prevent fraudulent claims?
 
-Usd8 only covers up to 80% of any position at max. Unless the LP token’s value drops below 80%, it is not financially rational to file a false claim.
+USD8 only covers up to 80% of any position at max. Unless the LP token’s value drops below 80%, it is not financially rational to file a false claim.
 
 <br/>
 <br/>
 
 
-## <span class="emoji">💭</span> How does Usd8 make money?
+## <span class="emoji">💭</span> How does USD8 make money?
 
-Like most stablecoins, Usd8 generates revenue from collateral yield.
+Like most stablecoins, USD8 generates revenue from collateral yield.
 <br/>
 <br/>
 
-## <span class="emoji">💭</span> Who is behind Usd8?
+## <span class="emoji">💭</span> Who is behind USD8?
 
-Usd8 was founded by an OpenZeppelin auditor and security researcher with over 5 years of experience, specializing in DeFi protocols.
+USD8 was founded by an OpenZeppelin auditor and security researcher with over 5 years of experience, specializing in DeFi protocols.
 
 We are passionate about DeFi security and dedicated to building solutions that make the on-chain environment safer for everyone.
 

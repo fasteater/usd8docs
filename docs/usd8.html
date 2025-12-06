@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Our Mission - USD8 Docs</title>
+        <title>USD8 - USD8 Docs</title>
 
 
         <!-- Custom HTML head -->
@@ -84,13 +84,19 @@
 
         <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
-        <!-- Keep sidebar visible; no toggle -->
+        <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            const sidebar = 'visible';
             const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
-            sidebar_toggle.checked = true;
-            html.classList.remove('sidebar-hidden');
-            html.classList.add('sidebar-visible');
+            let sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -136,22 +142,40 @@
 
                 <div id="content" class="content">
                     <main>
-                        <img src="https://usd8.finance/assets/tyche.png" width="300" />
+                        <img src="https://usd8.finance/assets/logo.svg" width="150" />
 <br/><br/>
-<h1 id="our-mission"><a class="header" href="#our-mission">Our Mission</a></h1>
-<p>As we embrace decentralized technology to resist the abuses of traditional centralized power, we also give up the enforcement mechanisms that deal with wrongdoing. Without safeguards, this opens the door to a technocratic reality where hackers—armed with superior technical knowledge—become the new “centralized power,” stealing in broad daylight with little consequence. That undermines the very purpose of decentralization, and it’s a future we, as true believers in this movement, refuse to accept.</p>
-<p>That’s why we created USD8.</p>
-<p>Our mission is to restore the missing layer of enforcement in DeFi security. We will start with offering hack coverage to DeFi users, with ambitious plans for the future to ensure the decentralized dream is not hijacked by technocrats, but preserved as a system that empowers everyone.</p>
+<h1 id="usd8"><a class="header" href="#usd8">USD8</a></h1>
+<p>USD8 is a stablecoin doubles as Defi protection, USD8 users get upto 80% coverage for supported Defi protocols if they are hacked. On top, USD8 users can still earn yield.</p>
+<p>Your coverage is based on your USD8 usage history, the longer you use USD8, the more you are covered..</p>
+<p><br/><br/><br/><br/></p>
+<h1 id="use-cases"><a class="header" href="#use-cases">Use cases</a></h1>
+<ol>
+<li>
+<p>For passive DeFi users who want their savings protected - Swap your stablecoins for USD8 and deposit into our <a href="protected-savings.html">Protected Savings</a> to earn yield(est. 3-5%) while being covered. If Protected Savings is hacked, you can claim upto 80% of your loss from the <a href="cover-pool.html">Cover Pool</a>.</p>
+</li>
+<li>
+<p>For advanced DeFi users actively managing their own yield strategies - Hold USD8 (or USD8 LSTs with yield) and freely use any <a href="cover-pool.html#covered-defi-protocols">Covered DeFi Protocols</a>, now all your positions are protected upto 80% by the Cover Pool.</p>
+</li>
+<li>
+<p>For high-yield seekers with higher risk tolerance: deposit assets into our <a href="cover-pool.html">Cover Pool</a> to share protocol revenue (estimated 15–30% returns). Be aware your assets might be used to offset losses from <a href="cover-pool.html#covered-defi-protocols">Covered DeFi Protocols</a>, but our security team screens every covered protocol to reduce the chance of incidents.
+<br/><br/><br/><br/></p>
+</li>
+</ol>
+<h1 id="multi-collateral"><a class="header" href="#multi-collateral">Multi-Collateral</a></h1>
+<p><br/><br/><img src="/assets/multiCollateral.png" width="400"/><br/><br/><br/></p>
+<p>USD8 is backed by a carefully selected basket of stablecoins, reducing the protocol’s exposure to any single asset and making USD8 more resilient to de-pegging events.</p>
+<ul>
+<li>When launched, new USD8 will be minted and redeemed in the same proportions as the collaterals in the basket.</li>
+<li>Each collateral’s weight in the basket may be adjusted based on its ongoing risk profile.</li>
+</ul>
+<p>We are currently finalizing the collateral basket. Details will be announced soon.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="what.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
 
-                            <a rel="next prefetch" href="protectedSavings.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="our-mission.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -161,11 +185,8 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="what.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
 
-                    <a rel="next prefetch" href="protectedSavings.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="our-mission.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

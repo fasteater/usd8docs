@@ -1,7 +1,7 @@
 # Summary
-- [USD8](./what.md)
-- [Our Mission](./mission.md)
-- [Protected Savings](./protectedSavings.md)
-- [Cover Pool](./CoverPool.md)
-- [FAQs](./faq.md)
+- [USD8](./usd8.md)
+- [Our Mission](./our-mission.md)
+- [Protected Savings](./protected-savings.md)
+- [Cover Pool](./cover-pool.md)
+- [FAQs](./faqs.md)
 - [Contact](./contact.md)

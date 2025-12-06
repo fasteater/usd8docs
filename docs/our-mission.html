@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Cover Pool - USD8 Docs</title>
+        <title>Our Mission - USD8 Docs</title>
 
 
         <!-- Custom HTML head -->
@@ -84,13 +84,19 @@
 
         <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
-        <!-- Keep sidebar visible; no toggle -->
+        <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            const sidebar = 'visible';
             const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
-            sidebar_toggle.checked = true;
-            html.classList.remove('sidebar-hidden');
-            html.classList.add('sidebar-visible');
+            let sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -136,43 +142,22 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="cover-pool"><a class="header" href="#cover-pool">Cover Pool</a></h1>
-<p><br/><img src="https://usd8.finance/assets/coverPool.png" width="700px" /><br/><br/></p>
-<p>The Cover Pool is a high yield vault consists of multiple assets, the yield comes from protocol revenue. Anyone can deposit into the pool at any time; however, withdrawals are subject to a 14-day cooldown period.</p>
-<p>Assets in the Cover Pool are not protected by Usd8 and might be deployed to cover losses from protected Defi protocols.</p>
-<p>Depositors should be aware of the risk associated before depositing.
-<br/><br/><br/></p>
-<h2 id="covered-defi-protocols"><a class="header" href="#covered-defi-protocols">Covered DeFi Protocols<br/></a></h2>
-<p>Usd8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool balance.
-<br/><br/><img src="https://usd8.finance/assets/coveredProtocols.png" width="700px" /><br/><br/></p>
-<p>Once coverage is offered, the Cover Pool will accept the specified LP token for claims at any time, permissionlessly. Claimants receive a proportional mix of assets matching the Cover Pool’s composition.
-<br/><br/><br/></p>
-<h2 id="claiming"><a class="header" href="#claiming">Claiming</a></h2>
-<p><br/><img src="/assets/claiming.png" width="700px" /><br/><br/></p>
-<ol>
-<li>To start a claim, user transfers the protected LP token to the Cover Pool</li>
-<li>The claim enters a 10-day window where others can join. After 10 days, that LP token is removed from the covered list and no new claims are accepted.</li>
-<li>Claimants can withdraw their reimbursement. The amount is calculated from total claims, each claimant’s cover score*, and the current Cover Pool balance. Payouts will match the Cover Pool’s asset mix.</li>
-</ol>
-<p>If the Cover Pool cannot fully cover all claims, assets are distributed based on the amount of Usd8 each user locked and the value of their LP tokens.</p>
-<p>After a claim, the protected LP tokens forfeited by claimers becomes the property of the Cover Pool LPs, which can be claimed when LP withdraws from the cover pool.
-<br/><br/><br/></p>
-<h2 id="cover-score"><a class="header" href="#cover-score">Cover Score</a></h2>
-<p>Cover Score is calculated based on your USD8 usage history — how much you’ve held and for how long. More USD8 held for longer increases the score, this includes Usd8 LSTs like Usd8 savings.</p>
-<p>Cover Socre is computed off-chain with an open sourced algorithm, signed by the USD8 front end, and verified on-chain during a claim. Anyone can recalculate and validate every claimant’s score.</p>
-<p>Cover scores reset after a successful claim.</p>
-<p>Note this process is trustless, however it does rely on Usd8's front end for signing. We aim to move this process to a zk coprocessor in the future to improve accessibility.</p>
-<p><br/><br/><br/><br/></p>
+                        <img src="https://usd8.finance/assets/tyche.png" width="300" />
+<br/><br/>
+<h1 id="our-mission"><a class="header" href="#our-mission">Our Mission</a></h1>
+<p>As we embrace decentralized technology to resist the abuses of traditional centralized power, we also give up the enforcement mechanisms that deal with wrongdoing. Without safeguards, this opens the door to a technocratic reality where hackers—armed with superior technical knowledge—become the new “centralized power,” stealing in broad daylight with little consequence. That undermines the very purpose of decentralization, and it’s a future we, as true believers in this movement, refuse to accept.</p>
+<p>That’s why we created USD8.</p>
+<p>Our mission is to restore the missing layer of enforcement in DeFi security. We will start with offering hack coverage to DeFi users, with ambitious plans for the future to ensure the decentralized dream is not hijacked by technocrats, but preserved as a system that empowers everyone.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="protectedSavings.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="usd8.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="faq.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="protected-savings.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -182,11 +167,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="protectedSavings.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="usd8.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="faq.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="protected-savings.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

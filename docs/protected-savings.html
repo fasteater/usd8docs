@@ -84,13 +84,19 @@
 
         <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
-        <!-- Keep sidebar visible; no toggle -->
+        <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            const sidebar = 'visible';
             const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
-            sidebar_toggle.checked = true;
-            html.classList.remove('sidebar-hidden');
-            html.classList.add('sidebar-visible');
+            let sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -140,17 +146,17 @@
 <p><br/><br/><img src="https://usd8.finance/assets/savingsVault.png" width="350px" /><br/><br/></p>
 <p>USD8 Protected Savings is a yield vault designed for passive DeFi users who want simple, deposit-and-forget yield with built-in protection.</p>
 <p>Managed by USD8, this vault is covered by the Cover Pool for up to 80% of its value, subject to the pool’s limit.</p>
-<p>Depositors receive yield-bearing sUSD8, which can be used to claim coverage from the Cover Pool, permissionlessly, at any time, up to 80% of the sUsd8 value, capped by the Cover Pool balance.</p>
+<p>Depositors receive yield-bearing sUSD8, which can be used to claim coverage from the Cover Pool, permissionlessly, at any time, up to 80% of the sUSD8 value, capped by the Cover Pool balance.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="mission.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="our-mission.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="CoverPool.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="cover-pool.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -160,11 +166,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="mission.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="our-mission.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="CoverPool.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="cover-pool.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

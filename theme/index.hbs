@@ -104,13 +104,19 @@
 
         <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
-        <!-- Keep sidebar visible; no toggle -->
+        <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            const sidebar = 'visible';
             const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
-            sidebar_toggle.checked = true;
-            html.classList.remove('sidebar-hidden');
-            html.classList.add('sidebar-visible');
+            let sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">

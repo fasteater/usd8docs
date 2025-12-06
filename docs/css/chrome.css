@@ -94,9 +94,6 @@ html.sidebar-visible #menu-bar {
 html:not(.js) .left-buttons button {
     display: none;
 }
-.left-buttons #sidebar-toggle {
-    display: none;
-}
 
 .menu-title {
     display: none;
@@ -481,7 +478,14 @@ html:not(.sidebar-resizing) .sidebar {
     color: var(--sidebar-active);
 }
 .sidebar .sidebar-resize-handle {
-    display: none;
+    position: absolute;
+    cursor: col-resize;
+    width: 0;
+    right: calc(var(--sidebar-resize-indicator-width) * -1);
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
 }
 
 .sidebar-resize-handle .sidebar-resize-indicator {

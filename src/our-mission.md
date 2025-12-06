@@ -7,3 +7,6 @@ As we embrace decentralized technology to resist the abuses of traditional centr
 That’s why we created USD8.
 
 Our mission is to restore the missing layer of enforcement in DeFi security. We will start with offering hack coverage to DeFi users, with ambitious plans for the future to ensure the decentralized dream is not hijacked by technocrats, but preserved as a system that empowers everyone.
+<br/><br/><br/><br/>
+# We are Crypto Native
+We are crypto native — we live and breathe the decentralized dream and are committed to building projects that adhere as closely as possible to the [Trustless Manifesto](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html). <br/><br/>[Join us](https://t.me/+e84i2oYk1ao1MTk1) if you share our vision.

@@ -18,7 +18,7 @@ Your coverage is based on your USD8 usage history, the longer you use USD8, the 
 <br/><br/><br/><br/>
 
 # Multi-Collateral
-<br/><br/><img src="/assets/multiCollateral.png" width="400"/><br/><br/><br/>
+<br/><br/><img src="/assets/multiCollateral.png" height="150"/><br/><br/><br/>
 
 USD8 is backed by a carefully selected basket of stablecoins, reducing the protocol’s exposure to any single asset and making USD8 more resilient to de-pegging events.
 

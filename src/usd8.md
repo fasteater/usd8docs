@@ -1,4 +1,4 @@
-<img src="https://usd8.finance/assets/logo.svg" width="150" />
+<img class="floating-logo" src="/assets/logo.svg" width="170" />
 <br/><br/>
 
 # USD8

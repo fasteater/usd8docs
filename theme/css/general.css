@@ -49,6 +49,17 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
     font-size: unset;
 }
 
+.floating-logo {
+    display: inline-block;
+    animation: hero-float 4s ease-in-out infinite;
+}
+
+@keyframes hero-float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-18px); }
+    100% { transform: translateY(0); }
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Delight", "BlexMono", "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace;
     font-weight: 700;
@@ -62,6 +73,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     margin-block-start: 1.2em;
     margin-block-end: 0.6em;
+}
+
+#faqs ~ h2 {
+    font-size: 1.7em;
 }
 
 .left { float: left; }

@@ -1,4 +1,4 @@
-<img src="https://usd8.finance/assets/tyche.png" width="300" />
+<img class="floating-logo" src="/assets/tyche.png" width="400" />
 <br/><br/>
 
 # Our Mission

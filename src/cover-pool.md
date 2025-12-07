@@ -1,5 +1,5 @@
 # Cover Pool
-<br/><img src="https://usd8.finance/assets/coverPool.png" width="700px" /><br/><br/>
+<br/><img src="/assets/coverPool.png" width="700px" /><br/><br/>
 
 The Cover Pool is a high yield vault consists of multiple assets, the yield comes from protocol revenue. Anyone can deposit into the pool at any time; however, withdrawals are subject to a 14-day cooldown period.
 
@@ -10,7 +10,7 @@ Depositors should be aware of the risk associated before depositing.
 ## Covered DeFi Protocols<br/>
 
 USD8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool balance.
-<br/><br/><img src="https://usd8.finance/assets/coveredProtocols.png" width="700px" /><br/><br/>
+<br/><br/><img src="/assets/coveredProtocols.png" width="700px" /><br/><br/>
 
 Once coverage is offered, the Cover Pool will accept the specified LP token for claims at any time, permissionlessly. Claimants receive a proportional mix of assets matching the Cover Pool’s composition.
 <br/><br/><br/>

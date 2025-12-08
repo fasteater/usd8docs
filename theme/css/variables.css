@@ -22,15 +22,15 @@
     --sidebar-bg: #14191f;
     --sidebar-fg: #c8c9db;
     --sidebar-non-existant: #5c6773;
-    --sidebar-active: #ffb454;
-    --sidebar-spacer: #2d334f;
+    --sidebar-active: #ffd400;
+    --sidebar-spacer: #333333;
 
     --scrollbar: var(--sidebar-fg);
 
     --icons: #737480;
     --icons-hover: #b7b9cc;
 
-    --links: #0096cf;
+    --links: #ffd400;
 
     --inline-code-color: #ffb454;
 
@@ -75,15 +75,15 @@
     --sidebar-bg: #292c2f;
     --sidebar-fg: #a1adb8;
     --sidebar-non-existant: #505254;
-    --sidebar-active: #3473ad;
-    --sidebar-spacer: #393939;
+    --sidebar-active: #ffd400;
+    --sidebar-spacer: #333333;
 
     --scrollbar: var(--sidebar-fg);
 
-    --icons: #43484d;
-    --icons-hover: #b3c0cc;
+    --icons: #737480;
+    --icons-hover: #b7b9cc;
 
-    --links: #2b79a2;
+    --links: #ffd400;
 
     --inline-code-color: #c5c8c6;
 
@@ -128,15 +128,15 @@
     --sidebar-bg: #fafafa;
     --sidebar-fg: hsl(0, 0%, 0%);
     --sidebar-non-existant: #aaaaaa;
-    --sidebar-active: #1f1fff;
-    --sidebar-spacer: #f4f4f4;
+    --sidebar-active: #ffd400;
+    --sidebar-spacer: #333333;
 
     --scrollbar: #8F8F8F;
 
-    --icons: #747474;
-    --icons-hover: #000000;
+    --icons: #737480;
+    --icons-hover: #b7b9cc;
 
-    --links: #20609f;
+    --links: #ffd400;
 
     --inline-code-color: #301900;
 
@@ -181,15 +181,15 @@
     --sidebar-bg: #1e1e1e;
     --sidebar-fg: #c8c9db;
     --sidebar-non-existant: #505274;
-    --sidebar-active: #00B7AB;
-    --sidebar-spacer: #23283a;
+    --sidebar-active: #ffd400;
+    --sidebar-spacer: #333333;
 
     --scrollbar: var(--sidebar-fg);
 
     --icons: #737480;
     --icons-hover: #b7b9cc;
 
-    --links: #00B7AB;
+    --links: #ffd400;
 
     --inline-code-color: #c5c8c6;
 
@@ -234,15 +234,15 @@
     --sidebar-bg: #3b2e2a;
     --sidebar-fg: #c8c9db;
     --sidebar-non-existant: #505254;
-    --sidebar-active: #e69f67;
-    --sidebar-spacer: #45373a;
+    --sidebar-active: #ffd400;
+    --sidebar-spacer: #333333;
 
     --scrollbar: var(--sidebar-fg);
 
     --icons: #737480;
-    --icons-hover: #262625;
+    --icons-hover: #b7b9cc;
 
-    --links: #2b79a2;
+    --links: #ffd400;
 
     --inline-code-color: #6e6b5e;
 
@@ -286,15 +286,15 @@
         --sidebar-bg: #292c2f;
         --sidebar-fg: #a1adb8;
         --sidebar-non-existant: #505254;
-        --sidebar-active: #3473ad;
-        --sidebar-spacer: #393939;
+        --sidebar-active: #ffd400;
+        --sidebar-spacer: #333333;
 
         --scrollbar: var(--sidebar-fg);
 
-        --icons: #43484d;
-        --icons-hover: #b3c0cc;
+        --icons: #737480;
+        --icons-hover: #b7b9cc;
 
-        --links: #2b79a2;
+        --links: #ffd400;
 
         --inline-code-color: #c5c8c6;
 

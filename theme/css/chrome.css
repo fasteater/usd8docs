@@ -449,33 +449,59 @@ html:not(.sidebar-resizing) .sidebar {
     overflow-y: auto;
     position: absolute;
     top: 0;
-    bottom: 60px; /* leave space for footer link */
+    bottom: 60px; /* leave space for footer links */
     left: 0;
     right: 0;
     padding: 10px 10px;
 }
-.sidebar-telegram {
+.sidebar-social {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 12px;
     display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.sidebar-telegram,
+.sidebar-x {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;
-    color: #ffffff;
+    width: 44px;
+    height: 44px;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
 }
-.sidebar-telegram i {
+.sidebar-telegram i,
+.sidebar-x i,
+.sidebar-x svg {
+    width: 22px;
+    height: 22px;
+    color: #ffffff;
+    fill: currentColor;
+}
+.sidebar-x .x-mark {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: #ffffff;
+    -webkit-mask: url("../assets/xlogo.svg") center / contain no-repeat;
+    mask: url("../assets/xlogo.svg") center / contain no-repeat;
+}
+.sidebar-telegram,
+.sidebar-x {
     color: #ffffff;
 }
-.sidebar-telegram:hover {
-    color: var(--sidebar-active);
+.sidebar-telegram:hover,
+.sidebar-x:hover {
+    color: #ffd400;
 }
 .sidebar-telegram:hover i {
-    color: var(--sidebar-active);
+    color: #ffd400;
+}
+.sidebar-x:hover .x-mark {
+    background-color: #ffd400;
 }
 .sidebar .sidebar-resize-handle {
     position: absolute;

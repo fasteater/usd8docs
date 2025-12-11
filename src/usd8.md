@@ -3,11 +3,19 @@
 
 # USD8
 
-USD8 is a stablecoin doubles as Defi protection, USD8 users get upto 80% coverage for supported Defi protocols if they are hacked. On top, USD8 users can still earn yield. 
+USD8 is a stablecoin doubles as Defi protection, USD8 users get upto 80% compensation for covered Defi protocols if they are hacked. On top, USD8 users can still earn yield. 
 
 Your coverage is based on your USD8 usage history, the longer you use USD8, the more you are covered.
+<br/><br/><br/><br/>
+
+
+# Security
+
+Security is the core of USD8. For every covered DeFi protocol we work alongside our audit partners to enforce rigorous audits and ongoing reviews. We accept independent security audits from <br/><br/><br/>
+<img src="/assets/OZ-Logo-WhiteBG.png" width="200" />
 
 <br/><br/><br/><br/>
+
 # Use cases
 
 1. For passive DeFi users who want their savings protected - Swap your stablecoins for USD8 and deposit into our [Protected Savings](protected-savings.md) to earn yield(est. 3-5%) while being covered. If Protected Savings is hacked, you can claim upto 80% of your loss from the [Cover Pool](cover-pool.md).
@@ -18,7 +26,7 @@ Your coverage is based on your USD8 usage history, the longer you use USD8, the 
 <br/><br/><br/><br/>
 
 # Multi-Collateral
-<br/><br/><img src="/assets/multiCollateral.png" height="150"/><br/><br/><br/>
+<br/><img src="/assets/multiCollateral.png" height="150"/><br/><br/><br/>
 
 USD8 is backed by a carefully selected basket of stablecoins, reducing the protocol’s exposure to any single asset and making USD8 more resilient to de-pegging events.
 

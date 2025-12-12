@@ -31,7 +31,7 @@ Cover Socre is computed off-chain with an open sourced algorithm, signed by the 
 
 Cover scores reset after a successful claim. 
 
-Note this process is trustless, however it does rely on USD8's front end for signing. We aim to move this process to a zk coprocessor in the future to improve accessibility.
+Note this process is trustless, however it does rely on USD8's front end for signing. We aim to offer a zk coprocessor route for this computation in the future in order to increase accessibility and satisfy the [Walkaway Test](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html).
 
 
 

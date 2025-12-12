@@ -2,7 +2,7 @@
 authors = ["fastEater"]
 language = "en"
 src = "src"
-title = "USD8 Docs"
+title = "USD8"
 
 [output.html]
 mathjax-support = true

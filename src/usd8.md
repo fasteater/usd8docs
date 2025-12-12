@@ -3,9 +3,9 @@
 
 # USD8
 
-USD8 is a stablecoin doubles as Defi protection, USD8 users get upto 80% compensation for covered Defi protocols if they are hacked. On top, USD8 users can still earn yield. 
+USD8 is a stablecoin that doubles as DeFi protection — your USD8 usage history works like insurance, covering losses in supported defi protocols,  across any position, up to 80%.
 
-Your coverage is based on your USD8 usage history, the longer you use USD8, the more you are covered.
+The more you use USD8, the more you are covered.
 <br/><br/><br/><br/>
 
 
@@ -20,7 +20,7 @@ Security is the core of USD8. For every covered DeFi protocol we work alongside 
 
 1. For passive DeFi users who want their savings protected - Swap your stablecoins for USD8 and deposit into our [Protected Savings](protected-savings.md) to earn yield(est. 3-5%) while being covered. If Protected Savings is hacked, you can claim upto 80% of your loss from the [Cover Pool](cover-pool.md).
 
-2. For advanced DeFi users actively managing their own yield strategies - Hold USD8 (or USD8 LSTs with yield) and freely use any [Covered DeFi Protocols](cover-pool.md#covered-defi-protocols), now all your positions are protected upto 80% by the Cover Pool.
+2. For advanced DeFi users actively managing their own yield strategies - Hold USD8 (or USD8 LSTs with yield) and freely use any [Covered DeFi Protocols](cover-pool.md#covered-defi-protocols), now all your positions are protected by the Cover Pool.
 
 3. For high-yield seekers with higher risk tolerance: deposit assets into our [Cover Pool](cover-pool.md) to share protocol revenue (estimated 15–30% returns). Be aware your assets might be used to offset losses from [Covered DeFi Protocols](cover-pool.md#covered-defi-protocols), but our security team screens every covered protocol to reduce the chance of incidents.
 <br/><br/><br/><br/>

@@ -74,7 +74,7 @@ Planned coverage (Eth mainnet)
 ## Claiming
 <br/><img src="/assets/claiming.png" width="700px" /><br/><br/>
 
-1. To start a claim, user transfers the protected LP token to the Cover Pool
+1. To start a claim, user transfers the protected LP token to the Cover Pool. Our front end will also calculate user's cover scores based on historical USD8 usage during this process and submit it on chain.
 2. The claim enters a 10-day window where others can join. After 10 days, that LP token is removed from the covered list and no new claims are accepted.
 3. Claimants can withdraw their reimbursement. The amount is calculated from total claims, each claimant’s cover score*, and the current Cover Pool balance. Payouts will match the Cover Pool’s asset mix.
 

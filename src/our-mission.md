@@ -2,7 +2,7 @@
 <br/><br/>
 
 # Our Mission
-As we embrace decentralized technology to resist the abuses of traditional centralized power, we also give up the enforcement mechanisms that deal with wrongdoing. Without safeguards, this opens the door to a technocratic reality where hackers—armed with superior technical knowledge—become the new “centralized power,” stealing in broad daylight with little consequence. That undermines the very purpose of decentralization, and it’s a future we, as true believers in this movement, refuse to accept.
+As we embrace decentralized technology to resist the abuses of traditional centralized power, we also give up the enforcement mechanisms that deal with wrongdoing. Without safeguards, this opens the door to a technocratic reality where hackers — armed with superior technical knowledge, become the new “centralized power”, stealing in broad daylight with little consequence. That undermines the very purpose of decentralization, and it’s a future we, as true believers in this movement, refuse to accept.
 
 That’s why we created USD8.
 

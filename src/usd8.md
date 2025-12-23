@@ -3,7 +3,7 @@
 
 # USD8
 
-USD8 is a stablecoin that doubles as DeFi protection — your USD8 usage history works like insurance, covering losses in supported defi protocols,  across any position, up to 80%.
+USD8 is a stablecoin that doubles as DeFi protection — your USD8 usage history works like an insurance, covering losses in supported defi protocols,  across any position, up to 80%, completely free.
 
 The more you use USD8, the more you are covered.
 <br/><br/><br/><br/>

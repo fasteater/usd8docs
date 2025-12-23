@@ -7,7 +7,7 @@ No. Cover amount depends on your USD8 usage history, without it you will not get
 
 ## <span class="emoji">💭</span> I have no USD8 now, but I used USD8 before, do I still get coverage?
 
-Yes. Coverage depends on your USD8 usage history, as long as you have used USD8 before, you should get some coverage.
+Yes. As long as you have used USD8 before, you will get some coverage.
 <br/>
 <br/>
 
@@ -21,12 +21,12 @@ No. While holding USD8 certainly build your cover score, you can also deposit US
 
 It is one of the safest savings vaults because it comes with an 80% coverage. This means you can always claim up to 80% of your position value from the Cover Pool if something goes wrong.
 
-On top of that, you still earn competitive the yield.
+On top of that, you still earn competitive yield.
 <br/>
 <br/>
 
 ## <span class="emoji">💭</span> How safe is the Cover Pool?
-Assets deposited in the Cover Pool are used to cover hacking losses from Covered Protocols. This makes it riskier than the Protected Savings vault, which is why it offers a higher APY.
+Assets deposited in the Cover Pool might be deployed to cover hacking losses from Covered Protocols. This makes it riskier than the Protected Savings vault, which is why it offers a higher APY.
 <br/>
 Our security experts independently vet and audit every protocol before offering coverage. Claims are not expected to occur often, but there is always a possibility. 
 

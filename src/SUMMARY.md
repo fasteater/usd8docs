@@ -4,4 +4,4 @@
 - [Protected Savings](./protected-savings.md)
 - [Cover Pool](./cover-pool.md)
 - [FAQs](./faqs.md)
-- [Contact](./contact.md)
+- [Contact & Branding](./contact.md)

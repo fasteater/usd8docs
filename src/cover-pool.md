@@ -6,14 +6,14 @@ The Cover Pool is a high yield vault consists of multiple assets, the yield come
 Assets in the Cover Pool are not protected by USD8 and might be deployed to cover losses from protected Defi protocols. 
 
 Depositors should be aware of the risk associated before depositing.
-<br/><br/><br/>
+<br/><br/><br/><br/>
 ## Covered DeFi Protocols<br/>
 
 USD8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool balance.
 <br/><br/><img src="/assets/coveredProtocols.png" width="700px" /><br/><br/>
 
 Once coverage is offered, the Cover Pool will accept the specified LP token for claims at any time, permissionlessly. Claimants receive a proportional mix of assets matching the Cover Pool’s composition.
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 Planned coverage (Eth mainnet)
 
@@ -70,7 +70,7 @@ Planned coverage (Eth mainnet)
     </tr>
 </table>
 
-
+<br/><br/><br/><br/>
 ## Claiming
 <br/><img src="/assets/claiming.png" width="700px" /><br/><br/>
 
@@ -79,7 +79,7 @@ Planned coverage (Eth mainnet)
 3. Claimants can withdraw their reimbursement. The amount is calculated from total claims, each claimant’s cover score*, and the current Cover Pool balance. Payouts will match the Cover Pool’s asset mix.
 
 After a claim, the protected LP tokens forfeited by claimers becomes the property of the Cover Pool LPs, which can be claimed when LP withdraws from the cover pool
-<br/><br/><br/>
+<br/><br/><br/><br/>
 ## Cover Score 
 
 Cover Score is calculated based on your USD8 usage history — how much you’ve held and for how long. More USD8 held for longer increases the score, this includes USD8 LSTs like USD8 savings.

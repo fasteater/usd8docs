@@ -17,4 +17,7 @@ Round logo. [SVG](./assets/usd8Logo.svg) or [1000px PNG](./assets/usd8Logo1000.p
 Round logo with name. [SVG](./assets/usd8Logo2.svg) or [1000px PNG](./assets/usd8Logo21000.png)
 <br/><br/><br/><br/><br/><br/><br/>
 <img src="/assets/usd8Logo31000.png" width="200" /><br/><br/>
-Black and white logo. [SVG](./assets/usd8Logo3.svg) or [1000px PNG](./assets/usd8Logo31000.png)
+White logo. [SVG](./assets/usd8Logo3.svg) or [1000px PNG](./assets/usd8Logo31000.png)
+<br/><br/><br/><br/><br/><br/><br/>
+<img src="/assets/usd8Logo41000_example_with_white_bg.png" width="300" /><br/><br/>
+Black logo. [SVG](./assets/usd8Logo4.svg) or [1000px PNG](./assets/usd8Logo41000.png)

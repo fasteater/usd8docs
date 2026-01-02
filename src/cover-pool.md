@@ -10,7 +10,7 @@ Depositors should be aware of the risk associated before depositing.
 ## Covered DeFi Protocols<br/>
 
 USD8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool balance.
-<br/><br/><img src="/assets/coveredProtocols.png" width="700px" /><br/><br/>
+<br/><br/><br/><br/><img src="/assets/coveredProtocols.png" width="700px" /><br/><br/>
 
 Once coverage is offered, the Cover Pool will accept the specified LP token for claims at any time, permissionlessly. Claimants receive a proportional mix of assets matching the Cover Pool’s composition.
 <br/><br/><br/><br/>
@@ -54,6 +54,11 @@ Planned coverage (Eth mainnet)
         <td>80%</td>
     </tr>
     <tr>
+        <td>Curve Savings crvUSD</td>
+        <td>0x0655977feb2f289a4ab78af67bab0d17aab84367<br/> impl 0xd8063123bba3b480569244ae66bfe72b6c84b00d</td>
+        <td>50%</td>
+    </tr>
+    <tr>
         <td>Lido stEth</td>
         <td>0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84<br/> impl 0x17144556fd3424edc8fc8a4c940b2d04936d17eb</td>
         <td>50%</td>
@@ -74,12 +79,12 @@ Planned coverage (Eth mainnet)
         <td>0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3<br/> impl 0xD86756dBb01e75A11AaDaCB75c8495759ED92033</td>
         <td>50%</td>
     </tr>
-    </tr>
+ <!--  </tr>
         <tr>
         <td>Liquity sBOLD</td>
         <td>0x50Bd66D59911F5e086Ec87aE43C811e0D059DD11</td>
         <td>50%</td>
-    </tr>
+    </tr> -->
 </table>
 
 <br/><br/><br/><br/>

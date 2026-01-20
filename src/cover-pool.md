@@ -101,12 +101,18 @@ After a claim, the protected LP tokens forfeited by claimers becomes the propert
 
 Cover Score is calculated based on your USD8 usage history — how much you’ve held and for how long. More USD8 held for longer increases the score, this includes USD8 LSTs like USD8 savings.
 
-Cover Socre is computed off-chain with an open sourced algorithm, signed by the USD8 front end, and verified on-chain during a claim. Anyone can recalculate and validate every claimant’s score. 
+Cover Socre is computed off-chain with an open sourced algorithm, signed by the USD8's front end, and verified on-chain during a claim. Anyone can recalculate and validate every user's score. 
 
 Cover scores reset after a successful claim. 
+<br/><br/><br/><br/>
+## Passing the Walkaway Test
 
-Note this process is trustless, however it does rely on USD8's front end for signing. We aim to offer a zk coprocessor route for this computation in the future in order to increase accessibility and satisfy the [Walkaway Test](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html).
+Computing Cover Scores is critical for Usd8. While relying on our front end works, that is not good enough, we are crypto natives, and we want to pass the [Walkaway Test](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html).
 
+We are partnering with Brevis and using their ZK Coprocessor to independently compute Cover Scores. Users will be able to use Brevis's ProverNet to generate a cryptographic proof of their Cover Score based on their Usd8 history. This proof can then be submitted directly to the Usd8 payout contract onchain, which verifies it and processes the claim automatically.
 
+Now, even if our team disappears, Usd8 payouts will still function independently and trustlessly.
+
+<br/><img src="/assets/brevis_logo.png" width="200px" /><br/><br/>
 
 <br/><br/><br/><br/>

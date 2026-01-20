@@ -285,9 +285,14 @@
 <br/><br/><br/><br/></p>
 <h2 id="cover-score"><a class="header" href="#cover-score">Cover Score</a></h2>
 <p>Cover Score is calculated based on your USD8 usage history — how much you’ve held and for how long. More USD8 held for longer increases the score, this includes USD8 LSTs like USD8 savings.</p>
-<p>Cover Socre is computed off-chain with an open sourced algorithm, signed by the USD8 front end, and verified on-chain during a claim. Anyone can recalculate and validate every claimant’s score.</p>
-<p>Cover scores reset after a successful claim.</p>
-<p>Note this process is trustless, however it does rely on USD8's front end for signing. We aim to offer a zk coprocessor route for this computation in the future in order to increase accessibility and satisfy the <a href="https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html">Walkaway Test</a>.</p>
+<p>Cover Socre is computed off-chain with an open sourced algorithm, signed by the USD8's front end, and verified on-chain during a claim. Anyone can recalculate and validate every user's score.</p>
+<p>Cover scores reset after a successful claim.
+<br/><br/><br/><br/></p>
+<h2 id="passing-the-walkaway-test"><a class="header" href="#passing-the-walkaway-test">Passing the Walkaway Test</a></h2>
+<p>Computing Cover Scores is critical for Usd8. While relying on our front end works, that is not good enough, we are crypto natives, and we want to pass the <a href="https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html">Walkaway Test</a>.</p>
+<p>We are partnering with Brevis and using their ZK Coprocessor to independently compute Cover Scores. Users will be able to use Brevis's ProverNet to generate a cryptographic proof of their Cover Score based on their Usd8 history. This proof can then be submitted directly to the Usd8 payout contract onchain, which verifies it and processes the claim automatically.</p>
+<p>Now, even if our team disappears, Usd8 payouts will still function independently and trustlessly.</p>
+<p><br/><img src="/assets/brevis_logo.png" width="200px" /><br/><br/></p>
 <p><br/><br/><br/><br/></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="faqs"><a class="header" href="#faqs">FAQs</a></h1>
 <h2 id="-can-i-just-buy-usd8-and-use-it-for-claiming-whenever-i-need-it"><a class="header" href="#-can-i-just-buy-usd8-and-use-it-for-claiming-whenever-i-need-it"><span class="emoji">💭</span> Can I just buy USD8 and use it for claiming whenever I need it?</a></h2>
@@ -380,22 +385,6 @@ Black logo. <a href="./assets/usd8Logo4.svg">SVG</a> or <a href="./assets/usd8Lo
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

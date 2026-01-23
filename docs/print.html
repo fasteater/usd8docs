@@ -281,7 +281,7 @@
 <li>The claim enters a 10-day window where others can join. After 10 days, that LP token is removed from the covered list and no new claims are accepted.</li>
 <li>Claimants can withdraw their reimbursement. The amount is calculated from total claims, each claimant’s cover score*, and the current Cover Pool balance. Payouts will match the Cover Pool’s asset mix.</li>
 </ol>
-<p>After a claim, the protected LP tokens forfeited by claimers becomes the property of the Cover Pool LPs, which can be claimed when LP withdraws from the cover pool
+<p>After a claim, the protected LP tokens forfeited by claimers becomes the property of Usd8 protocol.
 <br/><br/><br/><br/></p>
 <h2 id="cover-score"><a class="header" href="#cover-score">Cover Score</a></h2>
 <p>Cover Score is calculated based on your USD8 usage history — how much you’ve held and for how long. More USD8 held for longer increases the score, this includes USD8 LSTs like USD8 savings.</p>
@@ -385,6 +385,22 @@ Black logo. <a href="./assets/usd8Logo4.svg">SVG</a> or <a href="./assets/usd8Lo
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

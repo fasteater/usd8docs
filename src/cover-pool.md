@@ -95,7 +95,7 @@ Planned coverage (Eth mainnet)
 2. The claim enters a 10-day window where others can join. After 10 days, that LP token is removed from the covered list and no new claims are accepted.
 3. Claimants can withdraw their reimbursement. The amount is calculated from total claims, each claimant’s cover score*, and the current Cover Pool balance. Payouts will match the Cover Pool’s asset mix.
 
-After a claim, the protected LP tokens forfeited by claimers becomes the property of the Cover Pool LPs, which can be claimed when LP withdraws from the cover pool
+After a claim, the protected LP tokens forfeited by claimers becomes the property of Usd8 protocol.
 <br/><br/><br/><br/>
 ## Cover Score 
 

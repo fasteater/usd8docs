@@ -39,47 +39,56 @@ Planned coverage (Eth mainnet)
 
 <table class="cover-table">
     <tr>
+        <td>Brand</td>
         <td>Token Accepted</td>
         <td>Address</td>
         <td>Reimbursement(upto)</td>
     </tr>
     <tr>
+        <td><img src="assets/usd8Logo.svg" width="40px" /></td>
         <td>Usd8</td>
         <td>TBD</td>
         <td>0.8 USDC</td>
     </tr>
     <tr>
+        <td><img src="assets/usd8Logo.svg" width="40px" /></td>
         <td>Usd8 Protected Savings sUsd8 </td>
         <td>TBD</td>
         <td>0.8 Usd8</td>
     </tr>
     <tr>
+        <td><img src="https://cryptologos.cc/logos/aave-aave-logo.png?v=040" width="40px" /></td>
         <td>Aave Savings Gho sGHO</td>
         <td>0x1a88Df1cFe15Af22B3c4c783D4e6F7F9e0C1885d<br/> impl 0x50f9d4e28309303f0cdcac8af0b569e8b75ab857</td>
         <td>0.8 GHO</td>
     </tr>
     <tr>
+        <td><img src="https://cdn.jsdelivr.net/gh/curvefi/curve-assets/branding/logo.png" width="40px" /></td>
         <td>Curve Savings scrvUSD</td>
         <td>0x0655977feb2f289a4ab78af67bab0d17aab84367<br/> impl 0xd8063123bba3b480569244ae66bfe72b6c84b00d</td>
         <td>0.7 crvUSD</td>
     </tr>
     <tr>
+        <td><img src="https://cryptologos.cc/logos/lido-dao-ldo-logo.png?v=040" width="40px" /></td>
         <td>Lido stETH</td>
         <td>0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84<br/> impl 0x17144556fd3424edc8fc8a4c940b2d04936d17eb</td>
         <td>0.7 Eth</td>
     </tr>
     <tr>
+        <td><img src="https://pbs.twimg.com/profile_images/1828469202753122304/i8YRkB4A_400x400.jpg" width="40px" /></td>
         <td>Sky Savings sUSDS</td>
         <td>0xa3931d71877c0e7a3148cb7eb4463524fec27fbd<br/> impl 0x4e7991e5c547ce825bdeb665ee14a3274f9f61e0</td>
         <td>0.7 USDS</td>
     </tr>
         <tr>
+        <td><img src="https://docs.yieldnest.finance/~gitbook/image?url=https%3A%2F%2F2873068466-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FDyxbBTdzhJqQAdVgDB8k%252Fuploads%252FzN9OBqA2oJbHWzVrvxDD%252FLogomark%2520Gold%2520on%2520Dark.png%3Falt%3Dmedia%26token%3Dc4a4a84c-ca82-4cd2-8794-cf298a392d80&width=768&dpr=2&quality=100&sign=139c44cd&sv=2" width="40px" /></td>
         <td>Yieldnest ynETHx</td>
         <td>0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb<br/> impl 0x9C1713BC42dCF621038F4016664fFAB096A05410</td>
         <td>0.6 Eth</td>
     </tr>
     </tr>
         <tr>
+        <td><img src="https://cryptologos.cc/logos/origin-protocol-ogn-logo.png?v=040" width="40px" /></td>
         <td>Origin OETH</td>
         <td>0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3<br/> impl 0xD86756dBb01e75A11AaDaCB75c8495759ED92033</td>
         <td>0.6 Eth</td>

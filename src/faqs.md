@@ -41,7 +41,7 @@ Yes. As long as you use USD8, you are covered. The more USD8 and the longer you 
 
 ## <span class="emoji">💭</span> Do I forfeit my covered LP token when claiming from the Cover Pool?
 
-Yes. To claim from the Cover Pool, you must provide a covered LP token, which becomes the assets of Cover Pool liquidity providers.
+Yes. To claim from the Cover Pool, you must provide a covered LP token, which becomes the assets of Usd8 protocol.
  
 <br/>
 <br/>
@@ -49,6 +49,7 @@ Yes. To claim from the Cover Pool, you must provide a covered LP token, which be
 ## <span class="emoji">💭</span> Will I always get 80% of my money back for a defi protocol with 80% coverage?
 
 Not necessarily. The actual reimbursed amount depends on:
+- Your cover score based on your Usd8 history
 - How many other users are claiming and their cover scores
 - The balance of the Cover Pool
 
@@ -59,7 +60,7 @@ In practice, the more cover score you have, the higher your claim weight. The ma
 
 ## <span class="emoji">💭</span> How do you prevent fraudulent claims?
 
-USD8 only covers up to 80% of any position at max. Unless the LP token’s value drops below 80%, it is not financially rational to file a false claim.
+USD8 only covers up to 80% of any position at max. Unless the LP token’s value drops below 80%, it is not financially rational to file a false claim. 
 
 <br/>
 <br/>
@@ -73,9 +74,9 @@ Like most stablecoins, USD8 generates revenue from collateral yield.
 
 ## <span class="emoji">💭</span> Who is behind USD8?
 
-USD8 was founded by an OpenZeppelin auditor and security researcher with over 5 years of experience, specializing in DeFi protocols.
+USD8 was founded by an OpenZeppelin auditor and security researcher with over 5 years of experience, specializing in auditing DeFi protocols.
 
-We are passionate about DeFi security and dedicated to building solutions that make the on-chain environment safer for everyone.
+We are passionate about DeFi security and dedicated to building solutions that make the on-chain environment safer.
 
 <br/>
 <br/>

@@ -57,7 +57,7 @@ Planned coverage (Eth mainnet)
         <td>0.8 Usd8</td>
     </tr>
     <tr>
-        <td><img src="https://cryptologos.cc/logos/aave-aave-logo.png?v=040" width="40px" /></td>
+        <td><img src="assets/aavelogo.svg" width="40px" /></td>
         <td>Aave Savings Gho sGHO</td>
         <td>0x1a88Df1cFe15Af22B3c4c783D4e6F7F9e0C1885d<br/> impl 0x50f9d4e28309303f0cdcac8af0b569e8b75ab857</td>
         <td>0.8 GHO</td>
@@ -69,7 +69,7 @@ Planned coverage (Eth mainnet)
         <td>0.7 crvUSD</td>
     </tr>
     <tr>
-        <td><img src="https://cryptologos.cc/logos/lido-dao-ldo-logo.png?v=040" width="40px" /></td>
+        <td><img src="assets/lidoLogo.svg" width="40px" /></td>
         <td>Lido stETH</td>
         <td>0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84<br/> impl 0x17144556fd3424edc8fc8a4c940b2d04936d17eb</td>
         <td>0.7 Eth</td>
@@ -88,7 +88,7 @@ Planned coverage (Eth mainnet)
     </tr>
     </tr>
         <tr>
-        <td><img src="https://cryptologos.cc/logos/origin-protocol-ogn-logo.png?v=040" width="40px" /></td>
+        <td><img src="assets/oethLogo.svg" width="40px" /></td>
         <td>Origin OETH</td>
         <td>0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3<br/> impl 0xD86756dBb01e75A11AaDaCB75c8495759ED92033</td>
         <td>0.6 Eth</td>

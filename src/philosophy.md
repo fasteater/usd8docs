@@ -11,15 +11,21 @@ This dystopia is slowly killing the decentralized industry following [Gresham's 
 # Failed Attempt
 Early-stage Ethereum did have an attempted solution — "Code is Law", which uses smart contracts' immutability to prevent misconduct. Unfortunately, this hasn't worked out, largely due to vulnerabilities in smart contracts as well as the practical needs of upgradability, which remains as [an industry disagreement](https://medium.com/consensys-diligence/upgradeability-is-a-bug-dba0203152ce) till today.
 
+<img src="assets/thomas_gresham.jpg"/>
+<div class="image-caption">Sir Thomas Gresham (1519–1579)</div>
+
 Now that the crypto space is flawed, we didn't come up with a new solution but ignored the flaw because we have become numb to the hacking news and rug pulls happening all the time. This is rather irresponsible. And it is even worse when we onboard the next million innocent users, exposing them to sophisticated hackers and social engineering attacks with their life savings at stake.
 <br/><br/><br/><br/>
 
 # Philosophical Roots
 We need a new solution, one without centralized power while still be able to deter back actors. Usd8 is our attempt at this, our mission is to restore the missing layer of order enforcement in DeFi security. 
 
-Usd8 is rooted in the philosophical proposal of insurance powered [anarcho-captialism](https://en.wikipedia.org/wiki/Anarcho-capitalism) where the system uses insurance to organize order enforcement, replacing government central powers. In a nutshell, all citizens rely on private insurance to deal with accidents and losses. These insurance companies play a role beyond covering losses - they also enforce order, as they deal with the bad actor's insurance company directly to recover any losses incurred. Essentially, it uses capitalism and game theory to offload the government's order enforcement role to insurance companies.
+<img src="assets/murrayRothbard.jpg" width="500px"/>
+<div class="image-caption">Murray Rothbard (1926–1995), founder and primary theoretician of anarcho-capitalism.</div>
 
-We adapted this model and made it crypto native, Usd8 will be serving two major purposes - as insurance to cover users' losses and as an order-enforcing mechanism to recover hack losses.
+Usd8 is rooted in the philosophical proposal of [anarcho-captialism](https://en.wikipedia.org/wiki/Anarcho-capitalism) where a voluntary society would use insurance companies and private agencies to replace essential services provided by centralized state system. Incentives are carefully aligned in this system using capitalism and game theory to achieve a functional society without central government presents.
+
+We adapted this model and made it crypto native, to provide the last missing piece for Defi and the whole crypto system. Usd8 will be serving two major purposes - as insurance to cover users' losses and as an order-enforcing mechanism to recover hack losses.
 <br/><br/><br/><br/>
 
 # The Insurance
@@ -40,7 +46,7 @@ This insurance system is exciting because:
 
 # Order enforcement
 
-Since Usd8 sits on a pile of hacked LP tokens after users claim, this puts Usd8 in a unique position with significant financial incentives to recover these funds. An interesting approach is to cultivate a "white hat culture" to involve the public in tracing and recovering the lost funds, as opposite to the current crypto culture that incentivizes bad actors. Mechanisms could be considered include:
+Since Usd8 sits on a pile of hacked LP tokens after users claim, this puts Usd8 in a unique position with significant financial incentives to recover these funds. Usd8 will be cultivating a "white hat economy" as opposed to the current crypto system rewarding black hats. This white hat economy will involve the public in tracing and recovering the lost funds, including the following mechanisms
 
 1. Million-dollar public bounties without an expiry date for any help in recovering lost funds
 
@@ -49,7 +55,7 @@ Since Usd8 sits on a pile of hacked LP tokens after users claim, this puts Usd8 
 3. Educating the public how to trace, identify, and monitor stolen funds
 
 
-This system could cultivate a positive culture with significant incentives for good actors and extra burden to deter bad actors, potentially leads to perception reality to further reduce bad acts - If hackers know they will be forever chased by the public and professionals for their wrongdoing, their decision to hack and steal might change at the moment of committing the crime.
+This system could cultivate a positive culture with significant incentives for good actors and extra burden to deter bad ones, potentially leads to perception reality to further reduce bad acts - If hackers know they will be forever chased by the public and professionals for their wrongdoing, their decision to hack and steal might change at the moment of committing the crime.
 
 <br/><br/><br/><br/>
 # We are Crypto Native

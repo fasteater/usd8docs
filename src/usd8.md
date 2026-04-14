@@ -3,7 +3,11 @@
 
 # USD8
 
-USD8 is a stablecoin that doubles as DeFi protection — your USD8 usage history works like an insurance, covering losses in supported defi protocols,  across any position, up to 80%, completely free.
+USD8 is a stablecoin with built-in DeFi insurance — USD8 usage history can be used to cover losses in supported defi protocols, across any position, up to 80%, completely free. 
+
+By simply holding and using Usd8, users get free insurance coverage for both their Usd8 as well as any other positions in covered defi protocols. 
+
+Claims can be made at anytime, 100% onchain and permissionless. Funds come from Usd8's Cover Pool - a high yield public vault. 
 
 The more you use USD8, the more you are covered.
 <br/><br/><br/><br/>
@@ -25,12 +29,10 @@ Security is the core of USD8. For every covered DeFi protocol we work alongside 
 3. For high-yield seekers with higher risk tolerance: deposit assets into our [Cover Pool](cover-pool.md) to share protocol revenue (estimated 15–30% returns). Be aware your assets might be used to offset losses from [Covered DeFi Protocols](cover-pool.md#covered-defi-protocols), but our security team screens every covered protocol to reduce the chance of incidents.
 <br/><br/><br/><br/>
 
-# Multi-Collateral
+# Backed by USDC
 <br/><img src="/assets/multiCollateral.png" height="150"/><br/><br/><br/>
 
-USD8 is backed by a carefully selected basket of stablecoins, reducing the protocol’s exposure to any single asset and making USD8 more resilient to de-pegging events.
+USD8 can be minted 1:1 with USDC permissionlessly, these USDC collateral will be deployed to Defi platform for yield. Rest assured your USD8 is covered by the [Cover Pool](cover-pool.md) upto 80% incase anything goes wrong, you can redeem USD8 upto 80% value. 
 
-- When launched, new USD8 will be minted and redeemed in the same proportions as the collaterals in the basket.
-- Each collateral’s weight in the basket may be adjusted based on its ongoing risk profile.
+Redeem USD8 back to USDC will be also be permissionless, while we expect this process to be instant there might be a delay for large redeems because some external defi protocol might have a delay in their redeeming process, which is out of our control. However there will be an AMM pool available for swaps at anytime.
 
-We are currently finalizing the collateral basket. Details will be announced soon.

@@ -1,10 +1,11 @@
 # Contact
 
-Collaborations and contributions welcome.
+<img src="/assets/me.png" width="150" /><br/>
+
+Hi I am the core dev behind Usd8, during the day I work as a Security Researcher at OpenZeppelin. You can reach out to me via the following channels. 
 
 - telegram [https://t.me/+e84i2oYk1ao1MTk1](https://t.me/+e84i2oYk1ao1MTk1)
-- X [https://x.com/usd8_fi](https://x.com/usd8_fi)
-- Core Dev [https://x.com/codephobic](https://x.com/codephobic)
+- X [@usd8_fi](https://x.com/usd8_fi) or [@codephobic](https://x.com/codephobic)
 
 <br/><br/><br/><br/>
 # Branding Assets

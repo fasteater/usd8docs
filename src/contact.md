@@ -1,6 +1,6 @@
 # Contact
 
-<img src="/assets/me.png" width="150" /><br/>
+<img src="/assets/my_avatar.png" width="150" /><br/>
 
 Hi I am the core dev behind Usd8, during the day I work as a Security Researcher at OpenZeppelin. You can reach out to me via the following channels. 
 

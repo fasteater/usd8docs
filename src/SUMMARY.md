@@ -3,5 +3,6 @@
 - [Philosophical Roots](./philosophy.md)
 - [Protected Savings](./protected-savings.md)
 - [Cover Pool](./cover-pool.md)
+- [Boosters](./boosters.md)
 - [FAQs](./faqs.md)
 - [Contact & Branding](./contact.md)

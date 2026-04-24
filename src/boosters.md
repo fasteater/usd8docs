@@ -14,7 +14,7 @@ Boosters are not for sale. They are distributed only to users who help USD8 grow
 - post on social media about Usd8 (do not spam)
 - follow our [X](https://x.com/usd8_fi) and [Telegram](https://t.me/+e84i2oYk1ao1MTk1) channel for occasional drops
 
-Our team monitors social these channels will reach out to offer Boosters. If your posts has lots of impact, you will get a lot of Boosters. 
+Our team monitors social channels will reach out to offer Boosters. If your posts has lots of impact, you will get multiple Boosters. 
 
 You can also send links to your posts in our [Telegram group](https://t.me/+e84i2oYk1ao1MTk1) or ping [USD8 on X.com](https://x.com/usd8_fi) to request Boosters if we missed any.
 

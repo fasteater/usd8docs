@@ -47,6 +47,16 @@
     margin: 1rem 0;
 }
 
+@media (max-width: 600px) {
+    .booster-check {
+        row-gap: 1rem;
+    }
+    .booster-grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 8px;
+    }
+}
+
 .booster-check input {
     width: 480px;
     max-width: 100%;
@@ -97,15 +107,16 @@
 }
 
 .booster-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
     margin-top: 12px;
 }
 
 .booster-grid img {
-    width: 64px;
-    height: 64px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
     border-radius: 6px;
 }
 

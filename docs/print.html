@@ -351,7 +351,7 @@
 <p><br/><br/><br/><br/></p>
 <div style="break-before: page; page-break-before: always;"></div><p><img class="floating-logo" src="/assets/booster.png" width="500px" /><br/></p>
 <h1 id="boosters-live"><a class="header" href="#boosters-live">Boosters <span class="live-pill">Live</span></a></h1>
-<p>Boosters are NFTs that can be burned when filing a claim to add a 1% boost to your total Cover Score, meaning more Insurance Coverage for your funds in Defi protocols. Boosters are</p>
+<p>Boosters are NFTs that can be burned when filing a claim to add a 1% boost to your total Cover Score, meaning more insurance coverage for your funds in Defi protocols. Boosters are</p>
 <ul>
 <li>usable after USD8 is launched and the Cover Pool is in operation</li>
 <li>stackable, 2 Boosters give you 2%. No limits</li>
@@ -469,6 +469,22 @@ Black logo. <a href="./assets/usd8Logo4.svg">SVG</a> or <a href="./assets/usd8Lo
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

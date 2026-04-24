@@ -1,4 +1,4 @@
-# Protected Savings
+# Protected Savings <span class="coming-soon-pill">Building</span>
 <br/><br/><img src="/assets/savingsVault.png" width="350px" /><br/><br/>
 
 USD8 Protected Savings is a yield vault designed for passive DeFi users who want simple, deposit-and-forget yield with built-in protection.

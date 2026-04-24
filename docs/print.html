@@ -30,6 +30,7 @@
         <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/css/custom.css">
 
         <!-- MathJax -->
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -150,7 +151,7 @@
                     <main>
                         <img class="floating-logo" src="/assets/usd8Logo.svg" width="170" />
 <br/><br/>
-<h1 id="usd8"><a class="header" href="#usd8">USD8</a></h1>
+<h1 id="usd8-building"><a class="header" href="#usd8-building">USD8 <span class="coming-soon-pill">Building</span></a></h1>
 <p>USD8 is a stablecoin with built-in DeFi insurance — USD8 usage history can be used to cover losses in supported defi protocols, across any position, up to 80%, completely free.</p>
 <p>By simply holding and using Usd8, users get free insurance coverage for both their Usd8 as well as any other positions in covered defi protocols.</p>
 <p>Claims can be made at anytime, 100% onchain and permissionless. Funds come from Usd8's Cover Pool - a high yield public vault.</p>
@@ -228,18 +229,18 @@
 <p><br/><br/><br/><br/></p>
 <h1 id="we-are-crypto-native"><a class="header" href="#we-are-crypto-native">We are Crypto Native</a></h1>
 <p>We are crypto native — we live and breathe the decentralized dream and are committed to building projects that adhere as closely as possible to the <a href="https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html">Trustless Manifesto</a>. <br/><br/><a href="https://t.me/+e84i2oYk1ao1MTk1">Join us</a> if you share our vision.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="protected-savings"><a class="header" href="#protected-savings">Protected Savings</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="protected-savings-building"><a class="header" href="#protected-savings-building">Protected Savings <span class="coming-soon-pill">Building</span></a></h1>
 <p><br/><br/><img src="/assets/savingsVault.png" width="350px" /><br/><br/></p>
 <p>USD8 Protected Savings is a yield vault designed for passive DeFi users who want simple, deposit-and-forget yield with built-in protection.</p>
 <p>Managed by USD8, this vault is covered by the Cover Pool for up to 80% of its value, subject to the pool’s limit.</p>
 <p>Depositors receive yield-bearing sUSD8, which can be used to claim coverage from the Cover Pool, permissionlessly, at any time, up to 80% of the sUSD8 value, capped by the Cover Pool balance.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="cover-pool"><a class="header" href="#cover-pool">Cover Pool</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cover-pool-building"><a class="header" href="#cover-pool-building">Cover Pool <span class="coming-soon-pill">Building</span></a></h1>
 <p><br/><img src="/assets/coverPool.png" width="700px" /><br/><br/></p>
 <p>The Cover Pool is a high yield vault consists of multiple assets, the yield comes from protocol revenue. Anyone can deposit into the pool at any time; however, withdrawals are subject to a 14-day cooldown period.</p>
 <p>Assets in the Cover Pool are not protected by USD8 and might be deployed to cover losses from protected Defi protocols.</p>
 <p>Depositors should be aware of the risk associated before depositing.
 <br/><br/><br/><br/></p>
-<h2 id="covered-defi-protocols"><a class="header" href="#covered-defi-protocols">Covered DeFi Protocols<br/></a></h2>
+<h1 id="covered-defi-protocols"><a class="header" href="#covered-defi-protocols">Covered DeFi Protocols<br/></a></h1>
 <p>USD8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool balance.
 <br/><br/><br/><br/><img src="/assets/coveredProtocols.png" width="700px" /><br/><br/></p>
 <p>Once coverage is offered, the Cover Pool will accept the specified LP token for claims at any time, permissionlessly. Claimants receive a proportional mix of assets matching the Cover Pool’s composition.
@@ -328,7 +329,7 @@
     </tr> -->
 </table>
 <p><br/><br/><br/><br/></p>
-<h2 id="claiming"><a class="header" href="#claiming">Claiming</a></h2>
+<h1 id="claiming"><a class="header" href="#claiming">Claiming</a></h1>
 <p><br/><img src="/assets/claiming.png" width="700px" /><br/><br/></p>
 <ol>
 <li>To start a claim, user transfers the protected LP token to the Cover Pool. Our front end will also calculate user's cover scores based on historical USD8 usage during this process and submit it on chain.</li>
@@ -337,25 +338,45 @@
 </ol>
 <p>After a claim, the protected LP tokens forfeited by claimers becomes the property of Usd8 protocol.
 <br/><br/><br/><br/></p>
-<h2 id="cover-score"><a class="header" href="#cover-score">Cover Score</a></h2>
+<h1 id="cover-score"><a class="header" href="#cover-score">Cover Score</a></h1>
 <p>Cover Score is calculated based on your USD8 usage history — how much you’ve held and for how long. More USD8 held for longer increases the score, this includes USD8 LSTs like USD8 savings.</p>
 <p>Cover Socre is computed off-chain with an open sourced algorithm, signed by the USD8's front end, and verified on-chain during a claim. Anyone can recalculate and validate every user's score.</p>
 <p>Cover scores reset after a successful claim.
 <br/><br/><br/><br/></p>
-<h2 id="passing-the-walkaway-test"><a class="header" href="#passing-the-walkaway-test">Passing the Walkaway Test</a></h2>
+<h1 id="passing-the-walkaway-test"><a class="header" href="#passing-the-walkaway-test">Passing the Walkaway Test</a></h1>
 <p>Computing Cover Scores is critical for Usd8. While relying on our front end works, that is not good enough, we are crypto natives, and we want to pass the <a href="https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html">Walkaway Test</a>.</p>
 <p>We are partnering with Brevis and using their ZK Coprocessor to independently compute Cover Scores. Users will be able to use Brevis's ProverNet to generate a cryptographic proof of their Cover Score based on their Usd8 history. This proof can then be submitted directly to the Usd8 payout contract onchain, which verifies it and processes the claim automatically.</p>
 <p>Now, even if our team disappears, Usd8 payouts will still function independently and trustlessly.</p>
 <p><br/><img src="/assets/brevis_logo.png" width="200px" /><br/><br/></p>
 <p><br/><br/><br/><br/></p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="boosters"><a class="header" href="#boosters">Boosters</a></h1>
-<p><br/><img src="/assets/booster.png" width="600px" /><br/></p>
-<p>Boosters are transferable NFTs that can be burned when filing a claim to add a 1% boost to your total Cover Score. Boosters can only be used after USD8 is launched and the Cover Pool is in operation; however, you can start collecting Boosters now.<br/><br/>
-Boosters are stackable — e.g. 2 Boosters give you 2%. No limits.</p>
-<h1 id="distribution"><a class="header" href="#distribution">Distribution</a></h1>
-<p>Boosters are not for sale. They are distributed only to users who help USD8 grow. Our team monitors social channels like X.com and YouTube, and will reach out with an offer if you post about USD8 (as long as it isn't spam).</p>
-<p>You can also send links to your posts in our <a href="https://t.me/+e84i2oYk1ao1MTk1">Telegram group</a> or ping <a href="https://x.com/usd8_fi">USD8 on X.com</a> to request Boosters.</p>
-<p>Happy collecting.</p>
+<div style="break-before: page; page-break-before: always;"></div><p><img class="floating-logo" src="/assets/booster.png" width="500px" /><br/></p>
+<h1 id="boosters-live"><a class="header" href="#boosters-live">Boosters <span class="live-pill">Live</span></a></h1>
+<p>Boosters are NFTs that can be burned when filing a claim to add a 1% boost to your total Cover Score, meaning more Insurance Coverage for your funds in Defi protocols. Boosters are</p>
+<ul>
+<li>usable after USD8 is launched and the Cover Pool is in operation</li>
+<li>stackable, 2 Boosters give you 2%. No limits</li>
+<li>freely transferrable</li>
+</ul>
+<p>Booter contract Eth mainnet <a href="https://etherscan.io/address/0x6f74ce39bb1d75c56e2fe5f349a6a5f51ce6f12d">0x6f74ce39bb1d75c56e2fe5f349a6a5f51ce6f12d</a>
+<br/><br/><br/><br/></p>
+<h1 id="collect-boosters"><a class="header" href="#collect-boosters">Collect Boosters</a></h1>
+<p>Boosters are not for sale. They are distributed only to users who help USD8 grow. To get Boosters, you can</p>
+<ul>
+<li>post on social media about Usd8 (do not spam)</li>
+<li>follow our <a href="https://x.com/usd8_fi">X</a> and <a href="https://t.me/+e84i2oYk1ao1MTk1">Telegram</a> channel for occasional drops</li>
+</ul>
+<p>Our team monitors social these channels will reach out to offer Boosters. If your posts has lots of impact, you will get a lot of Boosters.</p>
+<p>You can also send links to your posts in our <a href="https://t.me/+e84i2oYk1ao1MTk1">Telegram group</a> or ping <a href="https://x.com/usd8_fi">USD8 on X.com</a> to request Boosters if we missed any.</p>
+<p>Happy collecting.
+<br/><br/><br/><br/></p>
+<h1 id="check-your-boosters"><a class="header" href="#check-your-boosters">Check Your Boosters</a></h1>
+<p>Enter an Ethereum address to check Boosters</p>
+<div class="booster-check">
+    <input id="booster-address" type="text" placeholder="0x..." autocomplete="off" spellcheck="false" />
+    <button id="booster-check-btn" type="button">Check</button>
+    <div id="booster-result" class="booster-result"></div>
+</div>
+<br/><br/><br/><br/>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="faqs"><a class="header" href="#faqs">FAQs</a></h1>
 <h2 id="-can-i-just-buy-usd8-and-use-it-for-claiming-whenever-i-need-it"><a class="header" href="#-can-i-just-buy-usd8-and-use-it-for-claiming-whenever-i-need-it"><span class="emoji">💭</span> Can I just buy USD8 and use it for claiming whenever I need it?</a></h2>
 <p>No. Cover amount depends on your USD8 usage history, without it you will not get much coverage. It's best to start using USD8 so you can build up your history.
@@ -448,6 +469,22 @@ Black logo. <a href="./assets/usd8Logo4.svg">SVG</a> or <a href="./assets/usd8Lo
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
@@ -462,6 +499,8 @@ Black logo. <a href="./assets/usd8Logo4.svg">SVG</a> or <a href="./assets/usd8Lo
 
         <!-- Custom JS scripts -->
         <script src="analytics.js"></script>
+        <script src="custom.js"></script>
+        <script src="booster-check.js"></script>
 
         <script>
         window.addEventListener('load', function() {

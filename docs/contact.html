@@ -29,6 +29,7 @@
         <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/css/custom.css">
 
         <!-- MathJax -->
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -192,6 +193,22 @@ Black logo. <a href="./assets/usd8Logo4.svg">SVG</a> or <a href="./assets/usd8Lo
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
@@ -206,6 +223,8 @@ Black logo. <a href="./assets/usd8Logo4.svg">SVG</a> or <a href="./assets/usd8Lo
 
         <!-- Custom JS scripts -->
         <script src="analytics.js"></script>
+        <script src="custom.js"></script>
+        <script src="booster-check.js"></script>
 
 
     </div>

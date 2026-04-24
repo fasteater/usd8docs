@@ -7,7 +7,8 @@ title = "USD8"
 [output.html]
 mathjax-support = true
 default-theme = "Navy"
-additional-js = ["analytics.js"]
+additional-js = ["analytics.js", "custom.js", "booster-check.js"]
+additional-css = ["theme/css/custom.css"]
 
 [build]
 build-dir = "./docs"

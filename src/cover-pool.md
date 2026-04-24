@@ -1,4 +1,4 @@
-# Cover Pool
+# Cover Pool <span class="coming-soon-pill">Building</span>
 <br/><img src="/assets/coverPool.png" width="700px" /><br/><br/>
 
 The Cover Pool is a high yield vault consists of multiple assets, the yield comes from protocol revenue. Anyone can deposit into the pool at any time; however, withdrawals are subject to a 14-day cooldown period.
@@ -7,7 +7,7 @@ Assets in the Cover Pool are not protected by USD8 and might be deployed to cove
 
 Depositors should be aware of the risk associated before depositing.
 <br/><br/><br/><br/>
-## Covered DeFi Protocols<br/>
+# Covered DeFi Protocols<br/>
 
 USD8, together with our security partners, independently vets and selects DeFi protocols that demonstrate the strongest security practices. Coverage is offered on a per-LP-token basis, depending on our security assessment, and is limited to a percentage of potential losses, capped by the Cover Pool balance.
 <br/><br/><br/><br/><img src="/assets/coveredProtocols.png" width="700px" /><br/><br/>
@@ -102,7 +102,7 @@ Planned coverage (Eth mainnet)
 </table>
 
 <br/><br/><br/><br/>
-## Claiming
+# Claiming
 <br/><img src="/assets/claiming.png" width="700px" /><br/><br/>
 
 1. To start a claim, user transfers the protected LP token to the Cover Pool. Our front end will also calculate user's cover scores based on historical USD8 usage during this process and submit it on chain.
@@ -111,7 +111,7 @@ Planned coverage (Eth mainnet)
 
 After a claim, the protected LP tokens forfeited by claimers becomes the property of Usd8 protocol.
 <br/><br/><br/><br/>
-## Cover Score 
+# Cover Score 
 
 Cover Score is calculated based on your USD8 usage history — how much you’ve held and for how long. More USD8 held for longer increases the score, this includes USD8 LSTs like USD8 savings.
 
@@ -119,7 +119,7 @@ Cover Socre is computed off-chain with an open sourced algorithm, signed by the 
 
 Cover scores reset after a successful claim. 
 <br/><br/><br/><br/>
-## Passing the Walkaway Test
+# Passing the Walkaway Test
 
 Computing Cover Scores is critical for Usd8. While relying on our front end works, that is not good enough, we are crypto natives, and we want to pass the [Walkaway Test](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html).
 

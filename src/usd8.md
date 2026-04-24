@@ -1,7 +1,7 @@
 <img class="floating-logo" src="/assets/usd8Logo.svg" width="170" />
 <br/><br/>
 
-# USD8
+# USD8 <span class="coming-soon-pill">Building</span>
 
 USD8 is a stablecoin with built-in DeFi insurance — USD8 usage history can be used to cover losses in supported defi protocols, across any position, up to 80%, completely free. 
 

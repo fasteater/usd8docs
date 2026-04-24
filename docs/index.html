@@ -29,6 +29,7 @@
         <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/css/custom.css">
 
         <!-- MathJax -->
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -149,7 +150,7 @@
                     <main>
                         <img class="floating-logo" src="/assets/usd8Logo.svg" width="170" />
 <br/><br/>
-<h1 id="usd8"><a class="header" href="#usd8">USD8</a></h1>
+<h1 id="usd8-building"><a class="header" href="#usd8-building">USD8 <span class="coming-soon-pill">Building</span></a></h1>
 <p>USD8 is a stablecoin with built-in DeFi insurance — USD8 usage history can be used to cover losses in supported defi protocols, across any position, up to 80%, completely free.</p>
 <p>By simply holding and using Usd8, users get free insurance coverage for both their Usd8 as well as any other positions in covered defi protocols.</p>
 <p>Claims can be made at anytime, 100% onchain and permissionless. Funds come from Usd8's Cover Pool - a high yield public vault.</p>
@@ -200,6 +201,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
@@ -214,6 +231,8 @@
 
         <!-- Custom JS scripts -->
         <script src="analytics.js"></script>
+        <script src="custom.js"></script>
+        <script src="booster-check.js"></script>
 
 
     </div>

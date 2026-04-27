@@ -119,6 +119,17 @@ Cover Socre is computed off-chain with an open sourced algorithm, signed by the 
 
 Cover scores reset after a successful claim. 
 <br/><br/><br/><br/>
+# Why the Cover Score Is Fair
+The Cover Score asks a classical fairness question. A user who held Usd8 from day one and a user who held the same amount from day three hundred have not contributed equally to the system's stability — but they have not contributed *un*equally in the way a naive arrival-order weighting would suggest. The first user took on more uncertainty during a less proven period; the later user deepened the holder base when the system was under more scrutiny. Both contributions are real. The question is how to weight them.
+
+The right answer is the one [Lloyd Shapley](https://en.wikipedia.org/wiki/Shapley_value) proved in 1953. In a cooperative game with multiple contributors, the unique fair allocation is the one in which each participant's share equals their *marginal contribution to the coalition averaged across all possible orderings of arrival*. In plain language: imagine every possible sequence in which the current Usd8 holders could have arrived. For each holder, calculate how much they added to the system given who was already there. Average across all sequences. That average is the Shapley value:
+
+\\[ \phi_i = \sum_{S \subseteq N \setminus \{i\}} \frac{|S|!\,(n-|S|-1)!}{n!}\,\bigl[v(S \cup \{i\}) - v(S)\bigr] \\]
+
+This is the only allocation rule that simultaneously satisfies efficiency (the total payout equals the total value), symmetry (two holders who contribute identically receive identically), null-player neutrality (a holder who adds nothing receives nothing), and additivity (the rule composes cleanly across separate games). No other allocation has all four. This is a theorem, not a preference.
+
+The practical implication for the Cover Score is small but important. The factors we already track — usage history, concurrent claim pressure, Cover Pool size — combine into a Shapley-weighted formula rather than an ad-hoc one. A Usd8 position established today is treated identically to one established a year ago, conditional on equal marginal contribution. Late arrivers are not penalized for their timing; early arrivers cannot extract a permanent rent from theirs. The score becomes structurally fair in a way that survives any future demographic shift in Usd8's holder base.
+<br/><br/><br/><br/>
 # Passing the Walkaway Test
 
 Computing Cover Scores is critical for Usd8. While relying on our front end works, that is not good enough, we are crypto natives, and we want to pass the [Walkaway Test](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html).
@@ -129,4 +140,15 @@ Now, even if our team disappears, Usd8 payouts will still function independently
 
 <br/><img src="/assets/brevis_logo.png" width="200px" /><br/><br/>
 
+<br/><br/><br/><br/>
+# Why Timing Doesn't Win
+Whenever a system imposes a rate limit — on minting, on redemption, on claims — it implicitly tells an attacker the timescale at which to operate. A limit of one million per hour invites attacks paced just under one million per hour. A limit of ten thousand per minute invites attacks paced just under ten thousand per minute. The limit is not wrong; it is just visible, and visibility is enough for an adaptive adversary to find the sweet spot at which extraction is maximized and detection is minimized.
+
+The defense is a damping curve whose thresholds are powers of the inverse golden ratio:
+
+\\[ \theta_k = \varphi^{-k}, \quad \varphi = \frac{1+\sqrt{5}}{2}, \quad k \in \{1, 2, 3, 4\} \\]
+
+These produce the standard Fibonacci retracement levels — 23.6%, 38.2%, 61.8%, 78.6% — but the reason they work for rate limiting is not numerological. It is that the curve produced by these thresholds is *scale-invariant*. Zooming in by any factor produces an identical curve. There is no preferred timescale. There is no threshold an attacker can pace just under, because the threshold is always the same shape regardless of how fast or slow the attacker operates.
+
+For Usd8 this matters in three places. Large-redemption smoothing, where the existing copy notes that large redemptions may experience delays — a scale-invariant smoothing curve makes those delays adversarially robust rather than parametrically tunable. Claims throughput during a stress event, where the curve denies any subgroup the timing advantage of front-loading their claims when many users claim simultaneously. And mint flow control during yield-strategy migrations, where the curve prevents an attacker from coordinating mint pressure with the migration window. In each case, the attacker is denied the one piece of information that makes adaptive extraction possible — a preferred timescale to target.
 <br/><br/><br/><br/>

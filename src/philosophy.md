@@ -1,6 +1,15 @@
 <img class="floating-logo" src="/assets/tyche.png" width="400" />
 <br/><br/>
 
+# Money as Coordination
+Money is the tool by which strangers cooperate at scale. Every store of value, every unit of account, every medium of exchange in human history has been an answer to the same problem — how do people who will never meet trust each other enough to work together? When money forgets this purpose, when it becomes a casino chip rather than a coordination primitive, the systems built on top of it inherit that confusion.
+
+Usd8 is not a wager. It is coordination infrastructure. Holding Usd8 is not a bet on price action; it is participation in a mutualized risk pool that lets a stranger in another jurisdiction trust a smart contract they did not write, deployed by a team they have never met, to hold their savings without intermediation. Every claim paid is a small act of cooperation between people who will never meet, mediated by code that cannot lie about what it did.
+
+This is the older, harder meaning of money — the one [Thomas Schelling](https://en.wikipedia.org/wiki/Thomas_Schelling) pointed at when he described coordination as the deepest unsolved problem in economics, and the one [Friedrich Hayek](https://en.wikipedia.org/wiki/Friedrich_Hayek) meant when he described prices as the most efficient information system humanity has ever built. A stablecoin that takes this seriously should be measured not by trading volume but by the breadth of cooperation it enables. Every design choice that follows descends from this commitment.
+
+<br/><br/><br/><br/>
+
 # The Broken Dream
 As we embrace decentralized dream to resist the abuses of centralized power, we also give up the enforcement mechanisms that deal with wrongdoing. Without safeguards, crypto is slowly turning into a dystopia where bad actors like hackers and malicious founders are heavily incentivized and rewarded to hack and steal in broad daylight with little consequence. 
 
@@ -44,6 +53,15 @@ This insurance system is exciting because:
 2. It offers a new stream of yield in stable coins for assets that traditionally lack yield sources, like wBTC, or even alts like AAVE, LINK, UNI... unlocking capital efficiency. 
 <br/><br/><br/><br/>
 
+# Augmented Mechanism Design
+There is a recurring failure mode in financial system design. The first generation of a problem is solved by markets, which produce extractive equilibria. The second generation is solved by regulation, which produces capture. The third generation is solved by replacement — a centralized actor pretending to be a market, or a market pretending to be a public utility. Each generation claims to fix the prior one and inherits its pathologies.
+
+There is a fourth path. We leave the market mechanism intact — letting prices, competition, and self-interest do the work they do better than any planner — but we enforce the *fairness properties* of the market through mathematics that operates below the level of any participant's discretion. The market still functions. Allocations still emerge from voluntary exchange. But the rules of allocation cannot be tilted by the largest participant, the earliest participant, or the most politically connected participant, because the rules are not a policy. They are a property of the system, the way conservation of energy is a property of physics.
+
+This is the methodology underneath Usd8's design. Coverage is not granted by a committee; it is computed from on-chain history. Claims are not adjudicated by an underwriter; they are settled by a Cover Score. The Cover Pool is not a charity; it is an insurance market with mathematically defined payouts. We will never solve a fairness problem by adding a discretionary actor. We will always solve it by changing the math.
+
+<br/><br/><br/><br/>
+
 # Order enforcement
 
 Since Usd8 sits on a pile of hacked LP tokens after users claim, this puts Usd8 in a unique position with significant financial incentives to recover these funds. Usd8 will be cultivating a "white hat economy" as opposed to the current crypto system rewarding black hats. This white hat economy will involve the public in tracing and recovering the lost funds, including the following mechanisms
@@ -60,3 +78,12 @@ This system could cultivate a positive culture with significant incentives for g
 <br/><br/><br/><br/>
 # We are Crypto Native
 We are crypto native — we live and breathe the decentralized dream and are committed to building projects that adhere as closely as possible to the [Trustless Manifesto](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html). <br/><br/>[Join us](https://t.me/+e84i2oYk1ao1MTk1) if you share our vision.
+
+<br/><br/><br/><br/>
+
+# Augmented Governance
+The first failure mode of every decentralized stablecoin in history has been governance capture. Stablecoin DAOs do not fail because their members are malicious. They fail because the math underneath them is renegotiable. A protocol that lets governance vote on the collateralization ratio will eventually vote to lower it. A protocol that lets governance vote on which assets count as reserves will eventually vote to admit a worse one. A protocol that lets governance vote on the redemption mechanism will eventually vote to suspend it. This is not a hypothesis; it is the catalogued history of every depegged stablecoin.
+
+Our defense is structural, and we borrow it from constitutional law. Three layers, ordered by reversibility. At the bottom is *physics* — the mathematical invariants of the system, which cannot be voted on at all (1:1 redeemability against USDC, the Cover Score formula, the rate-limit curve). In the middle is *constitution* — the foundational fairness properties, which can be amended only through extraordinary supermajority and time delay (what counts as a covered protocol, the maximum coverage ratio). At the top is *governance* — the operational parameters, which the DAO is genuinely free to tune within the bounds set by the layers below (which protocols to add to the covered set, how to allocate marketing budget, how to compensate contributors).
+
+The point is not to limit governance. The point is to give governance a defensible scope. A DAO that can vote on anything is a DAO that the largest holder can capture. A DAO that can vote on operational parameters within math-enforced fairness invariants is a DAO that survives the entry of a hostile actor without losing its identity. This is what it means to pass the [Walkaway Test](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html) institutionally — not just that the protocol functions if the team disappears, but that it remains *itself* if the political economy around it shifts.

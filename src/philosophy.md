@@ -1,6 +1,15 @@
 <img class="floating-logo" src="/assets/tyche.png" width="400" />
 <br/><br/>
 
+# Money as Coordination
+Money is the tool by which strangers cooperate at scale. Every store of value, every unit of account, every medium of exchange in human history has been an answer to the same problem — how do people who will never meet trust each other enough to work together? When money forgets this purpose, when it becomes a casino chip rather than a coordination primitive, the systems built on top of it inherit that confusion.
+
+Usd8 is not a wager. It is coordination infrastructure. Holding Usd8 is not a bet on price action; it is participation in a mutualized risk pool that lets a stranger in another jurisdiction trust a smart contract they did not write, deployed by a team they have never met, to hold their savings without intermediation. Every claim paid is a small act of cooperation between people who will never meet, mediated by code that cannot lie about what it did.
+
+This is the older, harder meaning of money — the one [Thomas Schelling](https://en.wikipedia.org/wiki/Thomas_Schelling) pointed at when he described coordination as the deepest unsolved problem in economics, and the one [Friedrich Hayek](https://en.wikipedia.org/wiki/Friedrich_Hayek) meant when he described prices as the most efficient information system humanity has ever built. A stablecoin that takes this seriously should be measured not by trading volume but by the breadth of cooperation it enables. Every design choice that follows descends from this commitment.
+
+<br/><br/><br/><br/>
+
 # The Broken Dream
 As we embrace decentralized dream to resist the abuses of centralized power, we also give up the enforcement mechanisms that deal with wrongdoing. Without safeguards, crypto is slowly turning into a dystopia where bad actors like hackers and malicious founders are heavily incentivized and rewarded to hack and steal in broad daylight with little consequence. 
 

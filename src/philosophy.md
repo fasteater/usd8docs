@@ -14,11 +14,11 @@ Early-stage Ethereum did have an attempted solution — "Code is Law", which use
 <img src="assets/thomas_gresham.jpg"/>
 <div class="image-caption">Sir Thomas Gresham (1519–1579)</div>
 
-Now that the crypto space is flawed, we didn't come up with a new solution but ignored the flaw because we have become numb to the hacking news and rug pulls happening all the time. This is rather irresponsible. And it is even worse when we onboard the next million innocent users, exposing them to sophisticated hackers and social engineering attacks with their life savings at stake.
+Now that the crypto space is flawed, we didn't come up with a new solution but ignored the flaw because we have become numb to the hacks and rug pulls happening all the time. This is rather irresponsible. And it is even worse when we onboard the next million innocent users, exposing them to sophisticated hackers and social engineering attacks with their life savings at stake.
 <br/><br/><br/><br/>
 
 # Philosophical Roots
-We need a new solution, one without centralized power while still be able to deter back actors. Usd8 is our attempt at this, our mission is to restore the missing layer of order enforcement in DeFi security. 
+We need a new solution, one without centralized power while still be able to deter malicious actors. Usd8 is our attempt at this, our mission is to restore the missing layer of order enforcement in DeFi security. 
 
 <img src="assets/murrayRothbard.jpg" width="500px"/>
 <div class="image-caption">Murray Rothbard (1926–1995), founder and primary theoretician of anarcho-capitalism.</div>
@@ -39,7 +39,7 @@ The coverage funds come from Usd8's [Cover Pool](./cover-pool.md), a public vaul
 
 This insurance system is exciting because:
 
-1. It is a first-in-the-industry coverage in the industry, free for all Usd8 users, past and present.
+1. It is a first-in-the-industry coverage, free for all Usd8 users, past and present.
 
 2. It offers a new stream of yield in stable coins for assets that traditionally lack yield sources, like wBTC, or even alts like AAVE, LINK, UNI... unlocking capital efficiency. 
 <br/><br/><br/><br/>
@@ -55,7 +55,7 @@ Since Usd8 sits on a pile of hacked LP tokens after users claim, this puts Usd8 
 3. Educating the public how to trace, identify, and monitor stolen funds
 
 
-This system could cultivate a positive culture with significant incentives for good actors and extra burden to deter bad ones, potentially leads to perception reality to further reduce bad acts - If hackers know they will be forever chased by the public and professionals for their wrongdoing, their decision to hack and steal might change at the moment of committing the crime.
+This system could cultivate a positive culture with significant incentives for good actors and extra burden to deter malicious ones, potentially leads to perception reality to further reduce malicious acts for the industry as a whole - If hackers know they will be forever chased by the public and professionals for their wrongdoing, their decision to hack and steal might change at the moment of committing the crime.
 
 <br/><br/><br/><br/>
 # We are Crypto Native

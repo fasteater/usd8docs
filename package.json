@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "deploy": "./deploy.sh"
+  },
   "dependencies": {
     "bip32": "^5.0.0-rc.0",
     "bip39": "^3.1.0",

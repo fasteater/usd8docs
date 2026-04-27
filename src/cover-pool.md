@@ -141,3 +141,14 @@ Now, even if our team disappears, Usd8 payouts will still function independently
 <br/><img src="/assets/brevis_logo.png" width="200px" /><br/><br/>
 
 <br/><br/><br/><br/>
+# Why Timing Doesn't Win
+Whenever a system imposes a rate limit — on minting, on redemption, on claims — it implicitly tells an attacker the timescale at which to operate. A limit of one million per hour invites attacks paced just under one million per hour. A limit of ten thousand per minute invites attacks paced just under ten thousand per minute. The limit is not wrong; it is just visible, and visibility is enough for an adaptive adversary to find the sweet spot at which extraction is maximized and detection is minimized.
+
+The defense is a damping curve whose thresholds are powers of the inverse golden ratio:
+
+\\[ \theta_k = \varphi^{-k}, \quad \varphi = \frac{1+\sqrt{5}}{2}, \quad k \in \{1, 2, 3, 4\} \\]
+
+These produce the standard Fibonacci retracement levels — 23.6%, 38.2%, 61.8%, 78.6% — but the reason they work for rate limiting is not numerological. It is that the curve produced by these thresholds is *scale-invariant*. Zooming in by any factor produces an identical curve. There is no preferred timescale. There is no threshold an attacker can pace just under, because the threshold is always the same shape regardless of how fast or slow the attacker operates.
+
+For Usd8 this matters in three places. Large-redemption smoothing, where the existing copy notes that large redemptions may experience delays — a scale-invariant smoothing curve makes those delays adversarially robust rather than parametrically tunable. Claims throughput during a stress event, where the curve denies any subgroup the timing advantage of front-loading their claims when many users claim simultaneously. And mint flow control during yield-strategy migrations, where the curve prevents an attacker from coordinating mint pressure with the migration window. In each case, the attacker is denied the one piece of information that makes adaptive extraction possible — a preferred timescale to target.
+<br/><br/><br/><br/>

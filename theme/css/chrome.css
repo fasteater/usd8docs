@@ -464,7 +464,8 @@ html:not(.sidebar-resizing) .sidebar {
     gap: 12px;
 }
 .sidebar-telegram,
-.sidebar-x {
+.sidebar-x,
+.sidebar-github {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -474,12 +475,19 @@ html:not(.sidebar-resizing) .sidebar {
     font-size: 22px;
 }
 .sidebar-telegram i,
+.sidebar-github i,
 .sidebar-x i,
 .sidebar-x svg {
     width: 22px;
     height: 22px;
     color: #ffffff;
     fill: currentColor;
+}
+.sidebar-github i {
+    width: 26px;
+    height: 26px;
+    font-size: 26px;
+    line-height: 1;
 }
 .sidebar-x .x-mark {
     display: block;
@@ -490,14 +498,17 @@ html:not(.sidebar-resizing) .sidebar {
     mask: url("../assets/xlogo.svg") center / contain no-repeat;
 }
 .sidebar-telegram,
-.sidebar-x {
+.sidebar-x,
+.sidebar-github {
     color: #ffffff;
 }
 .sidebar-telegram:hover,
-.sidebar-x:hover {
+.sidebar-x:hover,
+.sidebar-github:hover {
     color: #ffd400;
 }
-.sidebar-telegram:hover i {
+.sidebar-telegram:hover i,
+.sidebar-github:hover i {
     color: #ffd400;
 }
 .sidebar-x:hover .x-mark {

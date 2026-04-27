@@ -53,6 +53,15 @@ This insurance system is exciting because:
 2. It offers a new stream of yield in stable coins for assets that traditionally lack yield sources, like wBTC, or even alts like AAVE, LINK, UNI... unlocking capital efficiency. 
 <br/><br/><br/><br/>
 
+# Augmented Mechanism Design
+There is a recurring failure mode in financial system design. The first generation of a problem is solved by markets, which produce extractive equilibria. The second generation is solved by regulation, which produces capture. The third generation is solved by replacement — a centralized actor pretending to be a market, or a market pretending to be a public utility. Each generation claims to fix the prior one and inherits its pathologies.
+
+There is a fourth path. We leave the market mechanism intact — letting prices, competition, and self-interest do the work they do better than any planner — but we enforce the *fairness properties* of the market through mathematics that operates below the level of any participant's discretion. The market still functions. Allocations still emerge from voluntary exchange. But the rules of allocation cannot be tilted by the largest participant, the earliest participant, or the most politically connected participant, because the rules are not a policy. They are a property of the system, the way conservation of energy is a property of physics.
+
+This is the methodology underneath Usd8's design. Coverage is not granted by a committee; it is computed from on-chain history. Claims are not adjudicated by an underwriter; they are settled by a Cover Score. The Cover Pool is not a charity; it is an insurance market with mathematically defined payouts. We will never solve a fairness problem by adding a discretionary actor. We will always solve it by changing the math.
+
+<br/><br/><br/><br/>
+
 # Order enforcement
 
 Since Usd8 sits on a pile of hacked LP tokens after users claim, this puts Usd8 in a unique position with significant financial incentives to recover these funds. Usd8 will be cultivating a "white hat economy" as opposed to the current crypto system rewarding black hats. This white hat economy will involve the public in tracing and recovering the lost funds, including the following mechanisms

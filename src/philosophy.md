@@ -78,3 +78,12 @@ This system could cultivate a positive culture with significant incentives for g
 <br/><br/><br/><br/>
 # We are Crypto Native
 We are crypto native — we live and breathe the decentralized dream and are committed to building projects that adhere as closely as possible to the [Trustless Manifesto](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html). <br/><br/>[Join us](https://t.me/+e84i2oYk1ao1MTk1) if you share our vision.
+
+<br/><br/><br/><br/>
+
+# Augmented Governance
+The first failure mode of every decentralized stablecoin in history has been governance capture. Stablecoin DAOs do not fail because their members are malicious. They fail because the math underneath them is renegotiable. A protocol that lets governance vote on the collateralization ratio will eventually vote to lower it. A protocol that lets governance vote on which assets count as reserves will eventually vote to admit a worse one. A protocol that lets governance vote on the redemption mechanism will eventually vote to suspend it. This is not a hypothesis; it is the catalogued history of every depegged stablecoin.
+
+Our defense is structural, and we borrow it from constitutional law. Three layers, ordered by reversibility. At the bottom is *physics* — the mathematical invariants of the system, which cannot be voted on at all (1:1 redeemability against USDC, the Cover Score formula, the rate-limit curve). In the middle is *constitution* — the foundational fairness properties, which can be amended only through extraordinary supermajority and time delay (what counts as a covered protocol, the maximum coverage ratio). At the top is *governance* — the operational parameters, which the DAO is genuinely free to tune within the bounds set by the layers below (which protocols to add to the covered set, how to allocate marketing budget, how to compensate contributors).
+
+The point is not to limit governance. The point is to give governance a defensible scope. A DAO that can vote on anything is a DAO that the largest holder can capture. A DAO that can vote on operational parameters within math-enforced fairness invariants is a DAO that survives the entry of a hostile actor without losing its identity. This is what it means to pass the [Walkaway Test](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html) institutionally — not just that the protocol functions if the team disappears, but that it remains *itself* if the political economy around it shifts.

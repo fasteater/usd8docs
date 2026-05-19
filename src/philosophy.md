@@ -1,4 +1,23 @@
-<img class="floating-logo" src="/assets/tyche.png" width="400" />
+<svg class="floating-logo" viewBox="0 0 1019 1411" width="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="tyche-ink" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="3" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="200" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <mask id="tyche-reveal">
+      <rect width="1019" height="1411" fill="black"/>
+      <circle cx="509.5" cy="705.5" r="0" fill="white" filter="url(#tyche-ink)">
+        <animate attributeName="r"
+                 values="0;0;950"
+                 keyTimes="0;0.15;1"
+                 dur="5s" fill="freeze"
+                 calcMode="spline"
+                 keySplines="0 0 1 1; 0.22 0.61 0.36 1"/>
+      </circle>
+    </mask>
+  </defs>
+  <image href="/assets/tyche.png" width="1019" height="1411" mask="url(#tyche-reveal)"/>
+</svg>
 <br/><br/>
 
 TLDR; [This video](https://x.com/codephobic/status/2045127803897516132) covers most of the philosophical theory about USD8, if you prefer to watch instead of reading.

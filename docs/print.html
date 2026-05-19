@@ -152,7 +152,26 @@
 
                 <div id="content" class="content">
                     <main>
-                        <img class="floating-logo" src="/assets/usd8Logo.svg" width="170" />
+                        <svg class="floating-logo" viewBox="0 0 105 105" width="170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="usd8-ink" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.15" numOctaves="3" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="20" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <mask id="usd8-reveal">
+      <rect width="105" height="105" fill="black"/>
+      <circle cx="52.5" cy="52.5" r="0" fill="white" filter="url(#usd8-ink)">
+        <animate attributeName="r"
+                 values="0;0;95"
+                 keyTimes="0;0.15;1"
+                 dur="5s" fill="freeze"
+                 calcMode="spline"
+                 keySplines="0 0 1 1; 0.22 0.61 0.36 1"/>
+      </circle>
+    </mask>
+  </defs>
+  <image href="/assets/usd8Logo.svg" width="105" height="105" mask="url(#usd8-reveal)"/>
+</svg>
 <br/><br/>
 <h1 id="usd8-building"><a class="header" href="#usd8-building">USD8 <span class="coming-soon-pill">Building</span></a></h1>
 <p>USD8 is a stablecoin with two baked-in functions — free Defi Insurance and Order Enforcement.</p>
@@ -185,7 +204,26 @@
 <br/><br/><br/><br/></p>
 <h1 id="we-are-crypto-native"><a class="header" href="#we-are-crypto-native">We are Crypto Native</a></h1>
 <p>We are crypto native — we live and breathe the decentralized dream and are committed to building projects that adhere as closely as possible to the <a href="https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html">Trustless Manifesto</a>. <br/><br/><a href="https://t.me/+e84i2oYk1ao1MTk1">Join us</a> if you share our vision.</p>
-<div style="break-before: page; page-break-before: always;"></div><img class="floating-logo" src="/assets/tyche.png" width="400" />
+<div style="break-before: page; page-break-before: always;"></div><svg class="floating-logo" viewBox="0 0 1019 1411" width="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="tyche-ink" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="3" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="200" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <mask id="tyche-reveal">
+      <rect width="1019" height="1411" fill="black"/>
+      <circle cx="509.5" cy="705.5" r="0" fill="white" filter="url(#tyche-ink)">
+        <animate attributeName="r"
+                 values="0;0;950"
+                 keyTimes="0;0.15;1"
+                 dur="5s" fill="freeze"
+                 calcMode="spline"
+                 keySplines="0 0 1 1; 0.22 0.61 0.36 1"/>
+      </circle>
+    </mask>
+  </defs>
+  <image href="/assets/tyche.png" width="1019" height="1411" mask="url(#tyche-reveal)"/>
+</svg>
 <br/><br/>
 <p>TLDR; <a href="https://x.com/codephobic/status/2045127803897516132">This video</a> covers most of the philosophical theory about USD8, if you prefer to watch instead of reading.
 <br/><br/><br/><br/></p>
@@ -436,7 +474,27 @@
 <p>Now, even if our team disappears, USD8 payouts will still function independently and trustlessly.</p>
 <p><br/><img src="/assets/brevis_logo.png" width="200px" /><br/><br/></p>
 <p><br/><br/><br/><br/></p>
-<div style="break-before: page; page-break-before: always;"></div><p><img class="floating-logo" src="/assets/booster.png" width="500px" /><br/></p>
+<div style="break-before: page; page-break-before: always;"></div><svg class="floating-logo" viewBox="0 0 1204 1160" width="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="booster-ink" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.013" numOctaves="3" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="230" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <mask id="booster-reveal">
+      <rect width="1204" height="1160" fill="black"/>
+      <circle cx="602" cy="580" r="0" fill="white" filter="url(#booster-ink)">
+        <animate attributeName="r"
+                 values="0;0;900"
+                 keyTimes="0;0.15;1"
+                 dur="5s" fill="freeze"
+                 calcMode="spline"
+                 keySplines="0 0 1 1; 0.22 0.61 0.36 1"/>
+      </circle>
+    </mask>
+  </defs>
+  <image href="/assets/booster.png" width="1204" height="1160" mask="url(#booster-reveal)"/>
+</svg>
+<br/>
 <h1 id="boosters-live"><a class="header" href="#boosters-live">Boosters <span class="live-pill">Live</span></a></h1>
 <p>Boosters are NFTs that can be burned when filing a claim to add a 1% boost to your total USD8 History Score, meaning more insurance coverage for your funds in Defi protocols. Boosters are</p>
 <ul>
@@ -465,7 +523,26 @@
     <div id="booster-result" class="booster-result"></div>
 </div>
 <br/><br/><br/><br/>
-<div style="break-before: page; page-break-before: always;"></div><img class="floating-logo" src="/assets/whiteHat.png" width="350" />
+<div style="break-before: page; page-break-before: always;"></div><svg class="floating-logo" viewBox="0 0 408 538" width="350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="whitehat-ink" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.039" numOctaves="3" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="78" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <mask id="whitehat-reveal">
+      <rect width="408" height="538" fill="black"/>
+      <circle cx="204" cy="269" r="0" fill="white" filter="url(#whitehat-ink)">
+        <animate attributeName="r"
+                 values="0;0;370"
+                 keyTimes="0;0.15;1"
+                 dur="5s" fill="freeze"
+                 calcMode="spline"
+                 keySplines="0 0 1 1; 0.22 0.61 0.36 1"/>
+      </circle>
+    </mask>
+  </defs>
+  <image href="/assets/whiteHat.png" width="408" height="538" mask="url(#whitehat-reveal)"/>
+</svg>
 <br/><br/>
 <h1 id="white-hat-economy-building"><a class="header" href="#white-hat-economy-building">White Hat Economy <span class="coming-soon-pill">Building</span></a></h1>
 <p>The White Hat economy is the enforcement layer of USD8. It plays a critical role in recovering lost assets and deterring future malicious activities in Defi.<br/></p>
